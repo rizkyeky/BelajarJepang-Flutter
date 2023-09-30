@@ -51,8 +51,10 @@ class QuizController {
       kanji.addAll(temp);
     }
     final len = kanji.length > total ? total : kanji.length;
-    final indexs = List<int>.generate(len, (i) => i)..shuffle();
-    kanji.shuffle();
+    final seed = DateTime.now().millisecondsSinceEpoch;
+    final indexs = List<int>.generate(len, (i) => i)
+      ..shuffle(Random(seed));
+    kanji.shuffle(Random(seed));
     final newKanji = indexs.map((e) => kanji[e]).toList();
     return newKanji;
   }

@@ -7,7 +7,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     // final brightnessProvider = context.read<BrightnessProvider>();
     // final localeProvider = context.read<LocalizationProvider>();
-    print('build home page');
+    debugPrint('build home page');
 
     return Scaffold(
       appBar: AppBar(

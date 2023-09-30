@@ -7,8 +7,8 @@ class SettingPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final brightnessProvider = context.read<BrightnessProvider>();
     // final localeProvider = context.read<LocalizationProvider>();
-    print('build setting page');
-    print(RouteData.of(context).path);
+    // print('build setting page');
+    // print(RouteData.of(context).path);
     return Scaffold(
       appBar: AppBar(
         title: const Text('Setting'),
@@ -33,12 +33,12 @@ class SettingPage extends StatelessWidget {
               );
             }
           ),
-          ListTile(
-            title: const Text('Language'),
-            onTap: () {
+          // ListTile(
+          //   title: const Text('Language'),
+          //   onTap: () {
               
-            },
-          )
+          //   },
+          // )
         ],
       ),
     );

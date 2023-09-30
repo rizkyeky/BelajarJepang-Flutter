@@ -14,7 +14,7 @@ Future<void> main() async {
   final HiveService hiveService = HiveService();
   await hiveService.init();
   final brightnessBox = await hiveService.brightnessBox();
-  final localizationBox = await hiveService.localizationBox();
+  // final localizationBox = await hiveService.localizationBox();
 
   final brightnessProvider = BrightnessProvider(
     platformBrightness: binding.platformDispatcher.platformBrightness,
@@ -28,11 +28,11 @@ Future<void> main() async {
         ChangeNotifierProvider(
           create: (context) => brightnessProvider
         ),
-        ChangeNotifierProvider(
-          create: (context) => LocalizationProvider(
-            box: localizationBox,
-          ),
-        ),
+        // ChangeNotifierProvider(
+        //   create: (context) => LocalizationProvider(
+        //     box: localizationBox,
+        //   ),
+        // ),
       ],
       child: const MainApp()
     )
@@ -47,7 +47,7 @@ class MainApp extends StatelessWidget {
 
     final brightnessProvider = context.watch<BrightnessProvider>();
   
-    print('build main app');
+    // print('build main app');
 
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
