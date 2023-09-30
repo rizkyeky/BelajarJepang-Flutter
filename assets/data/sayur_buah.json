@@ -1,0 +1,184 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "りんご",
+            "arti": "Apel",
+            "romanji": "Ringo"
+        },
+        {
+            "id": 1,
+            "kanji": "バナナ",
+            "arti": "Pisang",
+            "romanji": "Banana"
+        },
+        {
+            "id": 2,
+            "kanji": "いちご",
+            "arti": "Stroberi",
+            "romanji": "Ichigo"
+        },
+        {
+            "id": 3,
+            "kanji": "みかん",
+            "arti": "Jeruk Mandarin",
+            "romanji": "Mikan"
+        },
+        {
+            "id": 4,
+            "kanji": "ぶどう",
+            "arti": "Anggur",
+            "romanji": "Budou"
+        },
+        {
+            "id": 5,
+            "kanji": "にんじん",
+            "arti": "Wortel",
+            "romanji": "Ninjin"
+        },
+        {
+            "id": 6,
+            "kanji": "じゃがいも",
+            "arti": "Kentang",
+            "romanji": "Jagaimo"
+        },
+        {
+            "id": 7,
+            "kanji": "たまねぎ",
+            "arti": "Bawang Bombay",
+            "romanji": "Tamanegi"
+        },
+        {
+            "id": 8,
+            "kanji": "キャベツ",
+            "arti": "Kubis",
+            "romanji": "Kyabetsu"
+        },
+        {
+            "id": 9,
+            "kanji": "ブロッコリー",
+            "arti": "Brokoli",
+            "romanji": "Burokkorī"
+        },
+        {
+            "id": 10,
+            "kanji": "ほうれんそう",
+            "arti": "Bayam",
+            "romanji": "Hourensou"
+        },
+        {
+            "id": 11,
+            "kanji": "きゅうり",
+            "arti": "Mentimun",
+            "romanji": "Kyūri"
+        },
+        {
+            "id": 12,
+            "kanji": "トマト",
+            "arti": "Tomat",
+            "romanji": "Tomato"
+        },
+        {
+            "id": 13,
+            "kanji": "ピーマン",
+            "arti": "Paprika Hijau",
+            "romanji": "Pīman"
+        },
+        {
+            "id": 14,
+            "kanji": "パプリカ",
+            "arti": "Paprika",
+            "romanji": "Papurika"
+        },
+        {
+            "id": 15,
+            "kanji": "にんにく",
+            "arti": "Bawang Putih",
+            "romanji": "Ninniku"
+        },
+        {
+            "id": 16,
+            "kanji": "レタス",
+            "arti": "Selada",
+            "romanji": "Retasu"
+        },
+        {
+            "id": 17,
+            "kanji": "ふき",
+            "arti": "Labu Jepang",
+            "romanji": "Fuki"
+        },
+        {
+            "id": 18,
+            "kanji": "れんこん",
+            "arti": "Teratai",
+            "romanji": "Renkon"
+        },
+        {
+            "id": 19,
+            "kanji": "かぼちゃ",
+            "arti": "Labu",
+            "romanji": "Kabocha"
+        },
+        {
+            "id": 20,
+            "kanji": "さつまいも",
+            "arti": "Ubi Jalar",
+            "romanji": "Satsumaimo"
+        },
+        {
+            "id": 21,
+            "kanji": "ピーチ",
+            "arti": "Persik",
+            "romanji": "Pīchi"
+        },
+        {
+            "id": 22,
+            "kanji": "スイカ",
+            "arti": "Semangka",
+            "romanji": "Suika"
+        },
+        {
+            "id": 23,
+            "kanji": "メロン",
+            "arti": "Melon",
+            "romanji": "Meron"
+        },
+        {
+            "id": 24,
+            "kanji": "イチジク",
+            "arti": "Buah Tin",
+            "romanji": "Ichijiku"
+        },
+        {
+            "id": 25,
+            "kanji": "キウイ",
+            "arti": "Kiwi",
+            "romanji": "Kiui"
+        },
+        {
+            "id": 26,
+            "kanji": "オレンジ",
+            "arti": "Jeruk",
+            "romanji": "Orenji"
+        },
+        {
+            "id": 28,
+            "kanji": "レモン",
+            "arti": "Lemon",
+            "romanji": "Remon"
+        },
+        {
+            "id": 29,
+            "kanji": "ライム",
+            "arti": "Lime",
+            "romanji": "Raimu"
+        },
+        {
+            "id": 30,
+            "kanji": "ねぎ",
+            "arti": "Daun Bawang",
+            "romanji": "Negi"
+        }
+    ]
+}

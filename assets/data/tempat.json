@@ -1,0 +1,310 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "家",
+            "arti": "Rumah",
+            "romanji": "Ie"
+        },
+        {
+            "id": 1,
+            "kanji": "部屋",
+            "arti": "Kamar",
+            "romanji": "Heya"
+        },
+        {
+            "id": 2,
+            "kanji": "リビングルーム",
+            "arti": "Ruang tamu",
+            "romanji": "Ribinguruumu"
+        },
+        {
+            "id": 3,
+            "kanji": "キッチン",
+            "arti": "Dapur",
+            "romanji": "Kitchin"
+        },
+        {
+            "id": 4,
+            "kanji": "お手洗い",
+            "arti": "Kamar mandi",
+            "romanji": "Otearai"
+        },
+        {
+            "id": 5,
+            "kanji": "トイレ",
+            "arti": "Toilet",
+            "romanji": "Toire"
+        },
+        {
+            "id": 6,
+            "kanji": "浴室",
+            "arti": "Kamar mandi",
+            "romanji": "Yokushitsu"
+        },
+        {
+            "id": 7,
+            "kanji": "寝室",
+            "arti": "Kamar tidur",
+            "romanji": "Shinshitsu"
+        },
+        {
+            "id": 8,
+            "kanji": "ダイニングルーム",
+            "arti": "Ruang makan",
+            "romanji": "Dainingu ruumu"
+        },
+        {
+            "id": 9,
+            "kanji": "居間",
+            "arti": "Ruang keluarga",
+            "romanji": "Ima"
+        },
+        {
+            "id": 10,
+            "kanji": "倉庫",
+            "arti": "Gudang",
+            "romanji": "Souko"
+        },
+        {
+            "id": 11,
+            "kanji": "庭",
+            "arti": "Halaman",
+            "romanji": "Niwa"
+        },
+        {
+            "id": 12,
+            "kanji": "ガレージ",
+            "arti": "Garasi",
+            "romanji": "Gareeji"
+        },
+        {
+            "id": 13,
+            "kanji": "教室",
+            "arti": "Ruang kelas",
+            "romanji": "Kyoushitsu"
+        },
+        {
+            "id": 14,
+            "kanji": "図書館",
+            "arti": "Perpustakaan",
+            "romanji": "Toshokan"
+        },
+        {
+            "id": 15,
+            "kanji": "病院",
+            "arti": "Rumah sakit",
+            "romanji": "Byouin"
+        },
+        {
+            "id": 16,
+            "kanji": "銀行",
+            "arti": "Bank",
+            "romanji": "Ginkou"
+        },
+        {
+            "id": 17,
+            "kanji": "スーパーマーケット",
+            "arti": "Supermarket",
+            "romanji": "Suupaa maaketto"
+        },
+        {
+            "id": 18,
+            "kanji": "レストラン",
+            "arti": "Restoran",
+            "romanji": "Resutoran"
+        },
+        {
+            "id": 19,
+            "kanji": "カフェ",
+            "arti": "Kafe",
+            "romanji": "Kafe"
+        },
+        {
+            "id": 20,
+            "kanji": "公園",
+            "arti": "Taman",
+            "romanji": "Kouen"
+        },
+        {
+            "id": 21,
+            "kanji": "空港",
+            "arti": "Bandara",
+            "romanji": "Kuukou"
+        },
+        {
+            "id": 22,
+            "kanji": "駅",
+            "arti": "Stasiun kereta api",
+            "romanji": "Eki"
+        },
+        {
+            "id": 23,
+            "kanji": "ホテル",
+            "arti": "Hotel",
+            "romanji": "Hoteru"
+        },
+        {
+            "id": 24,
+            "kanji": "ショッピングモール",
+            "arti": "Pusat perbelanjaan",
+            "romanji": "Shoppingu mooru"
+        },
+        {
+            "id": 25,
+            "kanji": "劇場",
+            "arti": "Teater",
+            "romanji": "Gekijou"
+        },
+        {
+            "id": 26,
+            "kanji": "スタジアム",
+            "arti": "Stadion",
+            "romanji": "Sutajiamu"
+        },
+        {
+            "id": 27,
+            "kanji": "博物館",
+            "arti": "Museum",
+            "romanji": "Hakubutsukan"
+        },
+        {
+            "id": 28,
+            "kanji": "映画館",
+            "arti": "Bioskop",
+            "romanji": "Eigakan"
+        },
+        {
+            "id": 29,
+            "kanji": "教会",
+            "arti": "Gereja",
+            "romanji": "Kyoukai"
+        },
+        {
+            "id": 30,
+            "kanji": "寺",
+            "arti": "Kuil",
+            "romanji": "Tera"
+        },
+        {
+            "id": 31,
+            "kanji": "神社",
+            "arti": "Kuil Shinto",
+            "romanji": "Jinja"
+        },
+        {
+            "id": 32,
+            "kanji": "市場",
+            "arti": "Pasar",
+            "romanji": "Ichiba"
+        },
+        {
+            "id": 33,
+            "kanji": "喫茶店",
+            "arti": "Warung kopi",
+            "romanji": "Kissaten"
+        },
+        {
+            "id": 34,
+            "kanji": "美容院",
+            "arti": "Salon kecantikan",
+            "romanji": "Biyouin"
+        },
+        {
+            "id": 35,
+            "kanji": "駐車場",
+            "arti": "Tempat parkir",
+            "romanji": "Chuushajou"
+        },
+        {
+            "id": 36,
+            "kanji": "空間",
+            "arti": "Ruang",
+            "romanji": "Kuukan"
+        },
+        {
+            "id": 37,
+            "kanji": "事務所",
+            "arti": "Kantor",
+            "romanji": "Jimusho"
+        },
+        {
+            "id": 38,
+            "kanji": "公園",
+            "arti": "Taman",
+            "romanji": "Kouen"
+        },
+        {
+            "id": 39,
+            "kanji": "展示場",
+            "arti": "Tempat pameran",
+            "romanji": "Tenjijou"
+        },
+        {
+            "id": 40,
+            "kanji": "会議室",
+            "arti": "Ruang pertemuan",
+            "romanji": "Kaigishitsu"
+        },
+        {
+            "id": 41,
+            "kanji": "研究室",
+            "arti": "Laboratorium",
+            "romanji": "Kenkyuushitsu"
+        },
+        {
+            "id": 42,
+            "kanji": "展示室",
+            "arti": "Galeri",
+            "romanji": "Tenjishitsu"
+        },
+        {
+            "id": 43,
+            "kanji": "ロビー",
+            "arti": "Lobi",
+            "romanji": "Robii"
+        },
+        {
+            "id": 44,
+            "kanji": "バスルーム",
+            "arti": "Kamar mandi",
+            "romanji": "Basu ruumu"
+        },
+        {
+            "id": 45,
+            "kanji": "シャワールーム",
+            "arti": "Kamar mandi dengan shower",
+            "romanji": "Shawaa ruumu"
+        },
+        {
+            "id": 46,
+            "kanji": "ウエディングホール",
+            "arti": "Aula pernikahan",
+            "romanji": "Uedingu hooru"
+        },
+        {
+            "id": 47,
+            "kanji": "階段",
+            "arti": "Tangga",
+            "romanji": "Kaidan"
+        },
+        {
+            "id": 48,
+            "kanji": "バルコニー",
+            "arti": "Balkon",
+            "romanji": "Barukonii"
+        },
+        {
+            "id": 49,
+            "kanji": "車庫",
+            "arti": "Garasi kendaraan",
+            "romanji": "Shako"
+        },
+        {
+            "id": 50,
+            "kanji": "テラス",
+            "arti": "Teras",
+            "romanji": "Terasu"
+        }
+    ]
+}

@@ -1,0 +1,298 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "犬",
+            "arti": "Anjing",
+            "romanji": "Inu"
+        },
+        {
+            "id": 1,
+            "kanji": "猫",
+            "arti": "Kucing",
+            "romanji": "Neko"
+        },
+        {
+            "id": 2,
+            "kanji": "鳥",
+            "arti": "Burung",
+            "romanji": "Tori"
+        },
+        {
+            "id": 3,
+            "kanji": "魚",
+            "arti": "Ikan",
+            "romanji": "Sakana"
+        },
+        {
+            "id": 5,
+            "kanji": "亀",
+            "arti": "Kura-kura",
+            "romanji": "Kame"
+        },
+        {
+            "id": 6,
+            "kanji": "蛇",
+            "arti": "Ular",
+            "romanji": "Hebi"
+        },
+        {
+            "id": 7,
+            "kanji": "馬",
+            "arti": "Kuda",
+            "romanji": "Uma"
+        },
+        {
+            "id": 8,
+            "kanji": "象",
+            "arti": "Gajah",
+            "romanji": "Zou"
+        },
+        {
+            "id": 9,
+            "kanji": "虎",
+            "arti": "Harimau",
+            "romanji": "Tora"
+        },
+        {
+            "id": 10,
+            "kanji": "羊",
+            "arti": "Domba",
+            "romanji": "Hitsuji"
+        },
+        {
+            "id": 11,
+            "kanji": "猿",
+            "arti": "Monyet",
+            "romanji": "Saru"
+        },
+        {
+            "id": 12,
+            "kanji": "狐",
+            "arti": "Rubah",
+            "romanji": "Kitsune"
+        },
+        {
+            "id": 13,
+            "kanji": "牛",
+            "arti": "Sapi",
+            "romanji": "Ushi"
+        },
+        {
+            "id": 14,
+            "kanji": "山羊",
+            "arti": "Kambing",
+            "romanji": "Yagi"
+        },
+        {
+            "id": 15,
+            "kanji": "豚",
+            "arti": "Babi",
+            "romanji": "Buta"
+        },
+        {
+            "id": 16,
+            "kanji": "鹿",
+            "arti": "Rusa",
+            "romanji": "Shika"
+        },
+        {
+            "id": 17,
+            "kanji": "兎",
+            "arti": "Kelinci",
+            "romanji": "Usagi"
+        },
+        {
+            "id": 18,
+            "kanji": "コアラ",
+            "arti": "Koala",
+            "romanji": "Koara"
+        },
+        {
+            "id": 19,
+            "kanji": "カメレオン",
+            "arti": "Kameleon",
+            "romanji": "Kamereon"
+        },
+        {
+            "id": 20,
+            "kanji": "イルカ",
+            "arti": "Lumba-lumba",
+            "romanji": "Iruka"
+        },
+        {
+            "id": 21,
+            "kanji": "カンガルー",
+            "arti": "Kanguru",
+            "romanji": "Kangaru"
+        },
+        {
+            "id": 22,
+            "kanji": "パンダ",
+            "arti": "Panda",
+            "romanji": "Panda"
+        },
+        {
+            "id": 23,
+            "kanji": "ペンギン",
+            "arti": "Penguin",
+            "romanji": "Pengin"
+        },
+        {
+            "id": 24,
+            "kanji": "クマ",
+            "arti": "Beruang",
+            "romanji": "Kuma"
+        },
+        {
+            "id": 25,
+            "kanji": "カモ",
+            "arti": "Bebek",
+            "romanji": "Kamo"
+        },
+        {
+            "id": 26,
+            "kanji": "カラス",
+            "arti": "Gagak",
+            "romanji": "Karasu"
+        },
+        {
+            "id": 27,
+            "kanji": "フクロウ",
+            "arti": "Burung Hantu",
+            "romanji": "Fukurou"
+        },
+        {
+            "id": 28,
+            "kanji": "ハチ",
+            "arti": "Lebah",
+            "romanji": "Hachi"
+        },
+        {
+            "id": 29,
+            "kanji": "サソリ",
+            "arti": "Kalajengking",
+            "romanji": "Sasori"
+        },
+        {
+            "id": 30,
+            "kanji": "アリ",
+            "arti": "Semut",
+            "romanji": "Ari"
+        },
+        {
+            "id": 31,
+            "kanji": "カンムリワシ",
+            "arti": "Elang Gantung",
+            "romanji": "Kanmuriwashi"
+        },
+        {
+            "id": 32,
+            "kanji": "カメ",
+            "arti": "Kura-kura",
+            "romanji": "Kame"
+        },
+        {
+            "id": 33,
+            "kanji": "ヤギ",
+            "arti": "Kambing",
+            "romanji": "Yagi"
+        },
+        {
+            "id": 34,
+            "kanji": "クジラ",
+            "arti": "Paus",
+            "romanji": "Kujira"
+        },
+        {
+            "id": 35,
+            "kanji": "フラミンゴ",
+            "arti": "Flamingo",
+            "romanji": "Furamingo"
+        },
+        {
+            "id": 36,
+            "kanji": "ゾウ",
+            "arti": "Gajah",
+            "romanji": "Zou"
+        },
+        {
+            "id": 37,
+            "kanji": "カバ",
+            "arti": "Badak",
+            "romanji": "Kaba"
+        },
+        {
+            "id": 38,
+            "kanji": "コブラ",
+            "arti": "Kobra",
+            "romanji": "Kobura"
+        },
+        {
+            "id": 39,
+            "kanji": "シカ",
+            "arti": "Rusa",
+            "romanji": "Shika"
+        },
+        {
+            "id": 40,
+            "kanji": "コウモリ",
+            "arti": "Kelelawar",
+            "romanji": "Koumori"
+        },
+        {
+            "id": 41,
+            "kanji": "クマネズミ",
+            "arti": "Tikus",
+            "romanji": "Kumanezumi"
+        },
+        {
+            "id": 42,
+            "kanji": "ペリカン",
+            "arti": "Pelikan",
+            "romanji": "Perikan"
+        },
+        {
+            "id": 43,
+            "kanji": "ハムスター",
+            "arti": "Hamster",
+            "romanji": "Hamusutaa"
+        },
+        {
+            "id": 44,
+            "kanji": "ワニ",
+            "arti": "Buaya",
+            "romanji": "Wani"
+        },
+        {
+            "id": 45,
+            "kanji": "サイ",
+            "arti": "Badak",
+            "romanji": "Sai"
+        },
+        {
+            "id": 46,
+            "kanji": "シマウマ",
+            "arti": "Zebra",
+            "romanji": "Shimauma"
+        },
+        {
+            "id": 47,
+            "kanji": "ヒョウ",
+            "arti": "Macan Tutul",
+            "romanji": "Hyō"
+        },
+        {
+            "id": 48,
+            "kanji": "ペガサス",
+            "arti": "Pegasus",
+            "romanji": "Pegasasu"
+        },
+        {
+            "id": 49,
+            "kanji": "クレオパトラファラオ",
+            "arti": "Kleopatra Farao",
+            "romanji": "Kureopatorafarao"
+        }
+    ]
+}

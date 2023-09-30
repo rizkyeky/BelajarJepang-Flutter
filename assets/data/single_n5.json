@@ -1,0 +1,652 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "一",
+            "arti": "Satu",
+            "romanji": "Ichi"
+        },
+        {
+            "id": 1,
+            "kanji": "二",
+            "arti": "Dua",
+            "romanji": "Ni"
+        },
+        {
+            "id": 2,
+            "kanji": "三",
+            "arti": "Tiga",
+            "romanji": "San"
+        },
+        {
+            "id": 3,
+            "kanji": "四",
+            "arti": "Empat",
+            "romanji": "Shi/Yon"
+        },
+        {
+            "id": 4,
+            "kanji": "五",
+            "arti": "Lima",
+            "romanji": "Go"
+        },
+        {
+            "id": 5,
+            "kanji": "六",
+            "arti": "Enam",
+            "romanji": "Roku"
+        },
+        {
+            "id": 6,
+            "kanji": "七",
+            "arti": "Tujuh",
+            "romanji": "Shichi/Nana"
+        },
+        {
+            "id": 7,
+            "kanji": "八",
+            "arti": "Delapan",
+            "romanji": "Hachi"
+        },
+        {
+            "id": 8,
+            "kanji": "九",
+            "arti": "Sembilan",
+            "romanji": "Kyuu/Ku"
+        },
+        {
+            "id": 9,
+            "kanji": "十",
+            "arti": "Sepuluh",
+            "romanji": "Juu/Ji"
+        },
+        {
+            "id": 10,
+            "kanji": "百",
+            "arti": "Seratus",
+            "romanji": "Hyaku"
+        },
+        {
+            "id": 11,
+            "kanji": "千",
+            "arti": "Seribu",
+            "romanji": "Sen"
+        },
+        {
+            "id": 12,
+            "kanji": "万",
+            "arti": "Sepuluh Ribu",
+            "romanji": "Man"
+        },
+        {
+            "id": 13,
+            "kanji": "円",
+            "arti": "Yen",
+            "romanji": "En"
+        },
+        {
+            "id": 14,
+            "kanji": "口",
+            "arti": "Mulut",
+            "romanji": "Kuchi"
+        },
+        {
+            "id": 15,
+            "kanji": "目",
+            "arti": "Mata",
+            "romanji": "Me"
+        },
+        {
+            "id": 16,
+            "kanji": "耳",
+            "arti": "Telinga",
+            "romanji": "Mimi"
+        },
+        {
+            "id": 17,
+            "kanji": "手",
+            "arti": "Tangan",
+            "romanji": "Te"
+        },
+        {
+            "id": 18,
+            "kanji": "足",
+            "arti": "Kaki",
+            "romanji": "Ashi"
+        },
+        {
+            "id": 19,
+            "kanji": "本",
+            "arti": "Buku",
+            "romanji": "Hon"
+        },
+        {
+            "id": 20,
+            "kanji": "人",
+            "arti": "Orang",
+            "romanji": "Hito"
+        },
+        {
+            "id": 21,
+            "kanji": "名",
+            "arti": "Nama",
+            "romanji": "Na"
+        },
+        {
+            "id": 22,
+            "kanji": "学",
+            "arti": "Belajar",
+            "romanji": "Gaku"
+        },
+        {
+            "id": 23,
+            "kanji": "子",
+            "arti": "Anak",
+            "romanji": "Ko"
+        },
+        {
+            "id": 24,
+            "kanji": "男",
+            "arti": "Laki-laki/cowok",
+            "romanji": "Otoko"
+        },
+        {
+            "id": 25,
+            "kanji": "女",
+            "arti": "Perempuan/cewek",
+            "romanji": "Onna"
+        },
+        {
+            "id": 26,
+            "kanji": "田",
+            "arti": "Ladang",
+            "romanji": "Ta"
+        },
+        {
+            "id": 27,
+            "kanji": "山",
+            "arti": "Gunung",
+            "romanji": "Yama"
+        },
+        {
+            "id": 28,
+            "kanji": "川",
+            "arti": "Sungai",
+            "romanji": "Kawa"
+        },
+        {
+            "id": 29,
+            "kanji": "雨",
+            "arti": "Hujan",
+            "romanji": "Ame"
+        },
+        {
+            "id": 30,
+            "kanji": "花",
+            "arti": "Bunga",
+            "romanji": "Hana"
+        },
+        {
+            "id": 31,
+            "kanji": "木",
+            "arti": "Pohon",
+            "romanji": "Ki"
+        },
+        {
+            "id": 32,
+            "kanji": "火",
+            "arti": "Api",
+            "romanji": "Hi"
+        },
+        {
+            "id": 33,
+            "kanji": "水",
+            "arti": "Air",
+            "romanji": "Mizu"
+        },
+        {
+            "id": 34,
+            "kanji": "土",
+            "arti": "Tanah",
+            "romanji": "Tsuchi"
+        },
+        {
+            "id": 35,
+            "kanji": "金",
+            "arti": "Emas",
+            "romanji": "Kin"
+        },
+        {
+            "id": 36,
+            "kanji": "銀",
+            "arti": "Perak",
+            "romanji": "Gin"
+        },
+        {
+            "id": 37,
+            "kanji": "車",
+            "arti": "Mobil",
+            "romanji": "Kuruma"
+        },
+        {
+            "id": 38,
+            "kanji": "自",
+            "arti": "Sendiri",
+            "romanji": "Ji"
+        },
+        {
+            "id": 39,
+            "kanji": "友",
+            "arti": "Teman",
+            "romanji": "Tomo"
+        },
+        {
+            "id": 40,
+            "kanji": "行",
+            "arti": "Pergi",
+            "romanji": "Iku/Yuku"
+        },
+        {
+            "id": 41,
+            "kanji": "来",
+            "arti": "Datang",
+            "romanji": "Kuru"
+        },
+        {
+            "id": 42,
+            "kanji": "見",
+            "arti": "Melihat",
+            "romanji": "Miru"
+        },
+        {
+            "id": 44,
+            "kanji": "食",
+            "arti": "Makan/makan",
+            "romanji": "Taberu"
+        },
+        {
+            "id": 45,
+            "kanji": "飲",
+            "arti": "Minum/drink",
+            "romanji": "Nomu"
+        },
+        {
+            "id": 46,
+            "kanji": "読",
+            "arti": "Membaca/read",
+            "romanji": "Yomu"
+        },
+        {
+            "id": 47,
+            "kanji": "書",
+            "arti": "Menulis/write",
+            "romanji": "Kaku"
+        },
+        {
+            "id": 48,
+            "kanji": "話",
+            "arti": "cerita/bicara/talk/speech",
+            "romanji": "Hanashu"
+        },
+        {
+            "id": 49,
+            "kanji": "入",
+            "arti": "Masuk",
+            "romanji": "Hairu"
+        },
+        {
+            "id": 50,
+            "kanji": "出",
+            "arti": "Keluar",
+            "romanji": "Deru"
+        },
+        {
+            "id": 51,
+            "kanji": "開",
+            "arti": "Buka",
+            "romanji": "Akeru"
+        },
+        {
+            "id": 52,
+            "kanji": "閉",
+            "arti": "Tutup",
+            "romanji": "Tojiru"
+        },
+        {
+            "id": 53,
+            "kanji": "電",
+            "arti": "Listrik",
+            "romanji": "Den"
+        },
+        {
+            "id": 54,
+            "kanji": "日",
+            "arti": "Hari",
+            "romanji": "Nichi"
+        },
+        {
+            "id": 55,
+            "kanji": "国",
+            "arti": "Negara",
+            "romanji": "Koku"
+        },
+        {
+            "id": 56,
+            "kanji": "年",
+            "arti": "Tahun",
+            "romanji": "Nen"
+        },
+        {
+            "id": 57,
+            "kanji": "月",
+            "arti": "Bulan",
+            "romanji": "Gatsu/Tsuki"
+        },
+        {
+            "id": 58,
+            "kanji": "好",
+            "arti": "Suka",
+            "romanji": "Suki"
+        },
+        {
+            "id": 59,
+            "kanji": "中",
+            "arti": "Tengah",
+            "romanji": "Naka"
+        },
+        {
+            "id": 60,
+            "kanji": "大",
+            "arti": "Besar",
+            "romanji": "Ooki"
+        },
+        {
+            "id": 61,
+            "kanji": "小",
+            "arti": "Kecil",
+            "romanji": "Chiisai"
+        },
+        {
+            "id": 62,
+            "kanji": "高",
+            "arti": "Tinggi",
+            "romanji": "Taka"
+        },
+        {
+            "id": 63,
+            "kanji": "低",
+            "arti": "Rendah",
+            "romanji": "Dai"
+        },
+        {
+            "id": 64,
+            "kanji": "時",
+            "arti": "Waktu",
+            "romanji": "Jitsu"
+        },
+        {
+            "id": 65,
+            "kanji": "分",
+            "arti": "Menit",
+            "romanji": "Futatsu/Bun"
+        },
+        {
+            "id": 66,
+            "kanji": "秒",
+            "arti": "Detik",
+            "romanji": "Seikatsu"
+        },
+        {
+            "id": 67,
+            "kanji": "長",
+            "arti": "Panjang",
+            "romanji": "Naga"
+        },
+        {
+            "id": 68,
+            "kanji": "近",
+            "arti": "Dekat",
+            "romanji": "Chika"
+        },
+        {
+            "id": 69,
+            "kanji": "遠",
+            "arti": "Jauh",
+            "romanji": "Tooi"
+        },
+        {
+            "id": 70,
+            "arti": "Sedikit",
+            "romanji": "Sukoshi",
+            "kanji": "少"
+        },
+        {
+            "id": 71,
+            "kanji": "多",
+            "arti": "Banyak",
+            "romanji": "Ooi"
+        },
+        {
+            "id": 72,
+            "kanji": "広",
+            "arti": "Luas",
+            "romanji": "Hiro"
+        },
+        {
+            "id": 73,
+            "kanji": "左",
+            "arti": "Kiri",
+            "romanji": "Hidari"
+        },
+        {
+            "id": 74,
+            "kanji": "右",
+            "arti": "Kanan",
+            "romanji": "Migi"
+        },
+        {
+            "id": 75,
+            "kanji": "前",
+            "arti": "Depan",
+            "romanji": "Mae"
+        },
+        {
+            "id": 76,
+            "kanji": "後",
+            "arti": "Belakang",
+            "romanji": "Ushiro"
+        },
+        {
+            "id": 77,
+            "kanji": "上",
+            "arti": "Atas",
+            "romanji": "Ue"
+        },
+        {
+            "id": 78,
+            "kanji": "下",
+            "arti": "Bawah",
+            "romanji": "Shita"
+        },
+        {
+            "id": 79,
+            "kanji": "今",
+            "arti": "Sekarang",
+            "romanji": "Ima"
+        },
+        {
+            "id": 80,
+            "kanji": "週",
+            "arti": "minggu/week",
+            "romanji": "Shuu"
+        },
+        {
+            "id": 81,
+            "kanji": "回",
+            "arti": "kali/putaran/round/banyaknya/counter",
+            "romanji": "Kai"
+        },
+        {
+            "id": 82,
+            "kanji": "外",
+            "arti": "Luar",
+            "romanji": "Soto"
+        },
+        {
+            "id": 83,
+            "kanji": "気",
+            "arti": "Udara",
+            "romanji": "Ki"
+        },
+        {
+            "id": 84,
+            "kanji": "門",
+            "arti": "Gerbang",
+            "romanji": "Mon"
+        },
+        {
+            "id": 85,
+            "kanji": "家",
+            "arti": "Rumah",
+            "romanji": "Ie"
+        },
+        {
+            "id": 86,
+            "kanji": "間",
+            "arti": "jarak/ruang/diantara/space/gap/between/interval/stretch/distance",
+            "romanji": "Aida"
+        },
+        {
+            "id": 87,
+            "kanji": "弟",
+            "arti": "Adik Laki",
+            "romanji": "Otouto"
+        },
+        {
+            "id": 88,
+            "kanji": "妹",
+            "arti": "Adik Perempuan",
+            "romanji": "Imouto"
+        },
+        {
+            "id": 89,
+            "kanji": "父",
+            "arti": "Ayah",
+            "romanji": "Chichi"
+        }, 
+        {
+            "id": 90,
+            "kanji": "母",
+            "arti": "Ibu",
+            "romanji": "Haha"
+        },
+        {
+            "id": 91,
+            "kanji": "兄",
+            "arti": "Kakak Laki",
+            "romanji": "Ani"
+        },
+        {
+            "id": 92,
+            "kanji": "姉",
+            "arti": "Kakak Perempuan",
+            "romanji": "Ane"
+        },
+        {
+            "id": 93,
+            "kanji": "半",
+            "arti": "Setengah",
+            "romanji": "Han"
+        },
+        {
+            "id": 94,
+            "kanji": "語",
+            "arti": "Bahasa",
+            "romanji": "Go"
+        },
+        {
+            "id": 95,
+            "kanji": "校",
+            "arti": "Sekolah",
+            "romanji": "Kou"
+        },
+        {
+            "id": 96,
+            "kanji": "聞",
+            "arti": "Dengar",
+            "romanji": "Kiku"
+        },
+        {
+            "id": 97,
+            "kanji": "覚",
+            "arti": "Ingat",
+            "romanji": "Oboe"
+        },
+        {
+            "id": 98,
+            "kanji": "忘",
+            "arti": "Lupa",
+            "romanji": "Wasure"
+        },
+        {
+            "id": 99,
+            "kanji": "寝",
+            "arti": "Tidur",
+            "romanji": "Neru"
+        },
+        {
+            "id": 100,
+            "kanji": "何",
+            "arti": "Apa",
+            "romanji": "Nani"
+        },
+        {
+            "id": 101,
+            "kanji": "私",
+            "arti": "Saya",
+            "romanji": "Watashi"
+        },
+        {
+            "id": 102,
+            "kanji": "君",
+            "arti": "Kamu",
+            "romanji": "Kimi"
+        },
+        {
+            "id": 103,
+            "kanji": "毎",
+            "arti": "Setiap",
+            "romanji": "Mai"
+        },
+        {
+            "id": 104,
+            "kanji": "休",
+            "arti": "Libur/Istirahat",
+            "romanji": "Yasu"
+        },
+        {
+            "id": 105,
+            "kanji": "北",
+            "arti": "Utara",
+            "romanji": "Kita"
+        },
+        {
+            "id": 106,
+            "kanji": "南",
+            "arti": "Selatan",
+            "romanji": "Minami"
+        },
+        {
+            "id": 107,
+            "kanji": "西",
+            "arti": "Barat",
+            "romanji": "Nishi"
+        },
+        {
+            "id": 108,
+            "kanji": "東",
+            "arti": "Timur",
+            "romanji": "Higashi"
+        }
+    ]
+}

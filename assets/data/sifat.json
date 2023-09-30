@@ -1,0 +1,556 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "高い",
+            "arti": "Mahal",
+            "romanji": "Takai"
+        },
+        {
+            "id": 1,
+            "kanji": "美しい",
+            "arti": "Indah",
+            "romanji": "Utsukushii"
+        },
+        {
+            "id": 2,
+            "kanji": "新しい",
+            "arti": "Baru",
+            "romanji": "Atarashii"
+        },
+        {
+            "id": 3,
+            "kanji": "小さい",
+            "arti": "Kecil",
+            "romanji": "Chiisai"
+        },
+        {
+            "id": 4,
+            "kanji": "優れた",
+            "arti": "Unggul",
+            "romanji": "Sugureta"
+        },
+        {
+            "id": 5,
+            "kanji": "古い",
+            "arti": "Lama",
+            "romanji": "Furui"
+        },
+        {
+            "id": 6,
+            "kanji": "強い",
+            "arti": "Kuat",
+            "romanji": "Tsuyoi"
+        },
+        {
+            "id": 7,
+            "kanji": "弱い",
+            "arti": "Lemah",
+            "romanji": "Yowai"
+        },
+        {
+            "id": 8,
+            "kanji": "快適な",
+            "arti": "Nyaman",
+            "romanji": "Kaiteki na"
+        },
+        {
+            "id": 9,
+            "kanji": "静かな",
+            "arti": "Tenang",
+            "romanji": "Shizukana"
+        },
+        {
+            "id": 10,
+            "kanji": "速い",
+            "arti": "Cepat",
+            "romanji": "Hayai"
+        },
+        {
+            "id": 11,
+            "kanji": "遅い",
+            "arti": "Lambat",
+            "romanji": "Osoi"
+        },
+        {
+            "id": 12,
+            "kanji": "元気な",
+            "arti": "Energetik",
+            "romanji": "Genkina"
+        },
+        {
+            "id": 13,
+            "kanji": "暑い",
+            "arti": "Panas",
+            "romanji": "Atsui"
+        },
+        {
+            "id": 14,
+            "kanji": "寒い",
+            "arti": "Dingin",
+            "romanji": "Samui"
+        },
+        {
+            "id": 15,
+            "kanji": "明るい",
+            "arti": "Terang",
+            "romanji": "Akarui"
+        },
+        {
+            "id": 16,
+            "kanji": "暗い",
+            "arti": "Gelap",
+            "romanji": "Kurai"
+        },
+        {
+            "id": 17,
+            "kanji": "面白い",
+            "arti": "Menarik",
+            "romanji": "Omoshiroi"
+        },
+        {
+            "id": 18,
+            "kanji": "退屈な",
+            "arti": "Membosankan",
+            "romanji": "Taikutsuna"
+        },
+        {
+            "id": 19,
+            "kanji": "大きい",
+            "arti": "Besar",
+            "romanji": "Ookii"
+        },
+        {
+            "id": 20,
+            "kanji": "小さな",
+            "arti": "Kecil",
+            "romanji": "Chiisana"
+        },
+        {
+            "id": 21,
+            "kanji": "高い",
+            "arti": "Tinggi",
+            "romanji": "Takai"
+        },
+        {
+            "id": 22,
+            "kanji": "低い",
+            "arti": "Rendah",
+            "romanji": "Hikui"
+        },
+        {
+            "id": 23,
+            "kanji": "長い",
+            "arti": "Panjang",
+            "romanji": "Nagai"
+        },
+        {
+            "id": 24,
+            "kanji": "短い",
+            "arti": "Pendek",
+            "romanji": "Mijikai"
+        },
+        {
+            "id": 25,
+            "kanji": "大切な",
+            "arti": "Berharga",
+            "romanji": "Taisetsuna"
+        },
+        {
+            "id": 26,
+            "kanji": "嬉しい",
+            "arti": "Senang",
+            "romanji": "Ureshii"
+        },
+        {
+            "id": 27,
+            "kanji": "悲しい",
+            "arti": "Sedih",
+            "romanji": "Kanashii"
+        },
+        {
+            "id": 28,
+            "kanji": "怒っている",
+            "arti": "Marah",
+            "romanji": "Okotte iru"
+        },
+        {
+            "id": 29,
+            "kanji": "幸せな",
+            "arti": "Bahagia",
+            "romanji": "Shiawase na"
+        },
+        {
+            "id": 30,
+            "kanji": "不幸な",
+            "arti": "Tidak Bahagia",
+            "romanji": "Fukou na"
+        },
+        {
+            "id": 31,
+            "kanji": "健康な",
+            "arti": "Sehat",
+            "romanji": "Kenkou na"
+        },
+        {
+            "id": 32,
+            "kanji": "病気な",
+            "arti": "Sakit",
+            "romanji": "Byouki na"
+        },
+        {
+            "id": 33,
+            "kanji": "美味しい",
+            "arti": "Lezat",
+            "romanji": "Oishii"
+        },
+        {
+            "id": 34,
+            "kanji": "不味い",
+            "arti": "Tidak Enak",
+            "romanji": "Mazui"
+        },
+        {
+            "id": 35,
+            "kanji": "有名な",
+            "arti": "Terkenal",
+            "romanji": "Yuumei na"
+        },
+        {
+            "id": 36,
+            "kanji": "無名な",
+            "arti": "Tidak Terkenal",
+            "romanji": "Mumei na"
+        },
+        {
+            "id": 37,
+            "kanji": "賢い",
+            "arti": "Cerdas",
+            "romanji": "Kashikoi"
+        },
+        {
+            "id": 38,
+            "kanji": "愚かな",
+            "arti": "Bodoh",
+            "romanji": "Orokana"
+        },
+        {
+            "id": 39,
+            "kanji": "運がいい",
+            "arti": "Beruntung",
+            "romanji": "Un ga ii"
+        },
+        {
+            "id": 40,
+            "kanji": "運が悪い",
+            "arti": "Sial",
+            "romanji": "Un ga warui"
+        },
+        {
+            "id": 41,
+            "kanji": "面倒くさい",
+            "arti": "Ribet",
+            "romanji": "Mendoukusai"
+        },
+        {
+            "id": 42,
+            "kanji": "簡単な",
+            "arti": "Mudah",
+            "romanji": "Kantan na"
+        },
+        {
+            "id": 43,
+            "kanji": "難しい",
+            "arti": "Sulit",
+            "romanji": "Muzukashii"
+        },
+        {
+            "id": 44,
+            "kanji": "安全な",
+            "arti": "Aman",
+            "romanji": "Anzen na"
+        },
+        {
+            "id": 45,
+            "kanji": "危ない",
+            "arti": "Berbahaya",
+            "romanji": "Abunai"
+        },
+        {
+            "id": 46,
+            "kanji": "穏やかな",
+            "arti": "Tenang",
+            "romanji": "Odayakana"
+        },
+        {
+            "id": 47,
+            "kanji": "騒がしい",
+            "arti": "Berisik",
+            "romanji": "Sawagashii"
+        },
+        {
+            "id": 48,
+            "kanji": "軽い",
+            "arti": "Ringan",
+            "romanji": "Karui"
+        },
+        {
+            "id": 49,
+            "kanji": "重い",
+            "arti": "Berat",
+            "romanji": "Omoi"
+        },
+        {
+            "id": 50,
+            "kanji": "賑やか",
+            "arti": "Ramai",
+            "romanji": "Nigiwai na"
+        },
+        {
+            "id": 51,
+            "kanji": "青い",
+            "arti": "Biru",
+            "romanji": "Aoi"
+        },
+        {
+            "id": 52,
+            "kanji": "赤い",
+            "arti": "Merah",
+            "romanji": "Akai"
+        },
+        {
+            "id": 53,
+            "kanji": "黄色い",
+            "arti": "Kuning",
+            "romanji": "Kiiroi"
+        },
+        {
+            "id": 54,
+            "kanji": "緑の",
+            "arti": "Hijau",
+            "romanji": "Midori no"
+        },
+        {
+            "id": 55,
+            "kanji": "白い",
+            "arti": "Putih",
+            "romanji": "Shiroi"
+        },
+        {
+            "id": 56,
+            "kanji": "黒い",
+            "arti": "Hitam",
+            "romanji": "Kuroi"
+        },
+        {
+            "id": 57,
+            "kanji": "柔らかい",
+            "arti": "Lembut",
+            "romanji": "Yawarakai"
+        },
+        {
+            "id": 58,
+            "kanji": "硬い",
+            "arti": "Keras",
+            "romanji": "Katai"
+        },
+        {
+            "id": 59,
+            "kanji": "暖かい",
+            "arti": "Hangat",
+            "romanji": "Atatakai"
+        },
+        {
+            "id": 60,
+            "kanji": "苦い",
+            "arti": "Pahit",
+            "romanji": "Nigai"
+        },
+        {
+            "id": 61,
+            "kanji": "甘い",
+            "arti": "Manis",
+            "romanji": "Amai"
+        },
+        {
+            "id": 62,
+            "kanji": "塩辛い",
+            "arti": "Asin",
+            "romanji": "Shiokarai"
+        },
+        {
+            "id": 63,
+            "kanji": "辛い",
+            "arti": "Pedas",
+            "romanji": "Karai"
+        },
+        {
+            "id": 64,
+            "kanji": "美味しい",
+            "arti": "Enak",
+            "romanji": "Oishii"
+        },
+        {
+            "id": 65,
+            "kanji": "焦げた",
+            "arti": "Gosong",
+            "romanji": "Kogeta"
+        },
+        {
+            "id": 66,
+            "kanji": "酸っぱい",
+            "arti": "Asam",
+            "romanji": "Suppai"
+        },
+        {
+            "id": 67,
+            "kanji": "味わい深い",
+            "arti": "Gurih",
+            "romanji": "Ajiwaibukai"
+        },
+        {
+            "id": 67,
+            "kanji": "賢い",
+            "arti": "Cerdas",
+            "romanji": "Kashikoi"
+        },
+        {
+            "id": 68,
+            "kanji": "愚かな",
+            "arti": "Bodoh",
+            "romanji": "Orokana"
+        },
+        {
+            "id": 69,
+            "kanji": "勇敢な",
+            "arti": "Berani",
+            "romanji": "Yuukan na"
+        },
+        {
+            "id": 70,
+            "kanji": "臆病な",
+            "arti": "Penakut",
+            "romanji": "Okubyou na"
+        },
+        {
+            "id": 71,
+            "kanji": "忍耐強い",
+            "arti": "Sabar",
+            "romanji": "Nintai tsuyoi"
+        },
+        {
+            "id": 72,
+            "kanji": "無関心な",
+            "arti": "Acuh tak acuh",
+            "romanji": "Mukanjin na"
+        },
+        {
+            "id": 73,
+            "kanji": "感情的な",
+            "arti": "Emosional",
+            "romanji": "Kanjouteki na"
+        },
+        {
+            "id": 74,
+            "kanji": "無感情な",
+            "arti": "Tidak beremosi",
+            "romanji": "Mukanjouteki na"
+        },
+        {
+            "id": 75,
+            "kanji": "友好的な",
+            "arti": "Ramah",
+            "romanji": "Yuukouteki na"
+        },
+        {
+            "id": 76,
+            "kanji": "敵意を持つ",
+            "arti": "Bermusuhan",
+            "romanji": "Tekii o motsu"
+        },
+        {
+            "id": 77,
+            "kanji": "忠実な",
+            "arti": "Setia",
+            "romanji": "Chuujitsu na"
+        },
+        {
+            "id": 78,
+            "kanji": "不忠実な",
+            "arti": "Tidak setia",
+            "romanji": "Fuchuujitsu na"
+        },
+        {
+            "id": 79,
+            "kanji": "陽気な",
+            "arti": "Bersemangat",
+            "romanji": "Youki na"
+        },
+        {
+            "id": 80,
+            "kanji": "優しい",
+            "arti": "Baik Hati",
+            "romanji": "Yasashii"
+        },
+        {
+            "id": 81,
+            "kanji": "悪い",
+            "arti": "Jahat",
+            "romanji": "Warui"
+        },
+        {
+            "id": 82,
+            "kanji": "勇敢な",
+            "arti": "Berani",
+            "romanji": "Yuukan na"
+        },
+        {
+            "id": 83,
+            "kanji": "臆病な",
+            "arti": "Takut",
+            "romanji": "Okubyou na"
+        },
+        {
+            "id": 84,
+            "kanji": "痩せている",
+            "arti": "Kurus",
+            "romanji": "Yasete iru"
+        },
+        {
+            "id": 85,
+            "kanji": "太っている",
+            "arti": "Gemuk",
+            "romanji": "Futotte iru"
+        },
+        {
+            "id": 86,
+            "kanji": "素敵",
+            "arti": "Sempurna",
+            "romanji": "Suteki"
+        },
+        {
+            "id": 87,
+            "kanji": "素晴らしい",
+            "arti": "Wonderful",
+            "romanji": "Subarashii"
+        },
+        {
+            "id": 88,
+            "kanji": "綺麗な",
+            "arti": "Bersih",
+            "romanji": "Kirei na"
+        },
+        {
+            "id": 89,
+            "kanji": "汚い",
+            "arti": "Kotor",
+            "romanji": "Kitanai"
+        },
+        {
+            "id": 90,
+            "kanji": "うるさい",
+            "arti": "Berisik",
+            "romanji": "Urusai"
+        }
+    ]
+}

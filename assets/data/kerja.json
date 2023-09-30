@@ -1,0 +1,544 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "する",
+            "arti": "Melakukan",
+            "romanji": "Suru"
+        },
+        {
+            "id": 1,
+            "kanji": "行く",
+            "arti": "Pergi",
+            "romanji": "Iku"
+        },
+        {
+            "id": 2,
+            "kanji": "来る",
+            "arti": "Datang",
+            "romanji": "Kuru"
+        },
+        {
+            "id": 3,
+            "kanji": "言う",
+            "arti": "Berkata",
+            "romanji": "Iu"
+        },
+        {
+            "id": 4,
+            "kanji": "見る",
+            "arti": "Melihat",
+            "romanji": "Miru"
+        },
+        {
+            "id": 5,
+            "kanji": "食べる",
+            "arti": "Makan",
+            "romanji": "Taberu"
+        },
+        {
+            "id": 6,
+            "kanji": "飲む",
+            "arti": "Minum",
+            "romanji": "Nomu"
+        },
+        {
+            "id": 7,
+            "kanji": "寝る",
+            "arti": "Tidur",
+            "romanji": "Neru"
+        },
+        {
+            "id": 8,
+            "kanji": "起きる",
+            "arti": "Bangun",
+            "romanji": "Okiru"
+        },
+        {
+            "id": 9,
+            "kanji": "知る",
+            "arti": "Tahu",
+            "romanji": "Shiru"
+        },
+        {
+            "id": 10,
+            "kanji": "学ぶ",
+            "arti": "Belajar",
+            "romanji": "Manabu"
+        },
+        {
+            "id": 11,
+            "kanji": "教える",
+            "arti": "Mengajar/jelaskan/tell/explain",
+            "romanji": "Oshieru"
+        },
+        {
+            "id": 12,
+            "kanji": "聞く",
+            "arti": "Mendengar",
+            "romanji": "Kiku"
+        },
+        {
+            "id": 13,
+            "kanji": "読む",
+            "arti": "Membaca",
+            "romanji": "Yomu"
+        },
+        {
+            "id": 14,
+            "kanji": "書く",
+            "arti": "Menulis",
+            "romanji": "Kaku"
+        },
+        {
+            "id": 15,
+            "kanji": "笑う",
+            "arti": "Tertawa",
+            "romanji": "Warau"
+        },
+        {
+            "id": 16,
+            "kanji": "泣く",
+            "arti": "Menangis",
+            "romanji": "Naku"
+        },
+        {
+            "id": 17,
+            "kanji": "歌う",
+            "arti": "Bernyanyi",
+            "romanji": "Utau"
+        },
+        {
+            "id": 18,
+            "kanji": "踊る",
+            "arti": "Menari",
+            "romanji": "Odoru"
+        },
+        {
+            "id": 19,
+            "kanji": "描く",
+            "arti": "Menggambar",
+            "romanji": "Egaku"
+        },
+        {
+            "id": 20,
+            "kanji": "走る",
+            "arti": "Berlari",
+            "romanji": "Hashiru"
+        },
+        {
+            "id": 21,
+            "kanji": "歩く",
+            "arti": "Berjalan",
+            "romanji": "Aruku"
+        },
+        {
+            "id": 22,
+            "kanji": "座る",
+            "arti": "Duduk",
+            "romanji": "Suwaru"
+        },
+        {
+            "id": 23,
+            "kanji": "立つ",
+            "arti": "Berdiri",
+            "romanji": "Tatsu"
+        },
+        {
+            "id": 24,
+            "kanji": "座る",
+            "arti": "Duduk",
+            "romanji": "Suwaru"
+        },
+        {
+            "id": 25,
+            "kanji": "立つ",
+            "arti": "Berdiri",
+            "romanji": "Tachisu"
+        },
+        {
+            "id": 26,
+            "kanji": "泳ぐ",
+            "arti": "Berenang",
+            "romanji": "Oyogu"
+        },
+        {
+            "id": 27,
+            "kanji": "遊ぶ",
+            "arti": "Bermain",
+            "romanji": "Asobu"
+        },
+        {
+            "id": 28,
+            "kanji": "勉強する",
+            "arti": "Belajar",
+            "romanji": "Benkyou suru"
+        },
+        {
+            "id": 29,
+            "kanji": "働く",
+            "arti": "Bekerja",
+            "romanji": "Hataraku"
+        },
+        {
+            "id": 30,
+            "kanji": "休む",
+            "arti": "Beristirahat",
+            "romanji": "Yasumu"
+        },
+        {
+            "id": 31,
+            "kanji": "着る",
+            "arti": "Memakai",
+            "romanji": "Kiru"
+        },
+        {
+            "id": 32,
+            "kanji": "脱ぐ",
+            "arti": "Membuka pakaian",
+            "romanji": "Nugu"
+        },
+        {
+            "id": 33,
+            "kanji": "洗う",
+            "arti": "Mencuci",
+            "romanji": "Arau"
+        },
+        {
+            "id": 34,
+            "kanji": "乗る",
+            "arti": "Naik",
+            "romanji": "Noru"
+        },
+        {
+            "id": 35,
+            "kanji": "降りる",
+            "arti": "Turun",
+            "romanji": "Oriru"
+        },
+        {
+            "id": 36,
+            "kanji": "買う",
+            "arti": "Membeli",
+            "romanji": "Kau"
+        },
+        {
+            "id": 37,
+            "kanji": "売る",
+            "arti": "Menjual",
+            "romanji": "Uru"
+        },
+        {
+            "id": 38,
+            "kanji": "握手する",
+            "arti": "Berjabat tangan",
+            "romanji": "Akushu suru"
+        },
+        {
+            "id": 39,
+            "kanji": "飛ぶ",
+            "arti": "Terbang",
+            "romanji": "Tobu"
+        },
+        {
+            "id": 40,
+            "kanji": "落ちる",
+            "arti": "Jatuh",
+            "romanji": "Ochiru"
+        },
+        {
+            "id": 41,
+            "kanji": "手伝う",
+            "arti": "Membantu",
+            "romanji": "Tetsudau"
+        },
+        {
+            "id": 42,
+            "kanji": "持つ",
+            "arti": "Memegang",
+            "romanji": "Motsu"
+        },
+        {
+            "id": 43,
+            "kanji": "投げる",
+            "arti": "Melempar",
+            "romanji": "Nageru"
+        },
+        {
+            "id": 44,
+            "kanji": "結婚する",
+            "arti": "Menikah",
+            "romanji": "Kekkon suru"
+        },
+        {
+            "id": 45,
+            "kanji": "離婚する",
+            "arti": "Bercerai",
+            "romanji": "Rikon suru"
+        },
+        {
+            "id": 46,
+            "kanji": "出発する",
+            "arti": "Berangkat",
+            "romanji": "Shuppatsu suru"
+        },
+        {
+            "id": 47,
+            "kanji": "到着する",
+            "arti": "Tiba",
+            "romanji": "Touchaku suru"
+        },
+        {
+            "id": 48,
+            "kanji": "始める",
+            "arti": "Memulai",
+            "romanji": "Hajimeru"
+        },
+        {
+            "id": 49,
+            "kanji": "終わる",
+            "arti": "Selesai",
+            "romanji": "Owaru"
+        },
+        {
+            "id": 50,
+            "kanji": "考える",
+            "arti": "Memikirkan",
+            "romanji": "Kangaeru"
+        },
+        {
+            "id": 51,
+            "kanji": "考える",
+            "arti": "Berpikir",
+            "romanji": "Kangaeru"
+        },
+        {
+            "id": 52,
+            "kanji": "感じる",
+            "arti": "Merasa",
+            "romanji": "Kanjiru"
+        },
+        {
+            "id": 53,
+            "kanji": "思う",
+            "arti": "Berpikir",
+            "romanji": "Omou"
+        },
+        {
+            "id": 54,
+            "kanji": "忘れる",
+            "arti": "Lupa",
+            "romanji": "Wasureru"
+        },
+        {
+            "id": 55,
+            "kanji": "記憶する",
+            "arti": "Mengingat",
+            "romanji": "Kioku suru"
+        },
+        {
+            "id": 56,
+            "kanji": "必要とする",
+            "arti": "Memerlukan",
+            "romanji": "Hitsuyou to suru"
+        },
+        {
+            "id": 57,
+            "kanji": "準備する",
+            "arti": "Menyiapkan",
+            "romanji": "Junbi suru"
+        },
+        {
+            "id": 58,
+            "kanji": "招待する",
+            "arti": "Mengundang",
+            "romanji": "Shoutai suru"
+        },
+        {
+            "id": 59,
+            "kanji": "予約する",
+            "arti": "Mereservasi",
+            "romanji": "Yoyaku suru"
+        },
+        {
+            "id": 60,
+            "kanji": "楽しむ",
+            "arti": "Menikmati",
+            "romanji": "Tanoshimu"
+        },
+        {
+            "id": 61,
+            "kanji": "調べる",
+            "arti": "Mengecek",
+            "romanji": "Shiraberu"
+        },
+        {
+            "id": 62,
+            "kanji": "作る",
+            "arti": "Membuat",
+            "romanji": "Tsukuru"
+        },
+        {
+            "id": 63,
+            "kanji": "知り合う",
+            "arti": "Bertemu",
+            "romanji": "Shiriau"
+        },
+        {
+            "id": 64,
+            "kanji": "連絡する",
+            "arti": "Menghubungi",
+            "romanji": "Renraku suru"
+        },
+        {
+            "id": 65,
+            "kanji": "選ぶ",
+            "arti": "Memilih",
+            "romanji": "Erabu"
+        },
+        {
+            "id": 66,
+            "kanji": "悩む",
+            "arti": "Merasa bingung",
+            "romanji": "Nayamu"
+        },
+        {
+            "id": 67,
+            "kanji": "貸す",
+            "arti": "Meminjamkan",
+            "romanji": "Kasu"
+        },
+        {
+            "id": 68,
+            "kanji": "借りる",
+            "arti": "Meminjam",
+            "romanji": "Kariru"
+        },
+        {
+            "id": 69,
+            "kanji": "捨てる",
+            "arti": "Membuang",
+            "romanji": "Suteru"
+        },
+        {
+            "id": 70,
+            "kanji": "切る",
+            "arti": "Memotong",
+            "romanji": "Kiru"
+        },
+        {
+            "id": 71,
+            "kanji": "覚える",
+            "arti": "Mengingat",
+            "romanji": "Oboeru"
+        },
+        {
+            "id": 72,
+            "kanji": "信じる",
+            "arti": "Percaya",
+            "romanji": "Shinjiru"
+        },
+        {
+            "id": 73,
+            "kanji": "頼む",
+            "arti": "Meminta",
+            "romanji": "Tanomu"
+        },
+        {
+            "id": 74,
+            "kanji": "競争する",
+            "arti": "Bersaing",
+            "romanji": "Kyousou suru"
+        },
+        {
+            "id": 75,
+            "kanji": "勝つ",
+            "arti": "Menang",
+            "romanji": "Katsu"
+        },
+        {
+            "id": 76,
+            "kanji": "負ける",
+            "arti": "Kalah",
+            "romanji": "Makeru"
+        },
+        {
+            "id": 77,
+            "kanji": "見つける",
+            "arti": "Menemukan",
+            "romanji": "Mitsukeru"
+        },
+        {
+            "id": 78,
+            "kanji": "起こる",
+            "arti": "Terjadi",
+            "romanji": "Okoru"
+        },
+        {
+            "id": 79,
+            "kanji": "応援する",
+            "arti": "Mendukung",
+            "romanji": "Ouen suru"
+        },
+        {
+            "id": 80,
+            "kanji": "比べる",
+            "arti": "Membandingkan",
+            "romanji": "Kuraberu"
+        },
+        {
+            "id": 81,
+            "kanji": "納得する",
+            "arti": "Setuju",
+            "romanji": "Nattoku suru"
+        },
+        {
+            "id": 82,
+            "kanji": "承知する",
+            "arti": "Menyetujui",
+            "romanji": "Shouchi suru"
+        },
+        {
+            "id": 83,
+            "kanji": "達成する",
+            "arti": "Mencapai",
+            "romanji": "Tassei suru"
+        },
+        {
+            "id": 84,
+            "kanji": "議論する",
+            "arti": "Membahas",
+            "romanji": "Giron suru"
+        },
+        {
+            "id": 85,
+            "kanji": "提案する",
+            "arti": "Mengusulkan",
+            "romanji": "Teian suru"
+        },
+        {
+            "id": 86,
+            "kanji": "分かる",
+            "arti": "Mengerti",
+            "romanji": "Wakaru"
+        },
+        {
+            "id": 87,
+            "kanji": "進化する",
+            "arti": "Berkembang",
+            "romanji": "Shinka suru"
+        },
+        {
+            "id": 88,
+            "kanji": "変わる",
+            "arti": "Berubah",
+            "romanji": "Kawaru"
+        },
+        {
+            "id": 89,
+            "kanji": "遅刻する",
+            "arti": "Terlambat",
+            "romanji": "Chikoku suru"
+        }
+    ]
+}

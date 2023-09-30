@@ -1,0 +1,70 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "自動車",
+            "arti": "Mobil",
+            "romanji": "Jidousha"
+        },
+        {
+            "id": 1,
+            "kanji": "自転車",
+            "arti": "Sepeda",
+            "romanji": "Jitensha"
+        },
+        {
+            "id": 2,
+            "kanji": "オートバイ",
+            "arti": "Sepeda motor",
+            "romanji": "Ootobai"
+        },
+        {
+            "id": 3,
+            "kanji": "バス",
+            "arti": "Bus",
+            "romanji": "Basu"
+        },
+        {
+            "id": 4,
+            "kanji": "列車",
+            "arti": "Kereta api",
+            "romanji": "Ressha"
+        },
+        {
+            "id": 5,
+            "kanji": "電車",
+            "arti": "Kereta listrik",
+            "romanji": "Densha"
+        },
+        {
+            "id": 6,
+            "kanji": "トラック",
+            "arti": "Truk",
+            "romanji": "Torakku"
+        },
+        {
+            "id": 7,
+            "kanji": "タクシー",
+            "arti": "Taksi",
+            "romanji": "Takushii"
+        },
+        {
+            "id": 8,
+            "kanji": "船",
+            "arti": "Kapal",
+            "romanji": "Fune"
+        },
+        {
+            "id": 9,
+            "kanji": "飛行機",
+            "arti": "Pesawat terbang",
+            "romanji": "Hikouki"
+        },
+        {
+            "id": 10,
+            "kanji": "救急車",
+            "arti": "Ambulan",
+            "romanji": "Kyuukyuusha"
+        }
+    ]
+}

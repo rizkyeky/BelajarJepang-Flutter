@@ -1,0 +1,88 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "晴れ",
+            "arti": "Cerah",
+            "romanji": "Hare"
+        },
+        {
+            "id": 1,
+            "kanji": "曇り",
+            "arti": "Berawan",
+            "romanji": "Kumori"
+        },
+        {
+            "id": 2,
+            "kanji": "雨",
+            "arti": "Hujan",
+            "romanji": "Ame"
+        },
+        {
+            "id": 3,
+            "kanji": "雪",
+            "arti": "Salju",
+            "romanji": "Yuki"
+        },
+        {
+            "id": 4,
+            "kanji": "風",
+            "arti": "Angin",
+            "romanji": "Kaze"
+        },
+        {
+            "id": 5,
+            "kanji": "嵐",
+            "arti": "Badai",
+            "romanji": "Arashi"
+        },
+        {
+            "id": 6,
+            "kanji": "霧",
+            "arti": "Kabut",
+            "romanji": "Kiri"
+        },
+        {
+            "id": 7,
+            "kanji": "台風",
+            "arti": "Taifun",
+            "romanji": "Taifuu"
+        },
+        {
+            "id": 8,
+            "kanji": "露",
+            "arti": "Embun",
+            "romanji": "Tsuyu"
+        },
+        {
+            "id": 9,
+            "kanji": "雷雨",
+            "arti": "Hujan Petir",
+            "romanji": "Raiu"
+        },
+        {
+            "id": 10,
+            "kanji": "春",
+            "arti": "Musim Semi",
+            "romanji": "Haru"
+        },
+        {
+            "id": 11,
+            "kanji": "夏",
+            "arti": "Musim Panas",
+            "romanji": "Natsu"
+        },
+        {
+            "id": 12,
+            "kanji": "秋",
+            "arti": "Musim Gugur",
+            "romanji": "Aki"
+        },
+        {
+            "id": 13,
+            "kanji": "冬",
+            "arti": "Musim Dingin",
+            "romanji": "Fuyu"
+        }
+    ]
+}

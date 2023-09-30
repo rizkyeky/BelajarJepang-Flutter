@@ -1,0 +1,604 @@
+{
+    "list": [
+        {
+            "id": 0,
+            "kanji": "テーブル",
+            "arti": "Meja",
+            "romanji": "Tēburu"
+        },
+        {
+            "id": 1,
+            "kanji": "椅子",
+            "arti": "Kursi",
+            "romanji": "Isu"
+        },
+        {
+            "id": 2,
+            "kanji": "本",
+            "arti": "Buku",
+            "romanji": "Hon"
+        },
+        {
+            "id": 3,
+            "kanji": "鉛筆",
+            "arti": "Pensil",
+            "romanji": "Enpitsu"
+        },
+        {
+            "id": 4,
+            "kanji": "ノート",
+            "arti": "Buku Catatan",
+            "romanji": "Nōto"
+        },
+        {
+            "id": 5,
+            "kanji": "カバン",
+            "arti": "Tas",
+            "romanji": "Kaban"
+        },
+        {
+            "id": 6,
+            "kanji": "時計",
+            "arti": "Jam Tangan",
+            "romanji": "Tokei"
+        },
+        {
+            "id": 7,
+            "kanji": "窓",
+            "arti": "Jendela",
+            "romanji": "Mado"
+        },
+        {
+            "id": 8,
+            "kanji": "ドア",
+            "arti": "Pintu",
+            "romanji": "Doa"
+        },
+        {
+            "id": 9,
+            "kanji": "コンピュータ",
+            "arti": "Komputer",
+            "romanji": "Konpyūta"
+        },
+        {
+            "id": 10,
+            "kanji": "机",
+            "arti": "Meja Sekolah",
+            "romanji": "Tsukue"
+        },
+        {
+            "id": 11,
+            "kanji": "椅子",
+            "arti": "Kursi Sekolah",
+            "romanji": "Isu"
+        },
+        {
+            "id": 12,
+            "kanji": "黒板",
+            "arti": "Papan Tulis",
+            "romanji": "Kokuban"
+        },
+        {
+            "id": 13,
+            "kanji": "教科書",
+            "arti": "Buku Pelajaran",
+            "romanji": "Kyoukasho"
+        },
+        {
+            "id": 14,
+            "kanji": "消しゴム",
+            "arti": "Penghapus",
+            "romanji": "Keshigomu"
+        },
+        {
+            "id": 15,
+            "kanji": "鉛筆削り",
+            "arti": "Penggaris Pensil",
+            "romanji": "Enpitsusuri"
+        },
+        {
+            "id": 16,
+            "kanji": "ノート",
+            "arti": "Buku Catatan",
+            "romanji": "Nōto"
+        },
+        {
+            "id": 17,
+            "kanji": "ボールペン",
+            "arti": "Bolpoin",
+            "romanji": "Bōrupen"
+        },
+        {
+            "id": 18,
+            "kanji": "ラップトップ",
+            "arti": "Laptop",
+            "romanji": "Rapputoppu"
+        },
+        {
+            "id": 19,
+            "kanji": "テレビ",
+            "arti": "Televisi",
+            "romanji": "Terebi"
+        },
+        {
+            "id": 20,
+            "kanji": "ラジオ",
+            "arti": "Radio",
+            "romanji": "Rajio"
+        },
+        {
+            "id": 21,
+            "kanji": "スピーカー",
+            "arti": "Speaker",
+            "romanji": "Supīkā"
+        },
+        {
+            "id": 22,
+            "kanji": "ライト",
+            "arti": "Lampu",
+            "romanji": "Raito"
+        },
+        {
+            "id": 23,
+            "kanji": "クレヨン",
+            "arti": "Crayon",
+            "romanji": "Kureyon"
+        },
+        {
+            "id": 24,
+            "kanji": "ティッシュ",
+            "arti": "Tisu",
+            "romanji": "Tisshu"
+        },
+        {
+            "id": 25,
+            "kanji": "コップ",
+            "arti": "Gelas",
+            "romanji": "Koppu"
+        },
+        {
+            "id": 26,
+            "kanji": "フォーク",
+            "arti": "Garpu",
+            "romanji": "Fōku"
+        },
+        {
+            "id": 27,
+            "kanji": "ナイフ",
+            "arti": "Pisau",
+            "romanji": "Naifu"
+        },
+        {
+            "id": 28,
+            "kanji": "スプーン",
+            "arti": "Sendok",
+            "romanji": "Supūn"
+        },
+        {
+            "id": 29,
+            "kanji": "皿",
+            "arti": "Piring",
+            "romanji": "Sara"
+        },
+        {
+            "id": 30,
+            "kanji": "冷蔵庫",
+            "arti": "Kulkas",
+            "romanji": "Reizouko"
+        },
+        {
+            "id": 31,
+            "kanji": "トースター",
+            "arti": "Pemanggang Roti",
+            "romanji": "Tōsutā"
+        },
+        {
+            "id": 32,
+            "kanji": "ガスストーブ",
+            "arti": "Kompor Gas",
+            "romanji": "Gasusutōbu"
+        },
+        {
+            "id": 33,
+            "kanji": "洗濯機",
+            "arti": "Mesin Cuci",
+            "romanji": "Sentakuki"
+        },
+        {
+            "id": 34,
+            "kanji": "掃除機",
+            "arti": "Mesin Pel Vacuum",
+            "romanji": "Sōjiki"
+        },
+        {
+            "id": 35,
+            "kanji": "シャワー",
+            "arti": "Shower",
+            "romanji": "Shawā"
+        },
+        {
+            "id": 36,
+            "kanji": "バスタブ",
+            "arti": "Bak Mandi",
+            "romanji": "Basutabu"
+        },
+        {
+            "id": 37,
+            "kanji": "トイレ",
+            "arti": "Toilet",
+            "romanji": "Toire"
+        },
+        {
+            "id": 38,
+            "kanji": "シャンプー",
+            "arti": "Sampo",
+            "romanji": "Shanpū"
+        },
+        {
+            "id": 39,
+            "kanji": "コンディショナー",
+            "arti": "Conditioner",
+            "romanji": "Kondishonā"
+        },
+        {
+            "id": 40,
+            "kanji": "ハンドタオル",
+            "arti": "Handuk Tangan",
+            "romanji": "Handotaoru"
+        },
+        {
+            "id": 41,
+            "kanji": "シャツ",
+            "arti": "Kemeja",
+            "romanji": "Shatsu"
+        },
+        {
+            "id": 42,
+            "kanji": "ズボン",
+            "arti": "Celana",
+            "romanji": "Zubon"
+        },
+        {
+            "id": 43,
+            "kanji": "靴",
+            "arti": "Sepatu",
+            "romanji": "Kutsu"
+        },
+        {
+            "id": 44,
+            "kanji": "制服",
+            "arti": "Seragam",
+            "romanji": "Seifuku"
+        },
+        {
+            "id": 45,
+            "kanji": "バックパック",
+            "arti": "Ransel",
+            "romanji": "Bakkupakku"
+        },
+        {
+            "id": 46,
+            "kanji": "教科書",
+            "arti": "Buku Pelajaran",
+            "romanji": "Kyoukasho"
+        },
+        {
+            "id": 47,
+            "kanji": "ボール",
+            "arti": "Bola",
+            "romanji": "Bōru"
+        },
+        {
+            "id": 48,
+            "kanji": "スケートボード",
+            "arti": "Papan Seluncur",
+            "romanji": "Sukētobōdo"
+        },
+        {
+            "id": 49,
+            "kanji": "テニスラケット",
+            "arti": "Raket Tenis",
+            "romanji": "Tenisuraketto"
+        },
+        {
+            "id": 50,
+            "kanji": "バドミントンラケット",
+            "arti": "Raket Bulutangkis",
+            "romanji": "Badomintonraketto"
+        },
+        {
+            "id": 51,
+            "kanji": "卓球台",
+            "arti": "Meja Ping Pong",
+            "romanji": "Takkyuudai"
+        },
+        {
+            "id": 52,
+            "kanji": "スケッチブック",
+            "arti": "Buku Sketsa",
+            "romanji": "Suketchibukku"
+        },
+        {
+            "id": 53,
+            "kanji": "カラーペンシル",
+            "arti": "Pensil Warna",
+            "romanji": "Karāpenshiru"
+        },
+        {
+            "id": 54,
+            "kanji": "ギター",
+            "arti": "Gitar",
+            "romanji": "Gitā"
+        },
+        {
+            "id": 55,
+            "kanji": "バイオリン",
+            "arti": "Biola",
+            "romanji": "Baiorin"
+        },
+        {
+            "id": 56,
+            "kanji": "ピアノ",
+            "arti": "Piano",
+            "romanji": "Piano"
+        },
+        {
+            "id": 57,
+            "kanji": "マイク",
+            "arti": "Mikrofon",
+            "romanji": "Maiku"
+        },
+        {
+            "id": 58,
+            "kanji": "カメラ",
+            "arti": "Kamera",
+            "romanji": "Kamera"
+        },
+        {
+            "id": 59,
+            "kanji": "スマートフォン",
+            "arti": "Smartphone",
+            "romanji": "Sumātofon"
+        },
+        {
+            "id": 60,
+            "kanji": "ヘッドフォン",
+            "arti": "Headphone",
+            "romanji": "Heddofon"
+        },
+        {
+            "id": 61,
+            "kanji": "充電器",
+            "arti": "Charger",
+            "romanji": "Jūdenki"
+        },
+        {
+            "id": 62,
+            "kanji": "USBケーブル",
+            "arti": "Kabel USB",
+            "romanji": "USB Kēburu"
+        },
+        {
+            "id": 63,
+            "kanji": "バッテリー",
+            "arti": "Baterai",
+            "romanji": "Batterī"
+        },
+        {
+            "id": 64,
+            "kanji": "ティッシュ",
+            "arti": "Tisu",
+            "romanji": "Tisshu"
+        },
+        {
+            "id": 65,
+            "kanji": "消防車",
+            "arti": "Truk Pemadam Kebakaran",
+            "romanji": "Shōbōsha"
+        },
+        {
+            "id": 66,
+            "kanji": "アンプ",
+            "arti": "Amplifier",
+            "romanji": "Anpu"
+        },
+        {
+            "id": 67,
+            "kanji": "プリンター",
+            "arti": "Printer",
+            "romanji": "Purintā"
+        },
+        {
+            "id": 68,
+            "kanji": "ファクス",
+            "arti": "Faks",
+            "romanji": "Fakusu"
+        },
+        {
+            "id": 69,
+            "kanji": "コピー機",
+            "arti": "Mesin Fotokopi",
+            "romanji": "Kopīki"
+        },
+        {
+            "id": 70,
+            "kanji": "エアコン",
+            "arti": "AC",
+            "romanji": "Eakon"
+        },
+        {
+            "id": 71,
+            "kanji": "扇風機",
+            "arti": "Kipas Angin",
+            "romanji": "Senpūki"
+        },
+        {
+            "id": 72,
+            "kanji": "電子レンジ",
+            "arti": "Microwave",
+            "romanji": "Denshi Renji"
+        },
+        {
+            "id": 73,
+            "kanji": "トースター",
+            "arti": "Pemanggang Roti",
+            "romanji": "Tōsutā"
+        },
+        {
+            "id": 74,
+            "kanji": "ヘアドライヤー",
+            "arti": "Hair Dryer",
+            "romanji": "Headoraiyā"
+        },
+        {
+            "id": 75,
+            "kanji": "コーヒーメーカー",
+            "arti": "Mesin Kopi",
+            "romanji": "Kōhī Mēkā"
+        },
+        {
+            "id": 76,
+            "kanji": "ティーポット",
+            "arti": "Teko Teh",
+            "romanji": "Tīpotto"
+        },
+        {
+            "id": 77,
+            "kanji": "ランプ",
+            "arti": "Lampu",
+            "romanji": "Ranpu"
+        },
+        {
+            "id": 78,
+            "kanji": "キッチン",
+            "arti": "Dapur",
+            "romanji": "Kitchin"
+        },
+        {
+            "id": 79,
+            "kanji": "トースター",
+            "arti": "Pemanggang Roti",
+            "romanji": "Tōsutā"
+        },
+        {
+            "id": 80,
+            "kanji": "ガラス",
+            "arti": "Kaca",
+            "romanji": "Garasu"
+        },
+        {
+            "id": 81,
+            "kanji": "カーテン",
+            "arti": "Gorden",
+            "romanji": "Kāten"
+        },
+        {
+            "id": 82,
+            "kanji": "電球",
+            "arti": "Bohlam",
+            "romanji": "Denkyuu"
+        },
+        {
+            "id": 83,
+            "kanji": "カギ",
+            "arti": "Kunci",
+            "romanji": "Kagi"
+        },
+        {
+            "id": 84,
+            "kanji": "ハンガー",
+            "arti": "Gantungan Baju",
+            "romanji": "Hangā"
+        },
+        {
+            "id": 85,
+            "kanji": "ベッド",
+            "arti": "Ranjang",
+            "romanji": "Beddo"
+        },
+        {
+            "id": 86,
+            "kanji": "枕",
+            "arti": "Bantal",
+            "romanji": "Makura"
+        },
+        {
+            "id": 87,
+            "kanji": "掛け布団",
+            "arti": "Selimut",
+            "romanji": "Kakefuton"
+        },
+        {
+            "id": 88,
+            "kanji": "カーペット",
+            "arti": "Karpet",
+            "romanji": "Kāpetto"
+        },
+        {
+            "id": 89,
+            "kanji": "タオル",
+            "arti": "Handuk",
+            "romanji": "Taoru"
+        },
+        {
+            "id": 90,
+            "kanji": "ポスター",
+            "arti": "Poster",
+            "romanji": "Posutā"
+        },
+        {
+            "id": 91,
+            "kanji": "ベンチ",
+            "arti": "Bangku",
+            "romanji": "Benchi"
+        },
+        {
+            "id": 92,
+            "kanji": "傘",
+            "arti": "Payung",
+            "romanji": "Kasa"
+        },
+        {
+            "id": 93,
+            "kanji": "スリッパ",
+            "arti": "Sandal",
+            "romanji": "Surippa"
+        },
+        {
+            "id": 94,
+            "kanji": "クローゼット",
+            "arti": "Lemari",
+            "romanji": "Kurōzetto"
+        },
+        {
+            "id": 95,
+            "kanji": "コート",
+            "arti": "Mantel",
+            "romanji": "Kōto"
+        },
+        {
+            "id": 96,
+            "kanji": "帽子",
+            "arti": "Topi",
+            "romanji": "Bōshi"
+        },
+        {
+            "id": 97,
+            "kanji": "手袋",
+            "arti": "Sarung Tangan",
+            "romanji": "Tebukuro"
+        },
+        {
+            "id": 98,
+            "kanji": "ネクタイ",
+            "arti": "Dasi",
+            "romanji": "Nekutai"
+        },
+        {
+            "id": 99,
+            "kanji": "シャツ",
+            "arti": "Kemeja",
+            "romanji": "Shatsu"
+        }
+    ]
+}
