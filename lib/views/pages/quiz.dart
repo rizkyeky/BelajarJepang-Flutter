@@ -13,7 +13,7 @@ class QuizPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final quizController = QuizController();
+    final quizController = context.read<QuizController>();
     int correctCount = 0;
     String? inputQuiz;
     return Scaffold(

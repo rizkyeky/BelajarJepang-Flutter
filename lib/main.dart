@@ -1,4 +1,5 @@
 
+import 'package:belajar_jepang/controllers/_controller.dart';
 import 'package:belajar_jepang/providers/_provider.dart';
 import 'package:belajar_jepang/services/_services.dart';
 import 'package:belajar_jepang/router.dart';
@@ -28,11 +29,9 @@ Future<void> main() async {
         ChangeNotifierProvider(
           create: (context) => brightnessProvider
         ),
-        // ChangeNotifierProvider(
-        //   create: (context) => LocalizationProvider(
-        //     box: localizationBox,
-        //   ),
-        // ),
+        Provider(
+          create: (context) => QuizController(),
+        ),
       ],
       child: const MainApp()
     )

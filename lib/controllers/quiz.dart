@@ -2,14 +2,19 @@ part of _controller;
 
 class QuizController {
 
+  final fontFamilies = ['IBMPlexSansJP', 'KosugiMaru', 'NotoSansJP', 'NotoSerifJP', 'YujiMai', 'ZenKurenaido'];
+  final selectedFonts = [];
+
   String getRandomFontFamily() {
-    final fontFamilies = ['IBMPlexSansJP', 'KosugiMaru', 'NotoSansJP', 'NotoSerifJP', 'YujiMai', 'ZenKurenaido'];
-    final font = fontFamilies[Random().nextInt(fontFamilies.length)];
-    return font;
+    if (selectedFonts.length > 1) {
+      final font = selectedFonts[Random().nextInt(selectedFonts.length)];
+      return font;
+    } else {
+      return selectedFonts[0];
+    }
   }
 
-  Future<List<KanjiModel>> startQuiz(QuizType type, int total, [bool onlyKanji = false]) async {
-    
+  Future<List<KanjiModel>> selectKanji(QuizType type) async {
     final List<KanjiModel> kanji = [];
     switch (type) {
       case QuizType.satuKanji:
@@ -45,6 +50,13 @@ class QuizController {
         kanji.addAll(await loadPekerjaan());
       break;
     }
+    return kanji;
+  }
+
+  Future<List<KanjiModel>> startQuiz(QuizType type, int total, [bool onlyKanji = false]) async {
+    
+    final kanji = await selectKanji(type);
+
     if (onlyKanji) {
       final temp = kanji.where((element) => isKanji(element.kanji)).toList();
       kanji.clear();
