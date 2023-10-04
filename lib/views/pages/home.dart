@@ -97,6 +97,13 @@ class HomePage extends StatelessWidget {
                       },
                       child: const Text('Kata Pekerjaan'),
                     ),
+                    const SizedBox(height: 8,),
+                    ElevatedButton(
+                      onPressed: () {
+                        Routemaster.of(context).push('/pre_quiz/9');
+                      },
+                      child: const Text('Katakana'),
+                    ),
                   ],
                 ),
               ),

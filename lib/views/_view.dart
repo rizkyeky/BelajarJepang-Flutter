@@ -17,5 +17,6 @@ part 'pages/setting.dart';
 part 'pages/home.dart';
 part 'pages/quiz.dart';
 part 'pages/pre_quiz.dart';
+part 'pages/quiz2.dart';
 
 part 'widgets/stateful_value_builder.dart';

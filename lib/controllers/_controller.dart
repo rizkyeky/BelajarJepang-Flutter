@@ -40,3 +40,9 @@ enum QuizType {
   kataCuaca,
   kataPekerjaan,
 }
+
+enum KatakanaType {
+  normal,
+  add,
+  long
+}

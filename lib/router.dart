@@ -27,6 +27,14 @@ RouteMap routeMap(BuildContext context) {
           onlyKanji: (route.queryParameters['onlyKanji'] ?? '') == 'true',
         )
       ),
+      '/quiz2/:idx': (route) => MaterialPage(
+        child: Quiz2Page(
+          len: int.tryParse(route.queryParameters['len'] ?? '')?.toInt() ?? 0,
+          lenKatakana: int.tryParse(route.queryParameters['lenKatakana'] ?? '')?.toInt() ?? 0,
+          withAdd: (route.queryParameters['withAdd'] ?? '') == 'true',
+          withLong: (route.queryParameters['withLong'] ?? '') == 'true',
+        )
+      ),
     }
   );
 }
