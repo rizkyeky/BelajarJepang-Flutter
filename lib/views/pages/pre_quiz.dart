@@ -11,7 +11,6 @@ class PreQuizPage extends StatelessWidget {
   Widget build(BuildContext context) {
     int lenQuiz = 5;
     int lenKatakana = 2;
-    // bool useKanji = false;
     bool withAdd= false;
     bool withLong = false;
     final isKatakanaQuiz = idx == 9;
@@ -208,8 +207,6 @@ class PreQuizPage extends StatelessWidget {
                   ),
                 )
               );
-              // Scaffold.of(context)
-              // .showBottomSheet<void>();
             },
             child: const Text('Select Font Style'),
           ),

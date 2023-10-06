@@ -213,7 +213,7 @@
         {
             "id": 35,
             "kanji": "金",
-            "arti": "Emas",
+            "arti": "Emas/uang",
             "romanji": "Kin"
         },
         {
@@ -244,7 +244,7 @@
             "id": 40,
             "kanji": "行",
             "arti": "Pergi",
-            "romanji": "Iku/Yuku"
+            "romanji": "Iku"
         },
         {
             "id": 41,
@@ -255,7 +255,7 @@
         {
             "id": 42,
             "kanji": "見",
-            "arti": "Melihat",
+            "arti": "lihat",
             "romanji": "Miru"
         },
         {
@@ -913,6 +913,77 @@
             "romanji": "haji"
         },
         {
+            "kanji": "起",
+            "id": 14,
+            "arti": "bangun",
+            "romanji": "okiru"
+        },
+        {
+            "kanji": "先",
+            "id": 14,
+            "arti": "depan/sebelum/pertama/ujung",
+            "romanji": "saki"
+        },
+        {
+            "kanji": "生",
+            "id": 14,
+            "arti": "lahir/hidup/tumbuh/live",
+            "romanji": "saki"
+        },
+        {
+            "kanji": "林",
+            "id": 14,
+            "arti": "wood/pohon/hutan",
+            "romanji": "hayashi"
+        },
+        {
+            "kanji": "森",
+            "id": 14,
+            "arti": "hutan",
+            "romanji": "mori"
+        },
+        {
+            "kanji": "米",
+            "id": 14,
+            "arti": "beras/nasi",
+            "romanji": "kome"
+        },
+        {
+            "kanji": "肉",
+            "id": 14,
+            "arti": "daging",
+            "romanji": "niku"
+        },
+        {
+            "kanji": "茶",
+            "id": 14,
+            "arti": "teh",
+            "romanji": "ocha"
+        },
+        {
+            "kanji": "物",
+            "id": 14,
+            "arti": "objek/benda/thing",
+            "romanji": "mono"
+        },
+        {
+            "kanji": "方",
+            "id": 14,
+            "arti": "arah/direction",
+            "romanji": "hou"
+        },
+        {
+            "kanji": "町",
+            "id": 14,
+            "arti": "kota/town",
+            "romanji": "machi"
+        },{
+            "kanji": "寺",
+            "id": 14,
+            "arti": "temple/candi",
+            "romanji": "tera"
+        },
+        {
             "kanji": "朝",
             "id": 14,
             "arti": "pagi",
@@ -941,6 +1012,48 @@
             "id": 14,
             "arti": "stasiun",
             "romanji": "eki"
+        },
+        {
+            "kanji": "傘",
+            "id": 14,
+            "arti": "payung",
+            "romanji": "kasa"
+        },
+        {
+            "kanji": "暗",
+            "id": 14,
+            "arti": "gelap/dark",
+            "romanji": "kurai"
+        },
+        {
+            "kanji": "元",
+            "id": 14,
+            "arti": "asal/dasar/mula/murni/sehat",
+            "romanji": "gen"
+        },
+        {
+            "kanji": "立",
+            "id": 14,
+            "arti": "stand/berdiri",
+            "romanji": "tatsu"
+        },
+        {
+            "kanji": "帰",
+            "id": 14,
+            "arti": "pulang/go home/kembali/return",
+            "romanji": "kaeru"
+        },
+        {
+            "kanji": "天",
+            "id": 14,
+            "arti": "langit/surga",
+            "romanji": "amatsu"
+        },
+        {
+            "kanji": "石",
+            "id": 14,
+            "arti": "batu/rock/stone",
+            "romanji": "ishi"
         }
     ]
 }
