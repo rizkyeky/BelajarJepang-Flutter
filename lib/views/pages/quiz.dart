@@ -60,7 +60,7 @@ class QuizPage extends StatelessWidget {
                             children: [
                               Expanded(
                                 child: Text(
-                                  (correctCount+1).toString(),
+                                  "$correctCount/$len",
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
                                     fontSize: 32,
@@ -112,9 +112,9 @@ class QuizPage extends StatelessWidget {
                           child: ElevatedButton(
                             onPressed: () {
                               final artis = kanjis[correctCount].arti.toLowerCase().split('/');
-                              final correct = artis.any((element) => element.contains(inputQuiz ?? '*'));
+                              final correct = artis.any((element) => element == inputQuiz);
                               if (correct) {
-                                if (correctCount == kanjis.length - 1) {
+                                if (correctCount == kanjis.length-1) {
                                   showDialog(
                                     context: context, 
                                     builder: (context) => AlertDialog(
@@ -170,6 +170,7 @@ class QuizPage extends StatelessWidget {
                                       color: Colors.cyan
                                     ),
                                   ),  
+                                  duration: const Duration(seconds: 1)
                                 )
                               );
                             },

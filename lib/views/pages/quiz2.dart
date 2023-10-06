@@ -51,7 +51,7 @@ class Quiz2Page extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Text(
-                          (correctCount+1).toString(),
+                          "$correctCount/$len",
                           textAlign: TextAlign.center,
                           style: const TextStyle(
                             fontSize: 32,
@@ -95,7 +95,7 @@ class Quiz2Page extends StatelessWidget {
                     onPressed: () {
                       final correct = quizController.checkKatakana(katakana, inputQuiz ?? '');
                       if (correct) {
-                        if (correctCount == len) {
+                        if (correctCount == len-1) {
                           showDialog(
                             context: context, 
                             builder: (context) => AlertDialog(

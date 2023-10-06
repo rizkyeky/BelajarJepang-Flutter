@@ -63,19 +63,19 @@
         {
             "id": 10,
             "kanji": "百",
-            "arti": "Seratus",
+            "arti": "Seratus/100",
             "romanji": "Hyaku"
         },
         {
             "id": 11,
             "kanji": "千",
-            "arti": "Seribu",
+            "arti": "Seribu/1000",
             "romanji": "Sen"
         },
         {
             "id": 12,
             "kanji": "万",
-            "arti": "Sepuluh Ribu",
+            "arti": "Sepuluh Ribu/10000",
             "romanji": "Man"
         },
         {
@@ -367,12 +367,6 @@
             "romanji": "Chiisai"
         },
         {
-            "id": 62,
-            "kanji": "高",
-            "arti": "Tinggi",
-            "romanji": "Taka"
-        },
-        {
             "id": 63,
             "kanji": "低",
             "arti": "Rendah",
@@ -519,13 +513,13 @@
         {
             "id": 87,
             "kanji": "弟",
-            "arti": "Adik Laki",
+            "arti": "Adik Laki/adik cowok",
             "romanji": "Otouto"
         },
         {
             "id": 88,
             "kanji": "妹",
-            "arti": "Adik Perempuan",
+            "arti": "Adik Perempuan/adik cewek",
             "romanji": "Imouto"
         },
         {
@@ -735,7 +729,7 @@
         {
             "id": 0,
             "kanji": "高",
-            "arti": "Mahal",
+            "arti": "Mahal/tinggi",
             "romanji": "Takai"
         },
         {
@@ -753,7 +747,7 @@
         {
             "id": 5,
             "kanji": "古",
-            "arti": "Lama",
+            "arti": "Lama/tua",
             "romanji": "Furui"
         },
         {
@@ -885,7 +879,7 @@
         {
             "kanji": "体",
             "id": 14,
-            "arti": "tubuh",
+            "arti": "tubuh/badan",
             "romanji": "karada"
         },
         {

@@ -39,65 +39,65 @@ class HomePage extends StatelessWidget {
                       onPressed: () {
                         Routemaster.of(context).push('/pre_quiz/0');
                       },
-                      child: const Text('Single Kanji N5 & N4'),
+                      child: const Text('Single Kanji'),
                     ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/1');
-                      },
-                      child: const Text('Semua Kata'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/2');
-                      },
-                      child: const Text('Kata Sifat'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/3');
-                      },
-                      child: const Text('Kata Benda'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/4');
-                      },
-                      child: const Text('Kata Kerja'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/5');
-                      },
-                      child: const Text('Kata Sayur dan Buah'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/6');
-                      },
-                      child: const Text('Kata Hewan'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/7');
-                      },
-                      child: const Text('Kata Cuaca'),
-                    ),
-                    const SizedBox(height: 8,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/8');
-                      },
-                      child: const Text('Kata Pekerjaan'),
-                    ),
-                    const SizedBox(height: 8,),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/1');
+                    //   },
+                    //   child: const Text('Semua Kata'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/2');
+                    //   },
+                    //   child: const Text('Kata Sifat'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/3');
+                    //   },
+                    //   child: const Text('Kata Benda'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/4');
+                    //   },
+                    //   child: const Text('Kata Kerja'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/5');
+                    //   },
+                    //   child: const Text('Kata Sayur dan Buah'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/6');
+                    //   },
+                    //   child: const Text('Kata Hewan'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/7');
+                    //   },
+                    //   child: const Text('Kata Cuaca'),
+                    // ),
+                    // const SizedBox(height: 8,),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push('/pre_quiz/8');
+                    //   },
+                    //   child: const Text('Kata Pekerjaan'),
+                    // ),
+                    const SizedBox(height: 16,),
                     ElevatedButton(
                       onPressed: () {
                         Routemaster.of(context).push('/pre_quiz/9');
