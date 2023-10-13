@@ -19,7 +19,10 @@ class Quiz2Page extends StatelessWidget {
     int correctCount = 0;
     String? inputQuiz;
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        toolbarHeight: 0,
+      ),
       body: StatefulBuilder(
         builder: (context, setState) {
           final (katakana, romanji) = quizController.generateRandomKatakanaWord(lenKatakana, withAdd, withLong);
@@ -42,7 +45,6 @@ class Quiz2Page extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SizedBox(height: 16,),
                 StatefulValueBuilder<bool>(
                   initialValue: false,
                   builder: (context, value, setValue) => Row(
@@ -54,7 +56,7 @@ class Quiz2Page extends StatelessWidget {
                           "$correctCount/$len",
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                            fontSize: 32,
+                            fontSize: 20,
                             fontWeight: FontWeight.bold
                           ),
                         )

@@ -447,7 +447,7 @@
         {
             "id": 76,
             "kanji": "後",
-            "arti": "Belakang",
+            "arti": "Belakang/after/later/nanti",
             "romanji": "Ushiro"
         },
         {
@@ -980,7 +980,7 @@
         },{
             "kanji": "寺",
             "id": 14,
-            "arti": "temple/candi",
+            "arti": "kuil/temple/candi",
             "romanji": "tera"
         },
         {
@@ -1047,13 +1047,209 @@
             "kanji": "天",
             "id": 14,
             "arti": "langit/surga",
-            "romanji": "amatsu"
+            "romanji": "ten"
         },
         {
             "kanji": "石",
             "id": 14,
             "arti": "batu/rock/stone",
             "romanji": "ishi"
+        },
+        {
+            "kanji": "卵",
+            "arti": "telur/telor",
+            "romanji": "tamago"
+        },
+        {
+            "kanji": "暇",
+            "arti": "free/bebas",
+            "romanji": "hima"
+        },
+        {
+            "kanji": "作",
+            "arti": "buat/bikin/make",
+            "romanji": "tsukuru"
+        },
+        {
+            "kanji": "服",
+            "arti": "pakaian",
+            "romanji": "fuku"
+        },
+        {
+            "kanji": "空",
+            "arti": "sky/free",
+            "romanji": "kuu/sora"
+        },
+        {
+            "kanji": "午",
+            "arti": "go/sore",
+            "romanji": "go"
+        },
+        {
+            "kanji": "社",
+            "arti": "kantor/company/komunitas",
+            "romanji": "sha"
+        },
+        {
+            "kanji": "会",
+            "arti": "meet/bertemu/rindu/kumpul",
+            "romanji": "kai"
+        },
+        {
+            "kanji": "早",
+            "arti": "early/fast/quick",
+            "romanji": "sou"
+        },
+        {
+            "kanji": "道",
+            "arti": "path/way/street/jalan",
+            "romanji": "michi"
+        },
+        {
+            "kanji": "洗",
+            "arti": "wash/cuci",
+            "romanji": "sen/arau"
+        },
+        {
+            "kanji": "事",
+            "romanji": "ji/goto",
+            "arti": "hal/urusan/pekerjaan/perkara/kejadian"
+        },
+        {
+            "kanji": "場",
+            "romanji": "ba",
+            "arti": "tempat/lapangan/arena/lingkungan"
+        },
+        {
+            "kanji": "事",
+            "romanji": "ji/koto",
+            "arti": "hal/urusan/pekerjaan/perkara/kejadian"
+        },
+        {
+            "kanji": "場",
+            "romanji": "ba",
+            "arti": "tempat/lapangan/arena/lingkungan"
+        },
+        {
+            "kanji": "発",
+            "romanji": "hatsu",
+            "arti": "berangkat/pengiriman/penemuan/keluar"
+        },
+        {
+            "kanji": "者",
+            "romanji": "sha/mono",
+            "arti": "orang/pelaku/individu"
+        },
+        {
+            "kanji": "問",
+            "romanji": "mon/to",
+            "arti": "pertanyaan/permintaan/mencari tahu"
+        },
+        {
+            "kanji": "主",
+            "romanji": "shu/nushi",
+            "arti": "pemilik/tuan/kepala/tuan rumah"
+        },
+        {
+            "kanji": "不",
+            "romanji": "fu/bu",
+            "arti": "tidak/negatif"
+        },
+        {
+            "kanji": "公",
+            "romanji": "kou",
+            "arti": "publik/umum/pemerintah"
+        },
+        {
+            "kanji": "持",
+            "romanji": "ji/mo",
+            "arti": "memegang/memiliki"
+        },
+        {
+            "kanji": "思",
+            "romanji": "shi/omou",
+            "arti": "berpikir/merasa"
+        },
+        {
+            "kanji": "正",
+            "romanji": "sei/shou",
+            "arti": "benar/tepat/lurus/kebijakan"
+        },
+        {
+            "kanji": "心",
+            "romanji": "shin/kokoro",
+            "arti": "hati/pikiran/perasaan"
+        },
+        {
+            "kanji": "世",
+            "romanji": "sei/yo",
+            "arti": "dunia/generasi/zaman"
+        },
+        {
+            "kanji": "京",
+            "romanji": "kyou",
+            "arti": "ibu kota"
+        },
+        {
+            "kanji": "員",
+            "romanji": "in",
+            "arti": "anggota/staf/personel"
+        },
+        {
+            "kanji": "同",
+            "romanji": "dou/onaji",
+            "arti": "sama/serupa/bersama"
+        },
+        {
+            "kanji": "文",
+            "romanji": "bun/mon",
+            "arti": "tulisan/bahasa/budaya"
+        },
+        {
+            "kanji": "重",
+            "romanji": "juu/omoi",
+            "arti": "berat/penting/ganda"
+        },
+        {
+            "kanji": "品",
+            "romanji": "hin/shina",
+            "arti": "barang/produk/kualitas"
+        },
+        {
+            "kanji": "工",
+            "romanji": "kou",
+            "arti": "pekerjaan/kerajinan/industri"
+        },
+        {
+            "kanji": "止",
+            "romanji": "shi/to",
+            "arti": "berhenti/henti"
+        },
+        {
+            "kanji": "待",
+            "romanji": "tai/machi",
+            "arti": "menunggu/menanti"
+        },
+        {
+            "kanji": "死",
+            "romanji": "shi",
+            "arti": "kematian/mati"
+        },
+        {
+            "kanji": "計",
+            "romanji": "kei/hakaru",
+            "arti": "menghitung/perencanaan/rencana"
+        },
+        {
+            "kanji": "画",
+            "romanji": "ga",
+            "arti": "gambar/lukisan"
+        },
+        {
+            "kanji": "建",
+            "romanji": "ken/tateru",
+            "arti": "membangun/konstruksi"
         }
+
     ]
 }

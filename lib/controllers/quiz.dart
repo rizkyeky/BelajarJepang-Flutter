@@ -72,7 +72,7 @@ class QuizController {
   }
 
   Future<List<KanjiModel>> loadSingleN5() async {
-    final rawJson = await rootBundle.loadString('assets/data/single_n5.json');
+    final rawJson = await rootBundle.loadString('assets/data/single.json');
     final json = jsonDecode(rawJson);
     return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
   }
@@ -175,9 +175,6 @@ class QuizController {
   (String, String) generateRandomKatakanaWord(int length, [bool withAdd=true, bool withLong=true]) {
     final random = Random(DateTime.now().millisecondsSinceEpoch);
 
-    // final katakanaNormalChars = katakanaNormalMap.keys.toList();
-    // final katakanaAddChars = katakanaAddMap.keys.toList();
-    // final katakanaLongChars = katakanaLongMap.keys.toList();
     final katakanaBuffer = StringBuffer();
     final romanjiBuffer = StringBuffer();
     

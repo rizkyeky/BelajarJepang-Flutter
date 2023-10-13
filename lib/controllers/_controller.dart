@@ -11,8 +11,8 @@ part 'quiz.dart';
 class KanjiModel {
   final int id;
   final String kanji;
-  final String arti;
-  final String romanji;
+  final List<String> arti;
+  final List<String> romanji;
 
   KanjiModel({
     required this.id,
@@ -24,8 +24,18 @@ class KanjiModel {
   factory KanjiModel.fromJson(Map<String, dynamic> json) => KanjiModel(
     id: json['id'],
     kanji: json['kanji'],
-    arti: json['arti'],
-    romanji: json['romanji'],
+    arti: (json['arti'] as String).split('/').map((str) {
+      if (str.isEmpty) {
+        return str;
+      }
+      return str[0].toUpperCase() + str.substring(1).toLowerCase();
+    }).toList(),
+    romanji: (json['romanji'] as String).split('/').map((str) {
+      if (str.isEmpty) {
+        return str;
+      }
+      return str[0].toUpperCase() + str.substring(1).toLowerCase();
+    }).toList(),
   );
 }
 

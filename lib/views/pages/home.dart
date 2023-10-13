@@ -8,7 +8,7 @@ class HomePage extends StatelessWidget {
     // final brightnessProvider = context.read<BrightnessProvider>();
     // final localeProvider = context.read<LocalizationProvider>();
     debugPrint('build home page');
-
+    final controller = PageController();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
@@ -24,90 +24,76 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
-      body: LayoutBuilder(
-        builder: (context, box) {
-          return Padding(
-            padding: const EdgeInsets.all(16),
-            child: Center(
-              child: SizedBox(
-                width: box.maxWidth > 400 ? 400 : box.maxWidth,
-                child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/0');
-                      },
-                      child: const Text('Single Kanji'),
+      body: PageView(
+        controller: controller,
+        children: [
+          LayoutBuilder(
+            builder: (context, box) {
+              return Padding(
+                padding: const EdgeInsets.all(16),
+                child: Center(
+                  child: SizedBox(
+                    width: box.maxWidth > 400 ? 400 : box.maxWidth,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        ElevatedButton(
+                          onPressed: () {
+                            Routemaster.of(context).push('/pre_quiz/0');
+                          },
+                          child: const Text('Single Kanji'),
+                        ),
+                        const SizedBox(height: 16,),
+                        ElevatedButton(
+                          onPressed: () {
+                            Routemaster.of(context).push('/pre_quiz/9');
+                          },
+                          child: const Text('Katakana'),
+                        ),
+                      ],
                     ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/1');
-                    //   },
-                    //   child: const Text('Semua Kata'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/2');
-                    //   },
-                    //   child: const Text('Kata Sifat'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/3');
-                    //   },
-                    //   child: const Text('Kata Benda'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/4');
-                    //   },
-                    //   child: const Text('Kata Kerja'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/5');
-                    //   },
-                    //   child: const Text('Kata Sayur dan Buah'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/6');
-                    //   },
-                    //   child: const Text('Kata Hewan'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/7');
-                    //   },
-                    //   child: const Text('Kata Cuaca'),
-                    // ),
-                    // const SizedBox(height: 8,),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Routemaster.of(context).push('/pre_quiz/8');
-                    //   },
-                    //   child: const Text('Kata Pekerjaan'),
-                    // ),
-                    const SizedBox(height: 16,),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push('/pre_quiz/9');
-                      },
-                      child: const Text('Katakana'),
-                    ),
-                  ],
+                  ),
                 ),
+              );
+            }
+          ),
+          Container(
+            color: Colors.red,
+          ),
+          Container(
+            color: Colors.amber,
+          )
+        ],
+      ),
+      bottomNavigationBar: StatefulValueBuilder<int>(
+        initialValue: 0,
+        builder: (context, stateValue, setValue) {
+          return BottomNavigationBar(
+            currentIndex: stateValue ?? 0,
+            onTap: (value) {
+              controller.animateToPage(value, 
+                duration: const Duration(milliseconds: 320), 
+                curve: Curves.easeOut,
+              );
+              if (stateValue != value) {
+                setValue(value);
+              }
+            },
+            items: const [
+              BottomNavigationBarItem(
+                icon:  Icon(Icons.home),
+                label: 'Home'
               ),
-            ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.search),
+                label: 'Search'
+              ),
+              BottomNavigationBarItem(
+                icon: Icon(Icons.menu_book),
+                label: 'Book'
+              )
+            ]
           );
         }
       ),

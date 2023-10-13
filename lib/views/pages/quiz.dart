@@ -17,7 +17,10 @@ class QuizPage extends StatelessWidget {
     int correctCount = 0;
     String? inputQuiz;
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        automaticallyImplyLeading: false,
+        toolbarHeight: 0,
+      ),
       body: FutureBuilder<List<KanjiModel>>(
         future: quizController.startQuiz(quizType, len, onlyKanji),
         builder: (context, snapshot) {
@@ -32,26 +35,22 @@ class QuizPage extends StatelessWidget {
               return StatefulBuilder(
                 builder: (context, setState) {
                   return SingleChildScrollView(
-                    padding: const EdgeInsets.all(16),
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.start,
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         SizedBox(
-                          height: 400,
-                          child: Center(
-                            child: Text(kanjis[correctCount].kanji,
-                              textAlign: TextAlign.center,
-                              style: TextStyle(
-                                fontSize: quizType == QuizType.satuKanji ? 240 
-                                : kanjis[correctCount].kanji.length > 2 ? 90 : 120,
-                                fontFamily: quizController.getRandomFontFamily(),
-                                height: 0,
-                              )
-                            ),
+                          width: 300,
+                          child: Text(kanjis[correctCount].kanji,
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 240,
+                              fontFamily: quizController.getRandomFontFamily(),
+                              height: 0,
+                            )
                           ),
                         ),
-                        const SizedBox(height: 16,),
                         StatefulValueBuilder<bool>(
                           initialValue: false,
                           builder: (context, value, setValue) => Row(
@@ -63,14 +62,14 @@ class QuizPage extends StatelessWidget {
                                   "$correctCount/$len",
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    fontSize: 32,
+                                    fontSize: 20,
                                     fontWeight: FontWeight.bold
                                   ),
                                 )
                               ),
                               Expanded(
                                 flex: 3,
-                                child: Text(value == true ? kanjis[correctCount].romanji : '----',
+                                child: Text(value == true ? kanjis[correctCount].romanji.join('/') : '----',
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
                                     fontSize: 32
@@ -111,7 +110,7 @@ class QuizPage extends StatelessWidget {
                         Center(
                           child: ElevatedButton(
                             onPressed: () {
-                              final artis = kanjis[correctCount].arti.toLowerCase().split('/');
+                              final artis = kanjis[correctCount].arti.map((e) => e.toLowerCase());
                               final correct = artis.any((element) => element == inputQuiz);
                               if (correct) {
                                 if (correctCount == kanjis.length-1) {
@@ -163,7 +162,7 @@ class QuizPage extends StatelessWidget {
                                 SnackBar(
                                   elevation: 0,
                                   backgroundColor: Colors.cyan.shade50,
-                                  content: Text(kanjis[correctCount].arti,
+                                  content: Text(kanjis[correctCount].arti.join(', '),
                                     style: const TextStyle(
                                       fontSize: 18,
                                       fontWeight: FontWeight.bold,
