@@ -4,19 +4,66 @@
             "id": 0,
             "kanji": "一",
             "arti": "Satu",
-            "romanji": "Ichi"
+            "romanji": "Ichi",
+            "contoh": [
+                {
+                    "kana": "一人",
+                    "romanji": "hitori",
+                    "arti": "sendiri/satu orang"
+                },
+                {
+                    "kana": "一つ",
+                    "romanji": "hitotsu",
+                    "arti": "satu benda"
+                },
+                {
+                    "kana": "一緒",
+                    "romanji": "issho",
+                    "arti": "bersama/together"
+                },
+                {
+                    "kana": "一杯",
+                    "romanji": "ippai",
+                    "arti": "Satu cangkir"
+                },
+                {
+                    "kana": "一回",
+                    "romanji": "ikkai",
+                    "arti": "Satu kali"
+                }
+
+            ]
         },
         {
             "id": 1,
             "kanji": "二",
             "arti": "Dua",
-            "romanji": "Ni"
+            "romanji": "Ni",
+            "contoh": [
+                {
+                    "kana": "二人",
+                    "romanji": "futari",
+                    "arti": "berdua/dua orang"
+                },
+                {
+                    "kana": "二つ",
+                    "romanji": "futatsu",
+                    "arti": "dua benda"
+                }
+            ]
         },
         {
             "id": 2,
             "kanji": "三",
             "arti": "Tiga",
-            "romanji": "San"
+            "romanji": "San",
+            "contoh": [
+                {
+                    "kana": "三人",
+                    "romanji": "sannin",
+                    "CRT": "bertiga/tiga orang"
+                }
+            ]
         },
         {
             "id": 3,
@@ -88,13 +135,42 @@
             "id": 14,
             "kanji": "口",
             "arti": "Mulut",
-            "romanji": "Kuchi"
+            "romanji": "Kuchi",
+            "contoh": [
+                {   
+                    "kana": "入口",
+                    "arti": "Pintu masuk",
+                    "romanji": "iriguchi"
+                },
+                {   
+                    "kana": "出口",
+                    "arti": "Pintu keluar",
+                    "romanji": "deguchi"
+                }
+            ]
         },
         {
             "id": 15,
             "kanji": "目",
             "arti": "Mata",
-            "romanji": "Me"
+            "romanji": "Me",
+            "contoh": [
+                {
+                    "romanji": "mokuteki",
+                    "arti": "Tujuan/maksud",
+                    "kana": "目的"
+                },
+                {
+                    "romanji": "medatsu",
+                    "arti": "Terlihat/menonjol",
+                    "kana": "目立つ"
+                },
+                {
+                    "romanji": "mokuji",
+                    "arti": "Daftar isi/indeks",
+                    "kana": "目次"
+                }
+            ]
         },
         {
             "id": 16,
@@ -106,7 +182,19 @@
             "id": 17,
             "kanji": "手",
             "arti": "Tangan",
-            "romanji": "Te"
+            "romanji": "Te",
+            "contoh": [
+                {
+                    "kana": "手紙",
+                    "arti": "Surat",
+                    "romanji": "tegami"
+                },
+                {
+                    "kana": "手洗い",
+                    "arti": "Tempat cuci tangan/wastafel",
+                    "romanji": "tearai"
+                }
+            ]
         },
         {
             "id": 18,
@@ -118,13 +206,57 @@
             "id": 19,
             "kanji": "本",
             "arti": "Buku",
-            "romanji": "Hon"
+            "romanji": "Hon",
+            "contoh": [
+                {
+                    "kana": "本当",
+                    "arti": "Benar/kebenaran",
+                    "romanji": "hontou"
+                },
+                {
+                    "kana": "本屋",
+                    "arti": "Toko buku",
+                    "romanji": "honya"
+                },
+                {
+                    "kana": "本気",
+                    "arti": "Serius/sungguh-sungguh",
+                    "romanji": "honki"
+                },
+                {
+                    "kana": "本物",
+                    "arti": "Asli/barang asli",
+                    "romanji": "honmono"
+                }
+            ]
         },
         {
             "id": 20,
             "kanji": "人",
             "arti": "Orang",
-            "romanji": "Hito"
+            "romanji": "Hito",
+            "contoh": [
+                {
+                    "romanji": "ningen",
+                    "arti": "Manusia",
+                    "kana": "人間"
+                },
+                {
+                    "romanji": "jinsei",
+                    "arti": "Kehidupan manusia",
+                    "kana": "人生"
+                },
+                {
+                    "romanji": "otona",
+                    "arti": "Orang dewasa",
+                    "kana": "大人"
+                },
+                {
+                    "romanji": "jinkou",
+                    "arti": "Populasi",
+                    "kana": "人口"
+                }
+            ]
         },
         {
             "id": 21,
@@ -136,25 +268,93 @@
             "id": 22,
             "kanji": "学",
             "arti": "Belajar",
-            "romanji": "Gaku"
+            "romanji": "Gaku",
+            "contoh": [
+                {
+                    "kana": "学校",
+                    "arti": "Sekolah",
+                    "romanji": "gakkou"
+                },
+                {
+                    "kana": "学生",
+                    "romanji": "gakusei",
+                    "arti": "siswa"
+                },
+                {
+                    "kana": "大学",
+                    "romanji": "daigaku",
+                    "arti": "kampus/universitas"
+                },
+                {
+                    "kana": "学ぶ",
+                    "romanji": "manabu",
+                    "arti": "belajar"
+                }
+            ]
         },
         {
             "id": 23,
             "kanji": "子",
             "arti": "Anak",
-            "romanji": "Ko"
+            "romanji": "Ko",
+            "contoh": [
+                {
+                    "kana": "kodomo",
+                    "arti": "Anak-anak",
+                    "romanji": "子供"
+                },
+                {
+                    "kana": "onnanoko",
+                    "arti": "Anak perempuan",
+                    "romanji": "女の子"
+                },
+                {
+                    "kana": "otokonoko",
+                    "arti": "Anak laki-laki",
+                    "romanji": "男の子"
+                },
+                {
+                    "kana": "shison",
+                    "arti": "generasi muda",
+                    "romanji": "子孫"
+                }
+            ]
         },
         {
             "id": 24,
             "kanji": "男",
             "arti": "Laki-laki/cowok",
-            "romanji": "Otoko"
+            "romanji": "Otoko",
+            "contoh": [
+                {
+                    "romanji": "dansei",
+                    "arti": "pria",
+                    "kana": "男性"
+                },
+                {
+                    "romanji": "otoko no ko",
+                    "arti": "Anak laki-laki",
+                    "kana": "男の子"
+                }
+            ]
         },
         {
             "id": 25,
             "kanji": "女",
             "arti": "Perempuan/cewek",
-            "romanji": "Onna"
+            "romanji": "Onna",
+            "contoh": [
+                {
+                    "romanji": "josei",
+                    "arti": "wanita",
+                    "kana": "女性"
+                },
+                {
+                    "romanji": "onna no ko",
+                    "arti": "Anak perempuan",
+                    "kana": "女の子"
+                }
+            ]
         },
         {
             "id": 26,
@@ -166,13 +366,47 @@
             "id": 27,
             "kanji": "山",
             "arti": "Gunung",
-            "romanji": "Yama"
+            "romanji": "Yama",
+            "contoh": [
+                {
+                    "romanji": "Fujisan",
+                    "arti": "Gunung Fuji",
+                    "kana": "富士山"
+                },
+                {
+                    "romanji": "sanchou",
+                    "arti": "Puncak gunung",
+                    "kana": "山頂"
+                },
+                {
+                    "romanji": "kazan",
+                    "arti": "Gunung api",
+                    "kana": "火山"
+                },
+                {
+                    "romanji": "sanmyaku",
+                    "arti": "pegunungan",
+                    "kana": "山脈"
+                }
+            ]
         },
         {
             "id": 28,
             "kanji": "川",
             "arti": "Sungai",
-            "romanji": "Kawa"
+            "romanji": "Kawa",
+            "contoh": [
+                {
+                    "romanji": "kawashita",
+                    "arti": "Hilir",
+                    "kana": "川下"
+                },
+                {
+                    "romanji": "kawakami",
+                    "arti": "Hulu",
+                    "kana": "川上"
+                }
+            ]
         },
         {
             "id": 29,
@@ -184,25 +418,103 @@
             "id": 30,
             "kanji": "花",
             "arti": "Bunga",
-            "romanji": "Hana"
+            "romanji": "Hana",
+            "contoh": [
+                {
+                    "romanji": "hanazono",
+                    "arti": "Taman bunga",
+                    "kana": "花園"
+                },
+                {
+                    "romanji": "nobana",
+                    "arti": "Bunga liar",
+                    "kana": "野花"
+                },
+                {
+                    "romanji": "kabin",
+                    "arti": "Vas bunga",
+                    "kana": "花瓶"
+                },
+                {
+                    "romanji": "hanabi",
+                    "arti": "Kembang api",
+                    "kana": "花火"
+                }
+            ]
         },
         {
             "id": 31,
             "kanji": "木",
             "arti": "Pohon",
-            "romanji": "Ki"
+            "romanji": "Ki",
+            "contoh": [
+                {
+                    "romanji": "mokuzai",
+                    "arti": "kayu",
+                    "kana": "木材"
+                },
+                {
+                    "romanji": "mokuyoubi",
+                    "arti": "kamis",
+                    "kana": "木曜日"
+                },
+                {
+                    "romanji": "mokkou",
+                    "arti": "Kerajinan kayu",
+                    "kana": "木工"
+                }
+            ]
         },
         {
             "id": 32,
             "kanji": "火",
             "arti": "Api",
-            "romanji": "Hi"
+            "romanji": "Hi",
+            "contoh": [
+                {
+                    "romanji": "kaji",
+                    "arti": "Kebakaran.",
+                    "kana": "火事"
+                },
+                {
+                    "romanji": "kayoubi",
+                    "arti": "Selasa",
+                    "kana": "火曜日"
+                },
+                {
+                    "romanji": "kazan",
+                    "arti": "Gunung berapi",
+                    "kana": "火山"
+                },
+                {
+                    "romanji": "hanabi",
+                    "arti": "Kembang api",
+                    "kana": "花火"
+                }
+            ]
         },
         {
             "id": 33,
             "kanji": "水",
             "arti": "Air",
-            "romanji": "Mizu"
+            "romanji": "Mizu",
+            "contoh": [
+                {
+                    "romanji": "suidou",
+                    "arti": "Saluran air",
+                    "kana": "水道"
+                },
+                {
+                    "romanji": "suiteki",
+                    "arti": "Tetesan air",
+                    "kana": "水滴"
+                },
+                {
+                    "romanji": "suiyoubi",
+                    "arti": "Selasa",
+                    "kana": "水曜日"
+                }
+            ]
         },
         {
             "id": 34,
@@ -214,7 +526,24 @@
             "id": 35,
             "kanji": "金",
             "arti": "Emas/uang",
-            "romanji": "Kin"
+            "romanji": "Kin", 
+            "contoh": [
+                {
+                    "kana": "お金",
+                    "arti": "Uang",
+                    "romanji": "okane"
+                },
+                {
+                    "kana": "金銭",
+                    "arti": "keuangan",
+                    "romanji": "kinsen"
+                },
+                {
+                    "kana": "金曜日",
+                    "arti": "Jumat",
+                    "romanji": "kinyoubi"
+                }
+            ]
         },
         {
             "id": 36,
@@ -316,13 +645,47 @@
             "id": 53,
             "kanji": "電",
             "arti": "Listrik",
-            "romanji": "Den"
+            "romanji": "Den",
+            "contoh": [
+                {
+                    "kana": "電車",
+                    "romanji": "densha",
+                    "arti": "mobil"
+                },
+                {
+                    "kana": "電話",
+                    "romanji": "denwa",
+                    "arti": "telepon"
+                },
+                {
+                    "kana": "電気",
+                    "romanji": "denki",
+                    "arti": "listrik"
+                }
+            ]
         },
         {
             "id": 54,
             "kanji": "日",
-            "arti": "Hari",
-            "romanji": "Nichi"
+            "arti": "Hari/Matahari",
+            "romanji": "Nichi",
+            "contoh": [
+                {   
+                    "kana": "日曜日",
+                    "romanji": "nichiyoubi",
+                    "arti": "minggu"
+                },
+                {
+                    "kana": "今日",
+                    "romanji": "kyou",
+                    "arti": "Hari ini/today"
+                },
+                {
+                    "kana": "明日",
+                    "romanji": "ashita",
+                    "arti": "Besok"
+                }
+            ]
         },
         {
             "id": 55,
@@ -375,7 +738,7 @@
         {
             "id": 64,
             "kanji": "時",
-            "arti": "Waktu",
+            "arti": "Waktu/Jam",
             "romanji": "Jitsu"
         },
         {
@@ -1218,17 +1581,17 @@
         {
             "kanji": "工",
             "romanji": "kou",
-            "arti": "pekerjaan/kerajinan/industri"
+            "arti": "teknik/pabrik/industri"
         },
         {
             "kanji": "止",
             "romanji": "shi/to",
-            "arti": "berhenti/henti"
+            "arti": "berhenti/henti/stop"
         },
         {
             "kanji": "待",
             "romanji": "tai/machi",
-            "arti": "menunggu/menanti"
+            "arti": "menunggu/menanti/tunggu"
         },
         {
             "kanji": "死",
@@ -1249,7 +1612,16 @@
             "kanji": "建",
             "romanji": "ken/tateru",
             "arti": "membangun/konstruksi"
+        },
+        {
+            "kanji": "息",
+            "romanji": "musuko",
+            "arti": "anak laki"
+        },
+        {
+            "kanji": "娘",
+            "romanji": "musume",
+            "arti": "anak perempuan"
         }
-
     ]
 }

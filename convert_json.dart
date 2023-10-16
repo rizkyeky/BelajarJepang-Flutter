@@ -2,32 +2,32 @@ import 'dart:convert';
 import 'dart:io';
 
 Future<void> main() async {
-  final file = File('assets/data/single.json');
-  final rawJson = await file.readAsString();
+  final oldFile = File('assets/data/_single.json');
+  final rawJson = await oldFile.readAsString();
   final json = jsonDecode(rawJson);
   final allKanji = json['list'] as List;
   
-  final newKanji = <Map<String, dynamic>>[];
+  final newKanji = <Map>[];
   int i = 0;
   for (final e in allKanji) {
     e['id'] = i++;
-    // e['arti'] = (e['arti'] as String).toLowerCase();
-    // e['romanji'] = (e['romanji'] as String).toLowerCase();
+    e['arti'] = (e['arti'] as String).toLowerCase();
+    e['romanji'] = (e['romanji'] as String).toLowerCase();
+    if (e.containsKey('contoh')) {
+      final contoh = e['contoh'] as List;
+      // final newContoh = <Map>[];
+      for (final c in contoh) {
+        c['arti'] = (c['arti'] as String).toLowerCase();
+        c['romanji'] = (c['romanji'] as String).toLowerCase();
+        // newContoh.add(c);
+      }
+      // e['contoh'] = newContoh;
+    }
     newKanji.add(e);
-    // for (final f in allKanji) {
-    //   if (e['kanji'] == f['kanji']) {
-    //     i++;
-    //   }
-    // }
-    // if (i > 1) {
-    //   print(e['kanji']);
-    // }
-    // i = 0;
   }
-  // print(newKanji[0]);
-  // print(newKanji[newKanji.length-1]);
   
-  await file.writeAsString(jsonEncode({
+  final newFile = File('assets/data/single.json');
+  await newFile.writeAsString(jsonEncode({
     'list': newKanji
   }));  
 }
