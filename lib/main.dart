@@ -32,6 +32,9 @@ Future<void> main() async {
         Provider(
           create: (context) => QuizController(),
         ),
+        Provider(
+          create: (context) => BookController(),
+        ),
       ],
       child: const MainApp()
     )

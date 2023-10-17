@@ -5,8 +5,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final brightnessProvider = context.read<BrightnessProvider>();
-    // final localeProvider = context.read<LocalizationProvider>();
     debugPrint('build home page');
     final controller = PageController();
     return Scaffold(
@@ -61,9 +59,50 @@ class HomePage extends StatelessWidget {
           Container(
             color: Colors.red,
           ),
-          Container(
-            color: Colors.amber,
-          )
+          LayoutBuilder(
+            builder: (context, box) {
+              return Padding(
+                padding: const EdgeInsets.all(16),
+                child: Center(
+                  child: SizedBox(
+                    width: box.maxWidth > 400 ? 400 : box.maxWidth,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        ElevatedButton(
+                          onPressed: () {
+                            // Routemaster.of(context).push('/pre_quiz/0');
+                            Navigator.push(context, 
+                              MaterialPageRoute(builder: (context) => const BookPage())
+                            );
+                          },
+                          child: const Text('Single Kanji'),
+                        ),
+                        const SizedBox(height: 16,),
+                        ElevatedButton(
+                          onPressed: () {
+                            // Routemaster.of(context).push('/pre_quiz/9');
+                            Navigator.push(context, 
+                              MaterialPageRoute(builder: (context) => const KosakataPage())
+                            );
+                          },
+                          child: const Text('Kosakata'),
+                        ),
+                        const SizedBox(height: 16,),
+                        ElevatedButton(
+                          onPressed: () {
+                            // Routemaster.of(context).push('/pre_quiz/9');
+                          },
+                          child: const Text('Kata Kerja'),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              );
+            }
+          ),
         ],
       ),
       bottomNavigationBar: StatefulValueBuilder<int>(

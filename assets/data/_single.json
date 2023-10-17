@@ -299,24 +299,24 @@
             "romanji": "Ko",
             "contoh": [
                 {
-                    "kana": "kodomo",
+                    "romanji": "kodomo",
                     "arti": "Anak-anak",
-                    "romanji": "子供"
+                    "kana": "子供"
                 },
                 {
-                    "kana": "onnanoko",
+                    "romanji": "onnanoko",
                     "arti": "Anak perempuan",
-                    "romanji": "女の子"
+                    "kana": "女の子"
                 },
                 {
-                    "kana": "otokonoko",
+                    "romanji": "otokonoko",
                     "arti": "Anak laki-laki",
-                    "romanji": "男の子"
+                    "kana": "男の子"
                 },
                 {
-                    "kana": "shison",
+                    "romanji": "shison",
                     "arti": "generasi muda",
-                    "romanji": "子孫"
+                    "kana": "子孫"
                 }
             ]
         },
@@ -1622,6 +1622,36 @@
             "kanji": "娘",
             "romanji": "musume",
             "arti": "anak perempuan"
+        },
+        {
+            "kanji": "夫",
+            "romanji": "otto",
+            "arti": "suami"
+        },
+        {
+            "kanji": "妻",
+            "romanji": "tsuma",
+            "arti": "istri"
+        },
+        {
+            "kanji": "関",
+            "romanji": "seki",
+            "arti": "hubungan/gerbang/barrier"
+        },
+        {
+            "kanji": "⻌",
+            "romanji": "shinnyo",
+            "arti": "jalan/path/gerakan/move"
+        },
+        {
+            "kanji": "運",
+            "romanji": "un",
+            "arti": "tadir/perjalanan"
+        },
+        {
+            "kanji": "位",
+            "romanji": "i",
+            "arti": "kedudukan/posisi/peringkat"
         }
     ]
 }
