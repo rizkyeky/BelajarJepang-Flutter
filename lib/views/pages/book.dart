@@ -39,7 +39,7 @@ class BookPage extends StatelessWidget {
                             flex: 1,
                             child: Column(
                               children: [
-                                Text(kanji.kanji,
+                                Text(kanji.kana,
                                   style: const TextStyle(
                                     fontSize: 48,
                                     fontWeight: FontWeight.bold,

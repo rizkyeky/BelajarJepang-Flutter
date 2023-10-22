@@ -42,7 +42,7 @@ class QuizPage extends StatelessWidget {
                       children: [
                         SizedBox(
                           width: 300,
-                          child: Text(kanjis[correctCount].kanji,
+                          child: Text(kanjis[correctCount].kana,
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 240,

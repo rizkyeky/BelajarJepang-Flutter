@@ -1,544 +1,2052 @@
 {
-    "list": [
+    "level1": [
         {
             "id": 0,
-            "kanji": "する",
+            "kana": "する",
             "arti": "Melakukan",
-            "romanji": "Suru"
+            "romanji": "suru",
+            "bentuk": {
+                "positif": {
+                    "kana": "します",
+                    "romanji": "simasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "しません",
+                    "romanji": "simasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "しない",
+                    "romanji": "sinai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "しました",
+                    "romanji": "simasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "した",
+                    "romanji": "sita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "しなかった",
+                    "romanji": "sinakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "して",
+                    "romanji": "shite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "しろ",
+                    "romanji": "shiro",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "したい",
+                    "romanji": "shitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 1,
-            "kanji": "行く",
+            "kana": "行く",
             "arti": "Pergi",
-            "romanji": "Iku"
+            "romanji": "Iku",
+            "bentuk": {
+                "positif": {
+                    "kana": "行きます",
+                    "romanji": "ikimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "行きません",
+                    "romanji": "ikimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "行かない",
+                    "romanji": "ikanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "行きました",
+                    "romanji": "ikimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "行った",
+                    "romanji": "itta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "行かなかった",
+                    "romanji": "ikanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "行って",
+                    "romanji": "itte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "行け",
+                    "romanji": "ike",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "行きたい",
+                    "romanji": "ikitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 2,
-            "kanji": "来る",
+            "kana": "来る",
             "arti": "Datang",
-            "romanji": "Kuru"
-        },
-        {
-            "id": 3,
-            "kanji": "言う",
-            "arti": "Berkata",
-            "romanji": "Iu"
+            "romanji": "Kuru",
+            "bentuk": {
+                "positif": {
+                    "kana": "来ます",
+                    "romanji": "kimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "来ません",
+                    "romanji": "kimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "来ない",
+                    "romanji": "konai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "来ました",
+                    "romanji": "kimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "来た",
+                    "romanji": "kita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "来なかった",
+                    "romanji": "konakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "来て",
+                    "romanji": "kite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "来い",
+                    "romanji": "koi",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "来たい",
+                    "romanji": "kitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 4,
-            "kanji": "見る",
+            "kana": "見る",
             "arti": "Melihat",
-            "romanji": "Miru"
+            "romanji": "Miru",
+            "bentuk": {
+                "positif": {
+                    "kana": "見ます",
+                    "romanji": "mimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "見ません",
+                    "romanji": "mimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "見ない",
+                    "romanji": "minai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "見ました",
+                    "romanji": "mimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "見た",
+                    "romanji": "mita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "見なかった",
+                    "romanji": "minakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "見て",
+                    "romanji": "mite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "見ろ",
+                    "romanji": "miro",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "見たい",
+                    "romanji": "mitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 5,
-            "kanji": "食べる",
+            "kana": "食べる",
             "arti": "Makan",
-            "romanji": "Taberu"
+            "romanji": "Taberu",
+            "bentuk": {
+                "positif": {
+                    "kana": "食べます",
+                    "romanji": "tabemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "食べません",
+                    "romanji": "tabemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "食べない",
+                    "romanji": "tabenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "食べました",
+                    "romanji": "tabemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "食べた",
+                    "romanji": "tabeta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "食べなかった",
+                    "romanji": "tabenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "食べて",
+                    "romanji": "tabete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "食べろ",
+                    "romanji": "tabero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "食べたい",
+                    "romanji": "tabetai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 6,
-            "kanji": "飲む",
+            "kana": "飲む",
             "arti": "Minum",
-            "romanji": "Nomu"
+            "romanji": "Nomu",
+            "bentuk": {
+                "positif": {
+                    "kana": "飲みます",
+                    "romanji": "nomimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "飲みません",
+                    "romanji": "nomimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "飲まない",
+                    "romanji": "nomanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "飲みました",
+                    "romanji": "nomimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "飲んだ",
+                    "romanji": "nonda",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "飲まなかった",
+                    "romanji": "nomanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "飲んで",
+                    "romanji": "nonde",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "飲め",
+                    "romanji": "nome",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "飲みたい",
+                    "romanji": "nomitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 7,
-            "kanji": "寝る",
+            "kana": "寝る",
             "arti": "Tidur",
-            "romanji": "Neru"
-        },
-        {
-            "id": 8,
-            "kanji": "起きる",
-            "arti": "Bangun",
-            "romanji": "Okiru"
-        },
-        {
-            "id": 9,
-            "kanji": "知る",
-            "arti": "Tahu",
-            "romanji": "Shiru"
-        },
-        {
-            "id": 10,
-            "kanji": "学ぶ",
-            "arti": "Belajar",
-            "romanji": "Manabu"
-        },
-        {
-            "id": 11,
-            "kanji": "教える",
-            "arti": "Memberitahu/menjelaskan/tell/explain",
-            "romanji": "Oshieru"
+            "romanji": "Neru",
+            "bentuk": {
+                "positif": {
+                    "kana": "寝ます",
+                    "romanji": "nemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "寝ません",
+                    "romanji": "nemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "寝ない",
+                    "romanji": "nenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "寝ました",
+                    "romanji": "nemasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "寝た",
+                    "romanji": "neta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "寝なかった",
+                    "romanji": "nenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "寝て",
+                    "romanji": "nete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "寝ろ",
+                    "romanji": "nero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "寝たい",
+                    "romanji": "netai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 12,
-            "kanji": "聞く",
+            "kana": "聞く",
             "arti": "Mendengar",
-            "romanji": "Kiku"
+            "romanji": "Kiku",
+            "bentuk": {
+                "positif": {
+                    "kana": "聞ます",
+                    "romanji": "kimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "聞きません",
+                    "romanji": "kikimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "聞かない",
+                    "romanji": "kikanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "聞きました",
+                    "romanji": "kikimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "聞いた",
+                    "romanji": "kiita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "聞かなかった",
+                    "romanji": "kikanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "聞いて",
+                    "romanji": "kiite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "聞け",
+                    "romanji": "kike",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 聞きたい",
+                    "romanji": "kikitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 13,
-            "kanji": "読む",
+            "kana": "読む",
             "arti": "Membaca",
-            "romanji": "Yomu"
+            "romanji": "Yomu",
+            "bentuk": {
+                "positif": {
+                    "kana": "読みます",
+                    "romanji": "yomimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "読みません",
+                    "romanji": "yomimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "読まない",
+                    "romanji": "yomanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "読みました",
+                    "romanji": "yomimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "読んだ",
+                    "romanji": "yonda",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "読まなかった",
+                    "romanji": "yomanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "読んで",
+                    "romanji": "yonde",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "読め",
+                    "romanji": "yome",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "読みたい",
+                    "romanji": "yomitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 14,
-            "kanji": "書く",
+            "kana": "話す",
+            "arti": "bicara",
+            "romanji": "Kaku",
+            "bentuk": {
+                "positif": {
+                    "kana": "話します",
+                    "romanji": "hanashimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "話しません",
+                    "romanji": "hanashimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "話さない",
+                    "romanji": "hanasanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "話しました",
+                    "romanji": "hanashimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "話した",
+                    "romanji": "hanashita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "話さなかった",
+                    "romanji": "hanasanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "話して",
+                    "romanji": "hanashite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "話せ",
+                    "romanji": "hanase",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "話したい",
+                    "romanji": "hanashitai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 11,
+            "kana": "教える",
+            "arti": "Memberitahu/menjelaskan",
+            "romanji": "Oshieru",
+            "bentuk": {
+                "positif": {
+                    "kana": "教えます",
+                    "romanji": "oshiemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "教えません",
+                    "romanji": "oshiemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "教えない",
+                    "romanji": "oshienai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "教えました",
+                    "romanji": "oshiemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "教えた",
+                    "romanji": "oshieta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "教えなかった",
+                    "romanji": "oshienakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "教えて",
+                    "romanji": "oshiete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "教えろ",
+                    "romanji": "oshiero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "教えたい",
+                    "romanji": "oshietai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 0,
+            "kana": "上げる",
+            "arti": "Memberi",
+            "romanji": "Ageru",
+            "bentuk": {
+                "positif": {
+                    "kana": "上げます",
+                    "romanji": "agemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "上げません",
+                    "romanji": "agemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "上げない",
+                    "romanji": "agenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "上げました",
+                    "romanji": "agemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "上げた",
+                    "romanji": "ageta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "上げなかった",
+                    "romanji": "agenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "上げて",
+                    "romanji": "agete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "上げろ",
+                    "romanji": "agero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "上げたい",
+                    "romanji": "agetai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 14,
+            "kana": "書く",
             "arti": "Menulis",
-            "romanji": "Kaku"
+            "romanji": "Kaku",
+            "bentuk": {
+                "positif": {
+                    "kana": "書きます",
+                    "romanji": "kakimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "書きません",
+                    "romanji": "kakimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "書かない",
+                    "romanji": "kakanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "書きました",
+                    "romanji": "kakimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "書いた",
+                    "romanji": "kaita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "書かなかった",
+                    "romanji": "kakanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "書いて",
+                    "romanji": "kaite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "書け",
+                    "romanji": "kake",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 書きたい",
+                    "romanji": "kakitai",
+                    "contoh": ""
+                }
+            }
         },
         {
-            "id": 15,
-            "kanji": "笑う",
-            "arti": "Tertawa",
-            "romanji": "Warau"
+            "id": 8,
+            "kana": "起きる",
+            "arti": "Bangun",
+            "romanji": "Okiru",
+            "bentuk": {
+                "positif": {
+                    "kana": "起きます",
+                    "romanji": "okimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "起きません",
+                    "romanji": "okimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "起きない",
+                    "romanji": "okinai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "起きました",
+                    "romanji": "okimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "起きた",
+                    "romanji": "okita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "起きなかった",
+                    "romanji": "okinakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "起きて",
+                    "romanji": "okite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "起きろ",
+                    "romanji": "okiro",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 起きたい",
+                    "romanji": "okitai",
+                    "contoh": ""
+                }
+            }
         },
         {
-            "id": 16,
-            "kanji": "泣く",
-            "arti": "Menangis",
-            "romanji": "Naku"
-        },
-        {
-            "id": 17,
-            "kanji": "歌う",
-            "arti": "Bernyanyi",
-            "romanji": "Utau"
-        },
-        {
-            "id": 18,
-            "kanji": "踊る",
-            "arti": "Menari",
-            "romanji": "Odoru"
-        },
-        {
-            "id": 19,
-            "kanji": "描く",
-            "arti": "Menggambar",
-            "romanji": "Egaku"
+            "id": 9,
+            "kana": "知る",
+            "arti": "Tahu",
+            "romanji": "Shiru",
+            "bentuk": {
+                "positif": {
+                    "kana": "知ります",
+                    "romanji": "sirimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "知りません",
+                    "romanji": "sirimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "知らない",
+                    "romanji": "siranai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "知りました",
+                    "romanji": "sirimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "知った",
+                    "romanji": "sitta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "知らなかった",
+                    "romanji": "siranakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "知って",
+                    "romanji": "sitte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "知れ",
+                    "romanji": "sire",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 知りたい",
+                    "romanji": "siritai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 20,
-            "kanji": "走る",
+            "kana": "走る",
             "arti": "Berlari",
-            "romanji": "Hashiru"
+            "romanji": "Hashiru",
+            "bentuk": {
+                "positif": {
+                    "kana": "走ります",
+                    "romanji": "hasirimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "走りません",
+                    "romanji": "hasirimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "走らない",
+                    "romanji": "hasiranai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "走りました",
+                    "romanji": "hasirimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "走った",
+                    "romanji": "hasitta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "走らなかった",
+                    "romanji": "hasiranakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "走って",
+                    "romanji": "hasitte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "走れ",
+                    "romanji": "hasire",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 走りたい",
+                    "romanji": "hasiritai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 27,
+            "kana": "遊ぶ",
+            "arti": "Bermain",
+            "romanji": "Asobu",
+            "bentuk": {
+                "positif": {
+                    "kana": "遊びます",
+                    "romanji": "asobimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "遊びません",
+                    "romanji": "asobimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "遊ばない",
+                    "romanji": "asobanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "遊びました",
+                    "romanji": "asobimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "遊んだ ",
+                    "romanji": "asonda",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "遊ばなかった",
+                    "romanji": "asobanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "遊んで",
+                    "romanji": "asonde",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "遊べ",
+                    "romanji": "asobe",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 遊びたい",
+                    "romanji": "asobitai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 30,
+            "kana": "休む",
+            "arti": "Istirahat",
+            "romanji": "Yasumu",
+            "bentuk": {
+                "positif": {
+                    "kana": "休みます",
+                    "romanji": "yasumimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "休みません",
+                    "romanji": "yasumimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "休まない",
+                    "romanji": "yasumanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "休みました",
+                    "romanji": "yasumimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "休んだ",
+                    "romanji": "yasunda",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "休まなかった",
+                    "romanji": "yasumanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "休んで",
+                    "romanji": "yasunde",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "休め",
+                    "romanji": "yasume",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "休みたい",
+                    "romanji": "yasumitai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 3,
+            "kana": "言う",
+            "arti": "Berkata",
+            "romanji": "iu",
+            "bentuk": {
+                "positif": {
+                    "kana": "言います",
+                    "romanji": "iimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "言いません",
+                    "romanji": "iimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "言わない",
+                    "romanji": "iwanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "言いました",
+                    "romanji": "iimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "言った",
+                    "romanji": "itta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "言わなかった",
+                    "romanji": "iwanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "言って",
+                    "romanji": "itte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "言え",
+                    "romanji": "ie",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "言いたい",
+                    "romanji": "iitai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 71,
+            "kana": "覚える",
+            "arti": "Mengingat",
+            "romanji": "Oboeru",
+            "bentuk": {
+                "positif": {
+                    "kana": "覚えます",
+                    "romanji": "oboemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "覚えません",
+                    "romanji": "oboemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "覚えない",
+                    "romanji": "oboenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "覚えました",
+                    "romanji": "oboemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "覚えた",
+                    "romanji": "oboeta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "覚えなかった",
+                    "romanji": "oboenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "覚えて",
+                    "romanji": "oboete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "覚えろ",
+                    "romanji": "oboero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "覚えたい",
+                    "romanji": "oboetai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 54,
+            "kana": "忘れる",
+            "arti": "Lupa",
+            "romanji": "Wasureru",
+            "bentuk": {
+                "positif": {
+                    "kana": "忘れます",
+                    "romanji": "wasuremasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "忘れません",
+                    "romanji": "wasuremasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "忘れない",
+                    "romanji": "wasurenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "忘れました",
+                    "romanji": "wasuremashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "忘れた",
+                    "romanji": "wasureta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "忘れなかった",
+                    "romanji": "wasurenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "忘れて",
+                    "romanji": "wasurete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "忘れろ",
+                    "romanji": "wasurero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "忘れたい",
+                    "romanji": "wasuretai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 54,
+            "kana": "判る",
+            "arti": "Mengerti",
+            "romanji": "wakaru",
+            "bentuk": {
+                "positif": {
+                    "kana": "判ります",
+                    "romanji": "wakarimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "判りません",
+                    "romanji": "wakarimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "判らない",
+                    "romanji": "wakaranai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "判りました",
+                    "romanji": "wakarimasita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "判った",
+                    "romanji": "wakatta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "判らなかった",
+                    "romanji": "wakaranakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "判って",
+                    "romanji": "wakatte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "判れ",
+                    "romanji": "wakare",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": " 判りたい",
+                    "romanji": "wakaritai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 54,
+            "kana": "答える",
+            "arti": "Menjawab",
+            "romanji": "kotaeru",
+            "bentuk": {
+                "positif": {
+                    "kana": "答えます",
+                    "romanji": "kotaemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "答えません",
+                    "romanji": "kotaemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "答えない",
+                    "romanji": "kotaenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "答えました",
+                    "romanji": "kotaemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "答えた",
+                    "romanji": "kotaeta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "答えなかった",
+                    "romanji": "kotaenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "答えて",
+                    "romanji": "kotaete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "答えろ",
+                    "romanji": "kotaero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "答えたい",
+                    "romanji": "kotaetai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 36,
+            "kana": "買う",
+            "arti": "Membeli",
+            "romanji": "Kau",
+            "bentuk": {
+                "positif": {
+                    "kana": "買います",
+                    "romanji": "kaimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "買いません",
+                    "romanji": "kaimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "買わない",
+                    "romanji": "kawanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "買いました",
+                    "romanji": "kaimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "買った",
+                    "romanji": "katta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "買わなかった",
+                    "romanji": "kawanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "買って",
+                    "romanji": "katte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "買え",
+                    "romanji": "kae",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "買いたい",
+                    "romanji": "kaitai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 21,
-            "kanji": "歩く",
-            "arti": "Berjalan",
-            "romanji": "Aruku"
+            "kana": "入る",
+            "arti": "masuk",
+            "romanji": "hairu",
+            "bentuk": {
+                "positif": {
+                    "kana": "入ります",
+                    "romanji": "hairimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "入りません",
+                    "romanji": "hairimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "入らない",
+                    "romanji": "hairanai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "入りました",
+                    "romanji": "hairimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "入った",
+                    "romanji": "haitta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "入らなかった",
+                    "romanji": "hairanakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "入って",
+                    "romanji": "haitte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "入れ",
+                    "romanji": "haire",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "入りたい",
+                    "romanji": "hairitai",
+                    "contoh": ""
+                }    
+            }
+        },
+        {
+            "id": 21,
+            "kana": "出る",
+            "arti": "Keluar",
+            "romanji": "Deru",
+            "bentuk": {
+                "positif": {
+                    "kana": "出ます",
+                    "romanji": "demasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "出ません",
+                    "romanji": "demasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "出ない",
+                    "romanji": "denai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "出ました",
+                    "romanji": "demashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "出た",
+                    "romanji": "deta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "出なかった",
+                    "romanji": "denakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "出て",
+                    "romanji": "dete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "出ろ",
+                    "romanji": "dero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "出たい",
+                    "romanji": "detai",
+                    "contoh": ""
+                }    
+            }
+        },
+        {
+            "id": 21,
+            "kana": "開ける",
+            "arti": "Buka",
+            "romanji": "Akeru",
+            "bentuk": {
+                "positif": {
+                    "kana": "開けます",
+                    "romanji": "akemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "開けません",
+                    "romanji": "akemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "開けない",
+                    "romanji": "akenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "開けました",
+                    "romanji": "akemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "開けた",
+                    "romanji": "aketa",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "開けなかった",
+                    "romanji": "akenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "開けて",
+                    "romanji": "akete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "開け",
+                    "romanji": "ake",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "開けたい",
+                    "romanji": "aketai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 21,
+            "kana": "閉じる",
+            "arti": "Tutup",
+            "romanji": "Tojiru",
+            "bentuk": {
+                "positif": {
+                    "kana": "閉じます",
+                    "romanji": "tojimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "閉じません",
+                    "romanji": "tojimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "閉じない",
+                    "romanji": "tojinai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "閉じました",
+                    "romanji": "tojimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "閉じた",
+                    "romanji": "tojita",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "閉じなかった",
+                    "romanji": "tojinakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "閉じて",
+                    "romanji": "tojite",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "閉じろ",
+                    "romanji": "tojiro",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "閉じたい",
+                    "romanji": "tojitai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 48,
+            "kana": "始める",
+            "arti": "Memulai",
+            "romanji": "Hajimeru",
+            "bentuk": {
+                "positif": {
+                    "kana": "始めます",
+                    "romanji": "hajimemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "始めません",
+                    "romanji": "hajimemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "始めない",
+                    "romanji": "hajimenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "始めました",
+                    "romanji": "hajimemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "始めた",
+                    "romanji": "hajimeta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "始めなかった",
+                    "romanji": "hajimenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "始めて",
+                    "romanji": "hajimete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "始めろ",
+                    "romanji": "hajimero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "始めたい",
+                    "romanji": "hajimetai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 49,
+            "kana": "終わる",
+            "arti": "Selesai",
+            "romanji": "Owaru",
+            "bentuk": {
+                "positif": {
+                    "kana": "終わります",
+                    "romanji": "owarimasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "終わりません",
+                    "romanji": "owarimasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "終わらない",
+                    "romanji": "owaranai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "終わりました",
+                    "romanji": "owarimashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "終わった",
+                    "romanji": "owatta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "終わらなかった",
+                    "romanji": "owaranakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "終わって",
+                    "romanji": "owatte",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "終われ",
+                    "romanji": "oware",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "終わりたい",
+                    "romanji": "owaritai",
+                    "contoh": ""
+                }
+            }
+        },
+        {
+            "id": 49,
+            "kana": "やめる",
+            "arti": "Berhenti",
+            "romanji": "Yameru",
+            "bentuk": {
+                "positif": {
+                    "kana": "やめます",
+                    "romanji": "yamemasu",
+                    "contoh": ""
+                },
+                "negatif": {
+                    "kana": "やめりません",
+                    "romanji": "yamemasen",
+                    "contoh": ""
+                },
+                "negatif2": {
+                    "kana": "やめない",
+                    "romanji": "yamenai",
+                    "contoh": ""
+                },
+                "past": {
+                    "kana": "やめました",
+                    "romanji": "yamemashita",
+                    "contoh": ""
+                },
+                "past2": {
+                    "kana": "やめった",
+                    "romanji": "yametta",
+                    "contoh": ""
+                },
+                "past_negatif": {
+                    "kana": "やめらなかった",
+                    "romanji": "yamenakatta",
+                    "contoh": ""
+                },
+                "command": {
+                    "kana": "やめて",
+                    "romanji": "yamete",
+                    "contoh": ""
+                },
+                "command2": {
+                    "kana": "やめろ",
+                    "romanji": "yamero",
+                    "contoh": ""
+                },
+                "want": {
+                    "kana": "やめりたい",
+                    "romanji": "yametai",
+                    "contoh": ""
+                }
+            }
         },
         {
             "id": 22,
-            "kanji": "座る",
+            "kana": "座る",
             "arti": "Duduk",
             "romanji": "Suwaru"
         },
         {
             "id": 23,
-            "kanji": "立つ",
+            "kana": "立つ",
             "arti": "Berdiri",
             "romanji": "Tatsu"
         },
         {
-            "id": 24,
-            "kanji": "座る",
-            "arti": "Duduk",
-            "romanji": "Suwaru"
-        },
-        {
-            "id": 25,
-            "kanji": "立つ",
-            "arti": "Berdiri",
-            "romanji": "Tachisu"
-        },
-        {
-            "id": 26,
-            "kanji": "泳ぐ",
-            "arti": "Berenang",
-            "romanji": "Oyogu"
-        },
-        {
-            "id": 27,
-            "kanji": "遊ぶ",
-            "arti": "Bermain",
-            "romanji": "Asobu"
-        },
-        {
-            "id": 28,
-            "kanji": "勉強する",
-            "arti": "Belajar",
-            "romanji": "Benkyou suru"
-        },
-        {
-            "id": 29,
-            "kanji": "働く",
-            "arti": "Bekerja",
-            "romanji": "Hataraku"
-        },
-        {
-            "id": 30,
-            "kanji": "休む",
-            "arti": "Beristirahat",
-            "romanji": "Yasumu"
-        },
-        {
             "id": 31,
-            "kanji": "着る",
+            "kana": "着る",
             "arti": "Memakai",
             "romanji": "Kiru"
         },
         {
-            "id": 32,
-            "kanji": "脱ぐ",
-            "arti": "Membuka pakaian",
-            "romanji": "Nugu"
-        },
-        {
             "id": 33,
-            "kanji": "洗う",
+            "kana": "洗う",
             "arti": "Mencuci",
             "romanji": "Arau"
         },
         {
-            "id": 34,
-            "kanji": "乗る",
-            "arti": "Naik",
-            "romanji": "Noru"
+            "id": 26,
+            "kana": "泳ぐ",
+            "arti": "Berenang",
+            "romanji": "Oyogu"
         },
         {
-            "id": 35,
-            "kanji": "降りる",
-            "arti": "Turun",
-            "romanji": "Oriru"
+            "id": 21,
+            "kana": "歩く",
+            "arti": "Berjalan",
+            "romanji": "Aruku"
         },
         {
-            "id": 36,
-            "kanji": "買う",
-            "arti": "Membeli",
-            "romanji": "Kau"
+            "id": 21,
+            "kana": "取る",
+            "arti": "Ambil",
+            "romanji": "Toru"
         },
         {
             "id": 37,
-            "kanji": "売る",
+            "kana": "売る",
             "arti": "Menjual",
             "romanji": "Uru"
         },
         {
+            "id": 72,
+            "kana": "信じる",
+            "arti": "Percaya",
+            "romanji": "Shinjiru"
+        },
+        {
+            "id": 15,
+            "kana": "笑う",
+            "arti": "Tertawa",
+            "romanji": "Warau"
+        },
+        {
+            "id": 16,
+            "kana": "泣いてる",
+            "arti": "Menangis",
+            "romanji": "Naiteru"
+        },
+        {
+            "id": 10,
+            "kana": "学ぶ",
+            "arti": "Belajar",
+            "romanji": "Manabu"
+        }
+    ],
+    "level2": [
+        {
+            "id": 15,
+            "kana": "笑う",
+            "arti": "Tertawa",
+            "romanji": "Warau"
+        },
+        {
+            "id": 17,
+            "kana": "歌う",
+            "arti": "Bernyanyi",
+            "romanji": "Utau"
+        },
+        {
+            "id": 18,
+            "kana": "踊る",
+            "arti": "Menari",
+            "romanji": "Odoru"
+        },
+        {
+            "id": 19,
+            "kana": "描く",
+            "arti": "Menggambar",
+            "romanji": "Egaku"
+        },
+
+        {
+            "id": 29,
+            "kana": "働く",
+            "arti": "Bekerja",
+            "romanji": "Hataraku"
+        },
+        {
             "id": 38,
-            "kanji": "握手する",
+            "kana": "握手する",
             "arti": "Berjabat tangan",
             "romanji": "Akushu suru"
         },
         {
             "id": 39,
-            "kanji": "飛ぶ",
+            "kana": "飛ぶ",
             "arti": "Terbang",
             "romanji": "Tobu"
         },
         {
             "id": 40,
-            "kanji": "落ちる",
+            "kana": "落ちる",
             "arti": "Jatuh",
             "romanji": "Ochiru"
         },
         {
             "id": 41,
-            "kanji": "手伝う",
+            "kana": "手伝う",
             "arti": "Membantu",
             "romanji": "Tetsudau"
         },
         {
             "id": 42,
-            "kanji": "持つ",
+            "kana": "持つ",
             "arti": "Memegang",
             "romanji": "Motsu"
         },
         {
             "id": 43,
-            "kanji": "投げる",
+            "kana": "投げる",
             "arti": "Melempar",
             "romanji": "Nageru"
         },
         {
             "id": 44,
-            "kanji": "結婚する",
+            "kana": "結婚する",
             "arti": "Menikah",
             "romanji": "Kekkon suru"
         },
         {
             "id": 45,
-            "kanji": "離婚する",
+            "kana": "離婚する",
             "arti": "Bercerai",
             "romanji": "Rikon suru"
         },
         {
             "id": 46,
-            "kanji": "出発する",
+            "kana": "出発する",
             "arti": "Berangkat",
             "romanji": "Shuppatsu suru"
         },
         {
             "id": 47,
-            "kanji": "到着する",
+            "kana": "到着する",
             "arti": "Tiba",
             "romanji": "Touchaku suru"
         },
         {
-            "id": 48,
-            "kanji": "始める",
-            "arti": "Memulai",
-            "romanji": "Hajimeru"
-        },
-        {
-            "id": 49,
-            "kanji": "終わる",
-            "arti": "Selesai",
-            "romanji": "Owaru"
-        },
-        {
             "id": 50,
-            "kanji": "考える",
+            "kana": "考える",
             "arti": "Memikirkan",
             "romanji": "Kangaeru"
         },
         {
             "id": 51,
-            "kanji": "考える",
+            "kana": "考える",
             "arti": "Berpikir",
             "romanji": "Kangaeru"
         },
         {
             "id": 52,
-            "kanji": "感じる",
+            "kana": "感じる",
             "arti": "Merasa",
-            "romanji": "Kanjiru"
+            "romanji": "kanaru"
         },
         {
             "id": 53,
-            "kanji": "思う",
+            "kana": "思う",
             "arti": "Berpikir",
             "romanji": "Omou"
         },
         {
-            "id": 54,
-            "kanji": "忘れる",
-            "arti": "Lupa",
-            "romanji": "Wasureru"
-        },
-        {
             "id": 55,
-            "kanji": "記憶する",
+            "kana": "記憶する",
             "arti": "Mengingat",
             "romanji": "Kioku suru"
         },
         {
             "id": 56,
-            "kanji": "必要とする",
+            "kana": "必要とする",
             "arti": "Memerlukan",
             "romanji": "Hitsuyou to suru"
         },
         {
+            "id": 32,
+            "kana": "脱ぐ",
+            "arti": "Membuka pakaian",
+            "romanji": "Nugu"
+        },
+        {
             "id": 57,
-            "kanji": "準備する",
+            "kana": "準備する",
             "arti": "Menyiapkan",
             "romanji": "Junbi suru"
         },
         {
             "id": 58,
-            "kanji": "招待する",
+            "kana": "招待する",
             "arti": "Mengundang",
             "romanji": "Shoutai suru"
         },
         {
             "id": 59,
-            "kanji": "予約する",
+            "kana": "予約する",
             "arti": "Mereservasi",
             "romanji": "Yoyaku suru"
         },
         {
             "id": 60,
-            "kanji": "楽しむ",
+            "kana": "楽しむ",
             "arti": "Menikmati",
             "romanji": "Tanoshimu"
         },
         {
             "id": 61,
-            "kanji": "調べる",
+            "kana": "調べる",
             "arti": "Mengecek",
             "romanji": "Shiraberu"
         },
         {
             "id": 62,
-            "kanji": "作る",
+            "kana": "作る",
             "arti": "Membuat",
             "romanji": "Tsukuru"
         },
         {
             "id": 63,
-            "kanji": "知り合う",
+            "kana": "知り合う",
             "arti": "Bertemu",
             "romanji": "Shiriau"
         },
         {
             "id": 64,
-            "kanji": "連絡する",
+            "kana": "連絡する",
             "arti": "Menghubungi",
             "romanji": "Renraku suru"
         },
         {
             "id": 65,
-            "kanji": "選ぶ",
+            "kana": "選ぶ",
             "arti": "Memilih",
             "romanji": "Erabu"
         },
         {
             "id": 66,
-            "kanji": "悩む",
+            "kana": "悩む",
             "arti": "Merasa bingung",
             "romanji": "Nayamu"
         },
         {
             "id": 67,
-            "kanji": "貸す",
+            "kana": "貸す",
             "arti": "Meminjamkan",
             "romanji": "Kasu"
         },
         {
             "id": 68,
-            "kanji": "借りる",
+            "kana": "借りる",
             "arti": "Meminjam",
             "romanji": "Kariru"
         },
         {
             "id": 69,
-            "kanji": "捨てる",
+            "kana": "捨てる",
             "arti": "Membuang",
             "romanji": "Suteru"
         },
         {
             "id": 70,
-            "kanji": "切る",
+            "kana": "切る",
             "arti": "Memotong",
             "romanji": "Kiru"
         },
         {
-            "id": 71,
-            "kanji": "覚える",
-            "arti": "Mengingat",
-            "romanji": "Oboeru"
-        },
-        {
-            "id": 72,
-            "kanji": "信じる",
-            "arti": "Percaya",
-            "romanji": "Shinjiru"
-        },
-        {
             "id": 73,
-            "kanji": "頼む",
+            "kana": "頼む",
             "arti": "Meminta",
             "romanji": "Tanomu"
         },
         {
             "id": 74,
-            "kanji": "競争する",
+            "kana": "競争する",
             "arti": "Bersaing",
             "romanji": "Kyousou suru"
         },
         {
             "id": 75,
-            "kanji": "勝つ",
+            "kana": "勝つ",
             "arti": "Menang",
             "romanji": "Katsu"
         },
         {
             "id": 76,
-            "kanji": "負ける",
+            "kana": "負ける",
             "arti": "Kalah",
             "romanji": "Makeru"
         },
         {
             "id": 77,
-            "kanji": "見つける",
+            "kana": "見つける",
             "arti": "Menemukan",
             "romanji": "Mitsukeru"
         },
         {
             "id": 78,
-            "kanji": "起こる",
+            "kana": "起こる",
             "arti": "Terjadi",
             "romanji": "Okoru"
         },
         {
             "id": 79,
-            "kanji": "応援する",
+            "kana": "応援する",
             "arti": "Mendukung",
             "romanji": "Ouen suru"
         },
         {
             "id": 80,
-            "kanji": "比べる",
+            "kana": "比べる",
             "arti": "Membandingkan",
             "romanji": "Kuraberu"
         },
         {
             "id": 81,
-            "kanji": "納得する",
+            "kana": "納得する",
             "arti": "Setuju",
             "romanji": "Nattoku suru"
         },
         {
             "id": 82,
-            "kanji": "承知する",
+            "kana": "承知する",
             "arti": "Menyetujui",
             "romanji": "Shouchi suru"
         },
         {
             "id": 83,
-            "kanji": "達成する",
+            "kana": "達成する",
             "arti": "Mencapai",
             "romanji": "Tassei suru"
         },
         {
             "id": 84,
-            "kanji": "議論する",
+            "kana": "議論する",
             "arti": "Membahas",
             "romanji": "Giron suru"
         },
         {
             "id": 85,
-            "kanji": "提案する",
+            "kana": "提案する",
             "arti": "Mengusulkan",
             "romanji": "Teian suru"
         },
         {
             "id": 86,
-            "kanji": "分かる",
+            "kana": "分かる",
             "arti": "Mengerti",
             "romanji": "Wakaru"
         },
         {
             "id": 87,
-            "kanji": "進化する",
+            "kana": "進化する",
             "arti": "Berkembang",
             "romanji": "Shinka suru"
         },
         {
             "id": 88,
-            "kanji": "変わる",
+            "kana": "変わる",
             "arti": "Berubah",
             "romanji": "Kawaru"
         },
         {
             "id": 89,
-            "kanji": "遅刻する",
+            "kana": "遅刻する",
             "arti": "Terlambat",
             "romanji": "Chikoku suru"
+        },
+        {
+            "id": 34,
+            "kana": "乗る",
+            "arti": "Naik",
+            "romanji": "Noru"
+        },
+        {
+            "id": 35,
+            "kana": "降りる",
+            "arti": "Turun",
+            "romanji": "Oriru"
         }
     ]
 }

@@ -24,25 +24,38 @@ List<String> str2List(String str) => str.split('/').map((str) {
 
 class KanjiModel {
   final int id;
-  final String kanji;
+  final String kana;
   final List<String> arti;
   final List<String> romanji;
   final List<ContohKanji>? contoh;
+  final List<BentukKerja>? bentuk;
 
   KanjiModel({
     required this.id,
-    required this.kanji,
+    required this.kana,
     required this.arti,
     required this.romanji,
     this.contoh,
+    this.bentuk,
   });
 
   factory KanjiModel.fromJson(Map<String, dynamic> json) => KanjiModel(
     id: json['id'],
-    kanji: json['kanji'],
+    kana: json['kana'],
     arti: str2List(json['arti'] as String),
     romanji: str2List(json['romanji'] as String),
     contoh: json['contoh'] != null ? (json['contoh'] as List).map((e) => ContohKanji.fromJson(e)).toList() : null,
+    bentuk: () {
+      final temp = <BentukKerja>[];
+      if (json['bentuk'] != null) {
+        final bentuk = json['bentuk'] as Map;
+        for (final key in bentuk.keys) {
+          final kerja = BentukKerja.fromJson(json['bentuk'][key], key);
+          temp.add(kerja);
+        }
+      }
+      return temp;
+    }(),
   );
 }
 
@@ -80,4 +93,59 @@ class ContohKanji {
     arti: str2List(json['arti'] as String),
     romanji: str2List(json['romanji'] as String),
   );
+}
+
+class BentukKerja {
+  final String type;
+  final String kana;
+  final String romanji;
+  final String? contoh;
+
+  BentukKerja({
+    required this.type,
+    required this.kana,
+    required this.romanji,
+    this.contoh,
+  });
+
+  factory BentukKerja.fromJson(Map<String, dynamic> json, String type) {
+    String temp = type;
+    switch (type) {
+      case 'positif':
+        temp = 'Positif Sopan';
+        break;
+      case 'negatif':
+        temp = 'Negatif Sopan';
+        break;
+      case 'negatif2':
+        temp = 'Negatif Kasual';
+        break;
+      case 'past':
+        temp = 'Past Sopan';
+        break;
+      case 'past2':
+        temp = 'Past Kasual';
+        break;
+      case 'past_negatif':
+        temp = 'Past Negatif Kasual';
+        break;
+      case 'command':
+        temp = 'Perintah Sopan';
+        break;
+      case 'command2':
+        temp = 'Perintah Kasual';
+        break;
+      case 'want':
+        temp = 'Keinginan';
+        break;
+      default:
+        temp = type;
+    }
+    return BentukKerja(
+    type: temp,
+    kana: json['kana'],
+    romanji: json['romanji'] as String,
+    contoh: json['contoh'] != null ? json['contoh'] as String : null,
+  );
+  }
 }

@@ -19,5 +19,6 @@ part 'pages/pre_quiz.dart';
 part 'pages/quiz2.dart';
 part 'pages/book.dart';
 part 'pages/kosakata.dart';
+part 'pages/book_kerja.dart';
 
 part 'widgets/stateful_value_builder.dart';

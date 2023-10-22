@@ -2,181 +2,181 @@
     "list": [
         {
             "id": 0,
-            "kanji": "医者",
+            "kana": "医者",
             "arti": "Dokter",
             "romanji": "Isha"
         },
         {
             "id": 1,
-            "kanji": "看護師",
+            "kana": "看護師",
             "arti": "Perawat",
             "romanji": "Kangoshi"
         },
         {
             "id": 2,
-            "kanji": "教師",
+            "kana": "教師",
             "arti": "Guru",
             "romanji": "Kyoushi"
         },
         {
             "id": 3,
-            "kanji": "学生",
+            "kana": "学生",
             "arti": "Siswa",
             "romanji": "Gakusei"
         },
         {
             "id": 4,
-            "kanji": "エンジニア",
+            "kana": "エンジニア",
             "arti": "Insinyur",
             "romanji": "Enjinia"
         },
         {
             "id": 5,
-            "kanji": "弁護士",
+            "kana": "弁護士",
             "arti": "Pengacara",
             "romanji": "Bengoshi"
         },
         {
             "id": 6,
-            "kanji": "警察官",
+            "kana": "警察官",
             "arti": "Polisi",
             "romanji": "Keisatsukan"
         },
         {
             "id": 7,
-            "kanji": "消防士",
+            "kana": "消防士",
             "arti": "Pemadam Kebakaran",
             "romanji": "Shouboushi"
         },
         {
             "id": 8,
-            "kanji": "シェフ",
+            "kana": "シェフ",
             "arti": "Koki",
             "romanji": "Shefu"
         },
         {
             "id": 9,
-            "kanji": "パイロット",
+            "kana": "パイロット",
             "arti": "Pilot",
             "romanji": "Pairotto"
         },
         {
             "id": 10,
-            "kanji": "俳優",
+            "kana": "俳優",
             "arti": "Aktor",
             "romanji": "Haiyuu"
         },
         {
             "id": 11,
-            "kanji": "歌手",
+            "kana": "歌手",
             "arti": "Penyanyi",
             "romanji": "Kashu"
         },
         {
             "id": 12,
-            "kanji": "画家",
+            "kana": "画家",
             "arti": "Pelukis",
             "romanji": "Gaka"
         },
         {
             "id": 13,
-            "kanji": "作家",
+            "kana": "作家",
             "arti": "Penulis",
             "romanji": "Sakka"
         },
         {
             "id": 14,
-            "kanji": "建築家",
+            "kana": "建築家",
             "arti": "Arsitek",
             "romanji": "Kenchikuka"
         },
         {
             "id": 15,
-            "kanji": "エレクトリシャン",
+            "kana": "エレクトリシャン",
             "arti": "Teknisi Listrik",
             "romanji": "Erekutorishan"
         },
         {
             "id": 16,
-            "kanji": "プログラマー",
+            "kana": "プログラマー",
             "arti": "Programmer",
             "romanji": "Puroguramā"
         },
         {
             "id": 17,
-            "kanji": "料理人",
+            "kana": "料理人",
             "arti": "Koki",
             "romanji": "Ryourinin"
         },
         {
             "id": 18,
-            "kanji": "医療技師",
+            "kana": "医療技師",
             "arti": "Teknisi Kesehatan",
             "romanji": "Iryou Gishi"
         },
         {
             "id": 19,
-            "kanji": "農夫",
+            "kana": "農夫",
             "arti": "Petani",
             "romanji": "Noufu"
         },
         {
             "id": 20,
-            "kanji": "漁師",
+            "kana": "漁師",
             "arti": "Nelayan",
             "romanji": "Ryoushi"
         },
         {
             "id": 21,
-            "kanji": "銀行員",
+            "kana": "銀行員",
             "arti": "Pegawai Bank",
             "romanji": "Ginkouin"
         },
         {
             "id": 22,
-            "kanji": "助手",
+            "kana": "助手",
             "arti": "Asisten",
             "romanji": "Joshu"
         },
         {
             "id": 23,
-            "kanji": "店員",
+            "kana": "店員",
             "arti": "Pegawai Toko",
             "romanji": "Tennyin"
         },
         {
             "id": 24,
-            "kanji": "技術者",
+            "kana": "技術者",
             "arti": "Teknisi",
             "romanji": "Gijutsusha"
         },
         {
             "id": 25,
-            "kanji": "宇宙飛行士",
+            "kana": "宇宙飛行士",
             "arti": "Astronot",
             "romanji": "Uchuu Hikoushi"
         },
         {
             "id": 26,
-            "kanji": "料理長",
+            "kana": "料理長",
             "arti": "Kepala Koki",
             "romanji": "Ryourichou"
         },
         {
             "id": 27,
-            "kanji": "コンサルタント",
+            "kana": "コンサルタント",
             "arti": "Konsultan",
             "romanji": "Konsarutanto"
         },
         {
             "id": 28,
-            "kanji": "獣医",
+            "kana": "獣医",
             "arti": "Dokter Hewan",
             "romanji": "Juuishi"
         },
         {
             "id": 29,
-            "kanji": "建設労働者",
+            "kana": "建設労働者",
             "arti": "Pekerja Konstruksi",
             "romanji": "Kensetsu Roudousha"
         }

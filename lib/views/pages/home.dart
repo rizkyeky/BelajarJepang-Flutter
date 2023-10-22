@@ -93,6 +93,9 @@ class HomePage extends StatelessWidget {
                         ElevatedButton(
                           onPressed: () {
                             // Routemaster.of(context).push('/pre_quiz/9');
+                            Navigator.push(context, 
+                              MaterialPageRoute(builder: (context) => const BookKerjaPage())
+                            );
                           },
                           child: const Text('Kata Kerja'),
                         ),

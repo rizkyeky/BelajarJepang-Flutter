@@ -23,4 +23,11 @@ class BookController {
     }
     return result;
   }
+
+  Future<List<KanjiModel>> loadKataKerja() async {
+    final rawJson = await rootBundle.loadString('assets/data/kerja.json');
+    final json = jsonDecode(rawJson) as Map;
+    final list = (json['level1'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+    return list;
+  }
 }

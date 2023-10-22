@@ -2,67 +2,67 @@
     "list": [
         {
             "id": 0,
-            "kanji": "北",
+            "kana": "北",
             "arti": "Utara",
             "romanji": "Kita"
         },
         {
             "id": 1,
-            "kanji": "南",
+            "kana": "南",
             "arti": "Selatan",
             "romanji": "Minami"
         },
         {
             "id": 2,
-            "kanji": "西",
+            "kana": "西",
             "arti": "Barat",
             "romanji": "Nishi"
         },
         {
             "id": 3,
-            "kanji": "東",
+            "kana": "東",
             "arti": "Timur",
             "romanji": "Higashi"
         },
         {
             "id": 4,
-            "kanji": "左",
+            "kana": "左",
             "arti": "Kiri",
             "romanji": "Hidari"
         },
         {
             "id": 5,
-            "kanji": "右",
+            "kana": "右",
             "arti": "Kanan",
             "romanji": "Migi"
         },
         {
             "id": 6,
-            "kanji": "前",
+            "kana": "前",
             "arti": "Depan",
             "romanji": "Mae"
         },
         {
             "id": 7,
-            "kanji": "後ろ",
+            "kana": "後ろ",
             "arti": "Belakang",
             "romanji": "Ushiro"
         },
         {
             "id": 8,
-            "kanji": "上",
+            "kana": "上",
             "arti": "Atas",
             "romanji": "Ue"
         },
         {
             "id": 9,
-            "kanji": "下",
+            "kana": "下",
             "arti": "Bawah",
             "romanji": "Shita"
         },
         {
             "id": 10,
-            "kanji": "中",
+            "kana": "中",
             "arti": "Tengah",
             "romanji": "Naka"
         }

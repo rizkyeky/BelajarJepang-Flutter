@@ -58,7 +58,7 @@ class QuizController {
     final kanji = await selectKanji(type);
 
     if (onlyKanji) {
-      final temp = kanji.where((element) => isKanji(element.kanji)).toList();
+      final temp = kanji.where((element) => isKanji(element.kana)).toList();
       kanji.clear();
       kanji.addAll(temp);
     }

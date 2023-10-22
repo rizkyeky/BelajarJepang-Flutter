@@ -2,181 +2,181 @@
     "list": [
         {
             "id": 0,
-            "kanji": "りんご",
+            "kana": "りんご",
             "arti": "Apel",
             "romanji": "Ringo"
         },
         {
             "id": 1,
-            "kanji": "バナナ",
+            "kana": "バナナ",
             "arti": "Pisang",
             "romanji": "Banana"
         },
         {
             "id": 2,
-            "kanji": "いちご",
+            "kana": "いちご",
             "arti": "Stroberi",
             "romanji": "Ichigo"
         },
         {
             "id": 3,
-            "kanji": "みかん",
+            "kana": "みかん",
             "arti": "Jeruk Mandarin",
             "romanji": "Mikan"
         },
         {
             "id": 4,
-            "kanji": "ぶどう",
+            "kana": "ぶどう",
             "arti": "Anggur",
             "romanji": "Budou"
         },
         {
             "id": 5,
-            "kanji": "にんじん",
+            "kana": "にんじん",
             "arti": "Wortel",
             "romanji": "Ninjin"
         },
         {
             "id": 6,
-            "kanji": "じゃがいも",
+            "kana": "じゃがいも",
             "arti": "Kentang",
             "romanji": "Jagaimo"
         },
         {
             "id": 7,
-            "kanji": "たまねぎ",
+            "kana": "たまねぎ",
             "arti": "Bawang Bombay",
             "romanji": "Tamanegi"
         },
         {
             "id": 8,
-            "kanji": "キャベツ",
+            "kana": "キャベツ",
             "arti": "Kubis",
             "romanji": "Kyabetsu"
         },
         {
             "id": 9,
-            "kanji": "ブロッコリー",
+            "kana": "ブロッコリー",
             "arti": "Brokoli",
             "romanji": "Burokkorī"
         },
         {
             "id": 10,
-            "kanji": "ほうれんそう",
+            "kana": "ほうれんそう",
             "arti": "Bayam",
             "romanji": "Hourensou"
         },
         {
             "id": 11,
-            "kanji": "きゅうり",
+            "kana": "きゅうり",
             "arti": "Mentimun",
             "romanji": "Kyūri"
         },
         {
             "id": 12,
-            "kanji": "トマト",
+            "kana": "トマト",
             "arti": "Tomat",
             "romanji": "Tomato"
         },
         {
             "id": 13,
-            "kanji": "ピーマン",
+            "kana": "ピーマン",
             "arti": "Paprika Hijau",
             "romanji": "Pīman"
         },
         {
             "id": 14,
-            "kanji": "パプリカ",
+            "kana": "パプリカ",
             "arti": "Paprika",
             "romanji": "Papurika"
         },
         {
             "id": 15,
-            "kanji": "にんにく",
+            "kana": "にんにく",
             "arti": "Bawang Putih",
             "romanji": "Ninniku"
         },
         {
             "id": 16,
-            "kanji": "レタス",
+            "kana": "レタス",
             "arti": "Selada",
             "romanji": "Retasu"
         },
         {
             "id": 17,
-            "kanji": "ふき",
+            "kana": "ふき",
             "arti": "Labu Jepang",
             "romanji": "Fuki"
         },
         {
             "id": 18,
-            "kanji": "れんこん",
+            "kana": "れんこん",
             "arti": "Teratai",
             "romanji": "Renkon"
         },
         {
             "id": 19,
-            "kanji": "かぼちゃ",
+            "kana": "かぼちゃ",
             "arti": "Labu",
             "romanji": "Kabocha"
         },
         {
             "id": 20,
-            "kanji": "さつまいも",
+            "kana": "さつまいも",
             "arti": "Ubi Jalar",
             "romanji": "Satsumaimo"
         },
         {
             "id": 21,
-            "kanji": "ピーチ",
+            "kana": "ピーチ",
             "arti": "Persik",
             "romanji": "Pīchi"
         },
         {
             "id": 22,
-            "kanji": "スイカ",
+            "kana": "スイカ",
             "arti": "Semangka",
             "romanji": "Suika"
         },
         {
             "id": 23,
-            "kanji": "メロン",
+            "kana": "メロン",
             "arti": "Melon",
             "romanji": "Meron"
         },
         {
             "id": 24,
-            "kanji": "イチジク",
+            "kana": "イチジク",
             "arti": "Buah Tin",
             "romanji": "Ichijiku"
         },
         {
             "id": 25,
-            "kanji": "キウイ",
+            "kana": "キウイ",
             "arti": "Kiwi",
             "romanji": "Kiui"
         },
         {
             "id": 26,
-            "kanji": "オレンジ",
+            "kana": "オレンジ",
             "arti": "Jeruk",
             "romanji": "Orenji"
         },
         {
             "id": 28,
-            "kanji": "レモン",
+            "kana": "レモン",
             "arti": "Lemon",
             "romanji": "Remon"
         },
         {
             "id": 29,
-            "kanji": "ライム",
+            "kana": "ライム",
             "arti": "Lime",
             "romanji": "Raimu"
         },
         {
             "id": 30,
-            "kanji": "ねぎ",
+            "kana": "ねぎ",
             "arti": "Daun Bawang",
             "romanji": "Negi"
         }
