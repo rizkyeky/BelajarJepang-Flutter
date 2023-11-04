@@ -54,7 +54,7 @@ class KosakataPage extends StatelessWidget {
                                     width: 80,
                                     child: Column(
                                       children: [
-                                        Text(word.kanji,
+                                        Text(word.kana,
                                           textAlign: TextAlign.center,
                                           style: const TextStyle(
                                             fontSize: 48,

@@ -56,9 +56,9 @@ class HomePage extends StatelessWidget {
               );
             }
           ),
-          Container(
-            color: Colors.red,
-          ),
+          // Container(
+          //   color: Colors.red,
+          // ),
           LayoutBuilder(
             builder: (context, box) {
               return Padding(
@@ -127,10 +127,10 @@ class HomePage extends StatelessWidget {
                 icon:  Icon(Icons.home),
                 label: 'Home'
               ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.search),
-                label: 'Search'
-              ),
+              // BottomNavigationBarItem(
+              //   icon: Icon(Icons.search),
+              //   label: 'Search'
+              // ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.menu_book),
                 label: 'Book'

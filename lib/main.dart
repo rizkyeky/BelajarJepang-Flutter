@@ -46,7 +46,7 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
+  
     final brightnessProvider = context.watch<BrightnessProvider>();
   
     // print('build main app');
