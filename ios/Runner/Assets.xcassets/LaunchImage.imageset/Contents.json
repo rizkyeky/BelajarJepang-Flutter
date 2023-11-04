@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "bjepang_icon 2.png",
+      "filename" : "icon.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "bjepang_icon 1.png",
+      "filename" : "iconx2.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "bjepang_icon.png",
+      "filename" : "iconx3.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
