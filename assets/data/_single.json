@@ -1672,6 +1672,29 @@
             "kana": "夜",
             "arti": "malam",
             "romanji": "yoru"
+        },
+        {
+            "id": 0,
+            "kana": "晴",
+            "arti": "Cerah",
+            "romanji": "Hare"
+        },
+        {
+            "id": 1,
+            "kana": "曇",
+            "arti": "Berawan",
+            "romanji": "Kumori"
+        },
+        {
+            "id": 4,
+            "kana": "風",
+            "arti": "Angin",
+            "romanji": "Kaze"
+        },
+        {
+            "kana": "腹",
+            "arti": "perut",
+            "romanji": "onaka"
         }
     ]
 }

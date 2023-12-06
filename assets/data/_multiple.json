@@ -1,0 +1,534 @@
+{
+    "list": [
+        {
+            "kana": "野菜",
+            "arti": "sayur",
+            "romanji": "yasai"
+        },
+        {
+            "kana": "友達",
+            "arti": "teman",
+            "romanji": "tomodachi"
+        },
+        {
+            "kana": "果物",
+            "arti": "buah",
+            "romanji": "kudamono"
+        },
+        {
+            "kana": "学校",
+            "arti": "sekolah",
+            "romanji": "gakkou"
+        },
+        {
+            "kana": "電車",
+            "arti": "kereta",
+            "romanji": "densha"
+        },
+        {
+            "kana": "天気",
+            "arti": "cuaca",
+            "romanji": "tenki"
+        },
+        {
+            "kana": "財布",
+            "arti": "wallet/dompet",
+            "romanji": "saifu"
+        },
+        {
+            "kana": "綺麗",
+            "arti": "indah/bersih",
+            "romanji": "kirei"
+        },
+        {
+            "kana": "学生",
+            "arti": "murid/student",
+            "romanji": "gakusei"
+        },
+        {
+            "kana": "高校",
+            "arti": "sma",
+            "romanji": "koukou"
+        },
+        {
+            "kana": "中学校",
+            "arti": "smp",
+            "romanji": "chuugakkou"
+        },
+        {
+            "kana": "小学校",
+            "arti": "sd",
+            "romanji": "Shougakkoou"
+        },
+        {
+            "kana": "会社",
+            "arti": "kantor/company/komunitas",
+            "romanji": "kaisha"
+        },
+        {
+            "kana": "仕事",
+            "arti": "pekerjaan",
+            "romanji": "shigoto"
+        },
+        {
+            "kana": "大学生",
+            "arti": "mahasiswa",
+            "romanji": "daigakusei"
+        },
+        {
+            "kana": "教室",
+            "arti": "classroom",
+            "romanji": "kyoushitsu"
+        },
+        {
+            "kana": "お土産",
+            "arti": "oleh-oleh",
+            "romanji": "omiyage"
+        },
+        {
+            "kana": "授業",
+            "arti": "pelajaran",
+            "romanji": "jugyou"
+        },
+        {
+            "kana": "部屋",
+            "arti": "kamar",
+            "romanji": "heya"
+        },
+        {
+            "kana": "昨日",
+            "arti": "kemarin",
+            "romanji": "kinou"
+        },
+        {
+            "kana": "明日",
+            "arti": "besok",
+            "romanji": "ashita"
+        },
+        {
+            "kana": "今日",
+            "arti": "today",
+            "romanji": "kyou"
+        },
+        {
+            "kana": "午後",
+            "arti": "sore",
+            "romanji": "gogo"
+        },
+        {
+            "kana": "午前",
+            "arti": "pagi",
+            "romanji": "gozen"
+        },
+        {
+            "kana": "月曜日",
+            "arti": "senin",
+            "romanji": "Getsuyoubi"
+        },
+        {
+            "kana": "火曜日",
+            "arti": "selasa",
+            "romanji": "Kayoubi"
+        },
+        {
+            "kana": "水曜日",
+            "arti": "rabu",
+            "romanji": "Suiyoubi"
+        },
+        {
+            "kana": "木曜日",
+            "arti": "kamis",
+            "romanji": "Mokuyoubi"
+        },
+        {
+            "kana": "金曜日",
+            "arti": "jumat",
+            "romanji": "Kinyoubi"
+        },
+        {
+            "kana": "土曜日",
+            "arti": "sabtu",
+            "romanji": "Doyoubi"
+        },
+        {
+            "kana": "日曜日",
+            "arti": "minggu",
+            "romanji": "Nichiyoubi"
+        },
+        {
+            "kana": "牛乳",
+            "arti": "susu",
+            "romanji": "gyuunyuu"
+        },
+        {
+            "kana": "椅子",
+            "arti": "Kursi",
+            "romanji": "Isu"
+        },
+        {
+            "kana": "鉛筆",
+            "arti": "Pensil",
+            "romanji": "Enpitsu"
+        },
+        {
+            "kana": "図書館",
+            "arti": "perpustakaan",
+            "romanji": "Toshokan"
+        },
+        {
+            "arti": "Universitas",
+            "kana": "大学",
+            "romanji": "Daigaku"
+        },
+        {
+            "arti": "Bandara",
+            "kana": "空港",
+            "romanji": "Kuukou"
+        },
+        {
+            "arti": "english",
+            "kana": "英語",
+            "romanji": "eigo"
+        },
+        {
+            "arti": "Minggu depan",
+            "kana": "来週",
+            "romanji": "Raishuu"
+        },
+        {
+            "arti": "Kemarin",
+            "kana": "昨日",
+            "romanji": "Kinou"
+        },
+        {
+            "arti": "Bulan depan",
+            "kana": "来月",
+            "romanji": "Raigetsu"
+        },
+        {
+            "arti": "Lima tahun yang lalu",
+            "kana": "五年前",
+            "romanji": "Gonen Mae"
+        },
+        {
+            "arti": "Tahun depan",
+            "kana": "来年",
+            "romanji": "Rainen"
+        },
+        {
+            "arti": "Agustus",
+            "kana": "八月",
+            "romanji": "Hachigatsu"
+        },
+        {
+            "arti": "Kulkas",
+            "kana": "冷蔵庫",
+            "romanji": "Reizouko"
+        },
+        {
+            "arti": "bersama",
+            "kana": "一緒に",
+            "romanji": "Issho ni"
+        },
+        {
+            "arti": "keluarga",
+            "kana": "家族",
+            "romanji": "kazoku"
+        },
+        {
+            "arti": "Januari",
+            "kana": "一月",
+            "romanji": "Ichigatsu"
+        },
+        {
+            "arti": "Februari",
+            "kana": "二月",
+            "romanji": "Nigatsu"
+        },
+        {
+            "arti": "Maret",
+            "kana": "三月",
+            "romanji": "Sangatsu"
+        },
+        {
+            "arti": "April",
+            "kana": "四月",
+            "romanji": "Shigatsu"
+        },
+        {
+            "arti": "Mei",
+            "kana": "五月",
+            "romanji": "Gogatsu"
+        },
+        {
+            "arti": "Juni",
+            "kana": "六月",
+            "romanji": "Rokugatsu"
+        },
+        {
+            "arti": "Juli",
+            "kana": "七月",
+            "romanji": "Shichigatsu"
+        },
+        {
+            "arti": "Agustus",
+            "kana": "八月",
+            "romanji": "Hachigatsu"
+        },
+        {
+            "arti": "September",
+            "kana": "九月",
+            "romanji": "Kugatsu"
+        },
+        {
+            "arti": "Oktober",
+            "kana": "十月",
+            "romanji": "Juugatsu"
+        },
+        {
+            "arti": "November",
+            "kana": "十一月",
+            "romanji": "Juuichigatsu"
+        },
+        {
+            "arti": "Desember",
+            "kana": "十二月",
+            "romanji": "Juunigatsu"
+        },
+        {
+            "kana": "洗濯機",
+            "arti": "Mesin Cuci",
+            "romanji": "Sentakuki"
+        },
+        {
+            "kana": "掃除機",
+            "arti": "Vacum",
+            "romanji": "Soujiki"
+        },
+        {
+            "kana": "お手洗い",
+            "arti": "toilet/kamar mandi",
+            "romanji": "otearai"
+        },
+        {
+            "kana": "制服",
+            "arti": "Seragam",
+            "romanji": "Seifuku"
+        },
+        {
+            "kana": "帽子",
+            "arti": "Topi",
+            "romanji": "Boushi"
+        },
+        {
+            "kana": "扇風機", 
+            "arti": "Kipas Angin",
+            "romanji": "Senpuuki"
+        },
+        {
+            "arti": "Perawat",
+            "kana": "看護師",
+            "romanji": "Kangoshi"
+        },
+        {
+            "arti": "Buruh",
+            "kana": "労働者",
+            "romanji": "Rōdōsha"
+        },
+        {
+            "arti": "Teknisi",
+            "kana": "技術者",
+            "romanji": "Gijutsusha"
+        },
+        {
+            "arti": "Dokter",
+            "kana": "医者",
+            "romanji": "Isha"
+        },
+        {
+            "arti": "Guru",
+            "kana": "先生",
+            "romanji": "Sensei"
+        },
+        {
+            "arti": "Masinis",
+            "kana": "運転手",
+            "romanji": "Untenshu"
+        },
+        {
+            "arti": "Pemadam Kebakaran",
+            "kana": "消防士",
+            "romanji": "Shōbōshi"
+        },
+        {
+            "arti": "Polisi",
+            "kana": "警察",
+            "romanji": "Keisatsu"
+        },
+        {
+            "arti": "Sushi",
+            "kana": "寿司",
+            "romanji": "sushi"
+        },
+        {
+            "arti": "1 tahun yang lalu",
+            "kana": "一年前",
+            "romanji": "Ichinen mae"
+        },
+        {
+            "arti": "2 tahun yang lalu",
+            "kana": "二年前",
+            "romanji": "Ninen mae"
+        },
+        {
+            "arti": "3 tahun yang lalu",
+            "kana": "三年前",
+            "romanji": "Sannen mae"
+        },
+        {
+            "arti": "4 tahun yang lalu",
+            "kana": "四年前",
+            "romanji": "Yonen mae"
+        },
+        {
+            "arti": "5 tahun yang lalu",
+            "kana": "五年前",
+            "romanji": "Gonen mae"
+        },
+        {
+            "arti": "6 tahun yang lalu",
+            "kana": "六年前",
+            "romanji": "Rokunen mae"
+        },
+        {
+            "arti": "7 tahun yang lalu",
+            "kana": "七年前",
+            "romanji": "Shichinen mae"
+        },
+        {
+            "arti": "8 tahun yang lalu",
+            "kana": "八年前",
+            "romanji": "Hachinen mae"
+        },
+        {
+            "arti": "9 tahun yang lalu",
+            "kana": "九年前",
+            "romanji": "Kunen mae"
+        },
+        {
+            "arti": "10 tahun yang lalu",
+            "kana": "十年前",
+            "romanji": "Jūnen mae"
+        },
+        {
+            "arti": "1 tahun yang akan datang",
+            "kana": "一年後",
+            "romanji": "Ichinen go"
+        },
+        {
+            "arti": "2 tahun yang akan datang",
+            "kana": "二年後",
+            "romanji": "Ninen go"
+        },
+        {
+            "arti": "3 tahun yang akan datang",
+            "kana": "三年後",
+            "romanji": "Sannen go"
+        },
+        {
+            "arti": "4 tahun yang akan datang",
+            "kana": "四年後",
+            "romanji": "Yonen go"
+        },
+        {
+            "arti": "5 tahun yang akan datang",
+            "kana": "五年後",
+            "romanji": "Gonen go"
+        },
+        {
+            "arti": "6 tahun yang akan datang",
+            "kana": "六年後",
+            "romanji": "Rokunen go"
+        },
+        {
+            "arti": "7 tahun yang akan datang",
+            "kana": "七年後",
+            "romanji": "Shichinen go"
+        },
+        {
+            "arti": "8 tahun yang akan datang",
+            "kana": "八年後",
+            "romanji": "Hachinen go"
+        },
+        {
+            "arti": "9 tahun yang akan datang",
+            "kana": "九年後",
+            "romanji": "Kunen go"
+        },
+        {
+            "arti": "10 tahun yang akan datang",
+            "kana": "十年後",
+            "romanji": "Jūnen go"
+        },
+        {
+            "arti": "100 tahun yang lalu",
+            "kana": "百年前",
+            "romanji": "Hyakunen mae"
+        },
+        {
+            "arti": "200 tahun yang lalu",
+            "kana": "二百年前",
+            "romanji": "Nihyakunen mae"
+        },
+        {
+            "arti": "300 tahun yang lalu",
+            "kana": "三百年前",
+            "romanji": "Sanbyakunen mae"
+        },
+        {
+            "arti": "400 tahun yang lalu",
+            "kana": "四百年前",
+            "romanji": "Yonhyakunen mae"
+        },
+        {
+            "arti": "500 tahun yang lalu",
+            "kana": "五百年前",
+            "romanji": "Gohyakunen mae"
+        },
+        {
+            "arti": "600 tahun yang lalu",
+            "kana": "六百年前",
+            "romanji": "Roppyakunen mae"
+        },
+        {
+            "arti": "700 tahun yang lalu",
+            "kana": "七百年前",
+            "romanji": "Nanahyakunen mae"
+        },
+        {
+            "arti": "800 tahun yang lalu",
+            "kana": "八百年前",
+            "romanji": "Happyakunen mae"
+        },
+        {
+            "arti": "900 tahun yang lalu",
+            "kana": "九百年前",
+            "romanji": "Kyūhyakunen mae"
+        },
+        {
+            "arti": "1000 tahun yang lalu",
+            "kana": "千年前",
+            "romanji": "Sennen mae"
+        },
+        {
+            "arti": "Musik",
+            "kana": "音楽",
+            "romanji": "Ongaku"
+        },
+        {
+            "arti": "Film/Movie",
+            "kana": "映画",
+            "romanji": "Eiga"
+        }
+    ]
+}
