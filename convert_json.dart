@@ -7,12 +7,12 @@ Future<void> main() async {
 }
 
 Future<void> kosakata() async {
-  final singleFile = File('assets/data/single.json');
+  final singleFile = File('assets/data/_single.json');
   final rawJson = await singleFile.readAsString();
   final json = jsonDecode(rawJson);
   final allKanji = json['list'] as List;
 
-  final kosakataFile = File('assets/data/kosakata.json');
+  final kosakataFile = File('assets/data/_kosakata.json');
   final rawJson1 = await kosakataFile.readAsString();
   final json1 = jsonDecode(rawJson1) as Map;
   
@@ -37,7 +37,7 @@ Future<void> kosakata() async {
     }
   }
 
-  final newFile = File('assets/data/_kosakata.json');
+  final newFile = File('assets/data/kosakata.json');
   await newFile.writeAsString(jsonEncode(json1));
 }
 

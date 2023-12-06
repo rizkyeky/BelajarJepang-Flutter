@@ -745,13 +745,13 @@
             "id": 65,
             "kana": "分",
             "arti": "Menit",
-            "romanji": "Futatsu/Bun"
+            "romanji": "Fun/Bun"
         },
         {
             "id": 66,
             "kana": "秒",
             "arti": "Detik",
-            "romanji": "Seikatsu"
+            "romanji": "Byou/Seikatsu"
         },
         {
             "id": 67,
@@ -870,7 +870,7 @@
         {
             "id": 86,
             "kana": "間",
-            "arti": "jarak/ruang/diantara/space/gap/between/interval/stretch/distance",
+            "arti": "jarak/ruang/diantara/space/gap/between/interval/distance",
             "romanji": "Aida"
         },
         {
@@ -1291,7 +1291,7 @@
             "kana": "生",
             "id": 14,
             "arti": "lahir/hidup/tumbuh/live",
-            "romanji": "saki"
+            "romanji": "sei/shou"
         },
         {
             "kana": "林",
@@ -1445,7 +1445,7 @@
         },
         {
             "kana": "午",
-            "arti": "go/sore",
+            "arti": "hari/pagi/sore/siang",
             "romanji": "go"
         },
         {
@@ -1456,27 +1456,22 @@
         {
             "kana": "会",
             "arti": "meet/bertemu/rindu/kumpul",
-            "romanji": "kai"
+            "romanji": "ai"
         },
         {
             "kana": "早",
-            "arti": "early/fast/quick",
-            "romanji": "sou"
+            "arti": "cepat/early/fast/quick",
+            "romanji": "hayai/sou"
         },
         {
             "kana": "道",
-            "arti": "path/way/street/jalan",
+            "arti": "jalan/path/way/street",
             "romanji": "michi"
         },
         {
             "kana": "洗",
             "arti": "wash/cuci",
             "romanji": "sen/arau"
-        },
-        {
-            "kana": "事",
-            "romanji": "ji/goto",
-            "arti": "hal/urusan/pekerjaan/perkara/kejadian"
         },
         {
             "kana": "場",
@@ -1489,14 +1484,9 @@
             "arti": "hal/urusan/pekerjaan/perkara/kejadian"
         },
         {
-            "kana": "場",
-            "romanji": "ba",
-            "arti": "tempat/lapangan/arena/lingkungan"
-        },
-        {
             "kana": "発",
             "romanji": "hatsu",
-            "arti": "berangkat/pengiriman/penemuan/keluar"
+            "arti": "berangkat/pengiriman"
         },
         {
             "kana": "者",
@@ -1506,7 +1496,7 @@
         {
             "kana": "問",
             "romanji": "mon/to",
-            "arti": "pertanyaan/permintaan/mencari tahu"
+            "arti": "tanya/bertanya/permintaan/mencari tahu"
         },
         {
             "kana": "主",
@@ -1531,7 +1521,7 @@
         {
             "kana": "思",
             "romanji": "shi/omou",
-            "arti": "berpikir/merasa"
+            "arti": "/pikir/berpikir/merasa"
         },
         {
             "kana": "正",
@@ -1541,7 +1531,7 @@
         {
             "kana": "心",
             "romanji": "shin/kokoro",
-            "arti": "hati/pikiran/perasaan"
+            "arti": "hati/jiwa/perasaan"
         },
         {
             "kana": "世",
@@ -1601,7 +1591,7 @@
         {
             "kana": "計",
             "romanji": "kei/hakaru",
-            "arti": "menghitung/perencanaan/rencana"
+            "arti": "hitung/menghitung/perencanaan/rencana"
         },
         {
             "kana": "画",
@@ -1646,12 +1636,42 @@
         {
             "kana": "運",
             "romanji": "un",
-            "arti": "tadir/perjalanan"
+            "arti": "takdir/perjalanan"
         },
         {
             "kana": "位",
             "romanji": "i",
             "arti": "kedudukan/posisi/peringkat"
+        },
+        {
+            "id": 16,
+            "kana": "鹿",
+            "arti": "Rusa",
+            "romanji": "Shika"
+        },
+        {
+            "id": 17,
+            "kana": "兎",
+            "arti": "Kelinci",
+            "romanji": "Usagi"
+        },
+        {
+            "id": 17,
+            "kana": "雪",
+            "arti": "Salju",
+            "romanji": "yuki"
+        },
+        {
+            "id": 17,
+            "kana": "昼",
+            "arti": "Siang",
+            "romanji": "hiru"
+        },
+        {
+            "id": 17,
+            "kana": "夜",
+            "arti": "malam",
+            "romanji": "yoru"
         }
     ]
 }
