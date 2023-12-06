@@ -14,54 +14,54 @@ class QuizController {
     }
   }
 
-  Future<List<KanjiModel>> selectKanji(QuizType type) async {
-    final List<KanjiModel> kanji = [];
-    switch (type) {
-      case QuizType.satuKanji:
-        kanji.addAll(await loadSingleN5());
-      break;
-      case QuizType.semuaKanji:
-        kanji.addAll(await loadSayurBuah());
-        kanji.addAll(await loadSifat());
-        kanji.addAll(await loadHewan());
-        kanji.addAll(await loadCuaca());
-        kanji.addAll(await loadPekerjaan());
-        kanji.addAll(await loadKerja());
-      break;
-      case QuizType.kataSifat:
-        kanji.addAll(await loadSifat());
-      break;
-      case QuizType.kataBenda:
-        kanji.addAll(await loadBenda());
-      break;
-      case QuizType.kataKerja:
-        kanji.addAll(await loadKerja());
-      break;
-      case QuizType.kataSayurBuah:
-        kanji.addAll(await loadSayurBuah());
-      break;
-      case QuizType.kataHewan:
-        kanji.addAll(await loadHewan());
-      break;
-      case QuizType.kataCuaca:
-        kanji.addAll(await loadCuaca());
-      break;
-      case QuizType.kataPekerjaan:
-        kanji.addAll(await loadPekerjaan());
-      break;
-    }
-    return kanji;
-  }
+  // Future<List<KanjiModel>> selectKanji(QuizType type) async {
+  //   final List<KanjiModel> kanji = [];
+  //   switch (type) {
+  //     case QuizType.satuKanji:
+  //       kanji.addAll(await loadSingleN5());
+  //     break;
+  //     case QuizType.semuaKanji:
+  //       kanji.addAll(await loadSayurBuah());
+  //       kanji.addAll(await loadSifat());
+  //       kanji.addAll(await loadHewan());
+  //       kanji.addAll(await loadCuaca());
+  //       kanji.addAll(await loadPekerjaan());
+  //       kanji.addAll(await loadKerja());
+  //     break;
+  //     case QuizType.kataSifat:
+  //       kanji.addAll(await loadSifat());
+  //     break;
+  //     case QuizType.kataBenda:
+  //       kanji.addAll(await loadBenda());
+  //     break;
+  //     case QuizType.kataKerja:
+  //       kanji.addAll(await loadKerja());
+  //     break;
+  //     case QuizType.kataSayurBuah:
+  //       kanji.addAll(await loadSayurBuah());
+  //     break;
+  //     case QuizType.kataHewan:
+  //       kanji.addAll(await loadHewan());
+  //     break;
+  //     case QuizType.kataCuaca:
+  //       kanji.addAll(await loadCuaca());
+  //     break;
+  //     case QuizType.kataPekerjaan:
+  //       kanji.addAll(await loadPekerjaan());
+  //     break;
+  //   }
+  //   return kanji;
+  // }
 
-  Future<List<KanjiModel>> startQuiz(QuizType type, int total, [bool onlyKanji = false]) async {
+  Future<List<KanjiModel>> startQuiz1(int total) async {
     
-    final kanji = await selectKanji(type);
+    final kanji = await loadSingleKanji();
 
-    if (onlyKanji) {
-      final temp = kanji.where((element) => isKanji(element.kana)).toList();
-      kanji.clear();
-      kanji.addAll(temp);
-    }
+    // if (onlyKanji) {
+    //   final temp = kanji.where((element) => isKanji(element.kana)).toList();
+    //   kanji.clear();
+    //   kanji.addAll(temp);
+    // }
     final len = kanji.length > total ? total : kanji.length;
     final seed = DateTime.now().millisecondsSinceEpoch;
     final indexs = List<int>.generate(len, (i) => i)
@@ -71,53 +71,53 @@ class QuizController {
     return newKanji;
   }
 
-  Future<List<KanjiModel>> loadSingleN5() async {
+  Future<List<KanjiModel>> loadSingleKanji() async {
     final rawJson = await rootBundle.loadString('assets/data/single.json');
     final json = jsonDecode(rawJson);
     return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
   }
 
-  Future<List<KanjiModel>> loadCuaca() async {
-    final rawJson = await rootBundle.loadString('assets/data/cuaca.json');
+  Future<List<KanjiModel>> loadMultipleKanji() async {
+    final rawJson = await rootBundle.loadString('assets/data/multiple.json');
     final json = jsonDecode(rawJson);
     return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
   }
 
-  Future<List<KanjiModel>> loadHewan() async {
-    final rawJson = await rootBundle.loadString('assets/data/hewan.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadHewan() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/hewan.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
 
-  Future<List<KanjiModel>> loadSifat() async {
-    final rawJson = await rootBundle.loadString('assets/data/sifat.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadSifat() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/sifat.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
 
-  Future<List<KanjiModel>> loadBenda() async {
-    final rawJson = await rootBundle.loadString('assets/data/benda.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadBenda() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/benda.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
 
-  Future<List<KanjiModel>> loadPekerjaan() async {
-    final rawJson = await rootBundle.loadString('assets/data/pekerjaan.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadPekerjaan() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/pekerjaan.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
 
-  Future<List<KanjiModel>> loadSayurBuah() async {
-    final rawJson = await rootBundle.loadString('assets/data/sayur_buah.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadSayurBuah() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/sayur_buah.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
 
-  Future<List<KanjiModel>> loadKerja() async {
-    final rawJson = await rootBundle.loadString('assets/data/kerja.json');
-    final json = jsonDecode(rawJson);
-    return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
-  }
+  // Future<List<KanjiModel>> loadKerja() async {
+  //   final rawJson = await rootBundle.loadString('assets/data/kerja.json');
+  //   final json = jsonDecode(rawJson);
+  //   return (json['list'] as List).map((e) => KanjiModel.fromJson(e)).toList();
+  // }
   
   final katakanaNormalMap = {
     'ア': 'a', 'イ': 'i', 'ウ': 'u', 'エ': 'e', 'オ': 'o',

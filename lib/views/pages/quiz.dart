@@ -2,14 +2,10 @@ part of _view;
 
 class QuizPage extends StatelessWidget {
   const QuizPage({super.key,
-    required this.quizType,
     required this.len,
-    required this.onlyKanji
   });
 
-  final QuizType quizType;
   final int len;
-  final bool onlyKanji;
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +18,7 @@ class QuizPage extends StatelessWidget {
         toolbarHeight: 0,
       ),
       body: FutureBuilder<List<KanjiModel>>(
-        future: quizController.startQuiz(quizType, len, onlyKanji),
+        future: quizController.startQuiz1(len),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return const Center(
@@ -114,20 +110,22 @@ class QuizPage extends StatelessWidget {
                               final correct = artis.any((element) => element == inputQuiz);
                               if (correct) {
                                 if (correctCount == kanjis.length-1) {
-                                  showDialog(
-                                    context: context, 
-                                    builder: (context) => AlertDialog(
-                                      title: const Text('Kamu telah menyelesaikan quiz!'),
-                                      actions: [
-                                        TextButton(
-                                          onPressed: () async {
-                                            Routemaster.of(context).popUntil((route) => false);
-                                          },
-                                          child: const Text('Kembali'),
-                                        )
-                                      ]
-                                    )
-                                  );
+                                  Future.delayed(const Duration(seconds: 1)).whenComplete(() {
+                                    showDialog(
+                                      context: context, 
+                                      builder: (context) => AlertDialog(
+                                        title: const Text('Kamu telah menyelesaikan quiz!'),
+                                        actions: [
+                                          TextButton(
+                                            onPressed: () async {
+                                              Navigator.popUntil(context, (route) => false);
+                                            },
+                                            child: const Text('Kembali'),
+                                          )
+                                        ]
+                                      )
+                                    );
+                                  });
                                 } else {
                                   setState(() {
                                     correctCount++;

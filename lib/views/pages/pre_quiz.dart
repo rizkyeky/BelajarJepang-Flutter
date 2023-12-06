@@ -1,11 +1,18 @@
 part of _view;
 
+enum QuizType {
+  singleKanji,
+  multipleKanji,
+  katakana,
+  hiragana
+}
+
 class PreQuizPage extends StatelessWidget {
   const PreQuizPage({super.key,
-    required this.idx
+    required this.type
   });
 
-  final int idx;
+  final QuizType type;
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +20,7 @@ class PreQuizPage extends StatelessWidget {
     int lenKatakana = 2;
     bool withAdd= false;
     bool withLong = false;
-    final isKatakanaQuiz = idx == 9;
+    final isKatakanaQuiz = type == QuizType.katakana;
     final quizController = context.read<QuizController>();
     quizController.selectedFonts.add(quizController.fontFamilies[0]);
     return Scaffold(
@@ -23,7 +30,7 @@ class PreQuizPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             if (!isKatakanaQuiz) FutureBuilder(
-              future: quizController.selectKanji(QuizType.values[idx]),
+              future: quizController.loadSingleKanji(),
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.done) {
                   final kanjis = snapshot.data ?? [];
@@ -239,21 +246,32 @@ class PreQuizPage extends StatelessWidget {
                     width: box.maxWidth > 400 ? 400 : double.infinity,
                     child: ElevatedButton(
                       onPressed: () {
-                        if (isKatakanaQuiz) {
-                          Routemaster.of(context).push('/quiz2/$idx',
-                            queryParameters: {
-                              'len': lenQuiz.toString(),
-                              'lenKatakana': lenKatakana.toString(),
-                              'withAdd': withAdd ? 'true' : 'false',
-                              'withLong': withLong ? 'true' : 'false',
-                            }
-                          );
-                        } else {
-                          Routemaster.of(context).push('/quiz/$idx',
-                            queryParameters: {
-                              'len': lenQuiz.toString(),
-                            }
-                          );
+                        switch (type) {
+                          case QuizType.singleKanji:
+                          Navigator.push(
+                              context, MaterialPageRoute(
+                                builder: (_) => QuizPage(
+                                  len: lenQuiz,
+                                )
+                              )
+                            );
+                          break;
+                          case QuizType.multipleKanji:
+                          break;
+                          case QuizType.katakana:
+                            Navigator.push(
+                              context, MaterialPageRoute(
+                                builder: (_) => Quiz2Page(
+                                  lenKatakana: lenKatakana,
+                                  len: lenQuiz,
+                                  withAdd: withAdd,
+                                  withLong: withLong
+                                )
+                              )
+                            );
+                          break;
+                          case QuizType.hiragana:
+                          break;
                         }
                       },
                       child: const Text('Start Quiz'),

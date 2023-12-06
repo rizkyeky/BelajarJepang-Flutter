@@ -1,11 +1,10 @@
 part of _view;
 
-class BookKerjaPage extends StatelessWidget {
-  const BookKerjaPage({super.key});
+class KataKerjaPage extends StatelessWidget {
+  const KataKerjaPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('build BookKerja page');
     final controller = context.read<BookController>();
     return Scaffold(
       appBar: AppBar(
@@ -15,8 +14,6 @@ class BookKerjaPage extends StatelessWidget {
         future: controller.loadKataKerja(),
         builder: (context, snapshot) {
           if (snapshot.hasError) {
-            print(snapshot.error);
-            print(snapshot.stackTrace);
             return const Center(
               child: Text('Error'),
             );
@@ -25,11 +22,10 @@ class BookKerjaPage extends StatelessWidget {
             final kerjas = snapshot.data ?? [];
             if (kerjas.isNotEmpty) {
               return ListView.separated(
-                padding: const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.fromLTRB(16, 0, 16, 64),
                 itemCount: kerjas.length,
                 separatorBuilder: (context, index) => const SizedBox(height: 8,),
-                itemBuilder: (context, index) {
-                  // final names = kanjis.keys.toList()[index];
+                itemBuilder: (context, indexFirst) {
                   return Card(
                     child: Padding(
                       padding: const EdgeInsets.all(8),
@@ -38,52 +34,59 @@ class BookKerjaPage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Row(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
+                              Text(kerjas[indexFirst].kana,
+                                style: const TextStyle(
+                                  fontSize: 24,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text(kerjas[index].kana,
+                                  Text(kerjas[indexFirst].romanji.join(', '),
                                     style: const TextStyle(
-                                      fontSize: 24,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  Text(kerjas[index].romanji.join(', '),
+                                  Text(kerjas[indexFirst].arti.join(', '),
+                                    textAlign: TextAlign.right,
                                   ),
                                 ],
                               ),
-                              Text(kerjas[index].arti.join(', '),
-                                textAlign: TextAlign.right,
-                              ),
+                              
                             ],
                           ),
-                          const SizedBox(height: 8,),
-                          for (final bentuk in kerjas[index].bentuk!) ... [
-                            Row(
-                              children: [
-                                Column(
+                          const SizedBox(height: 16,),
+                          SizedBox(
+                            height: 80,
+                            child: ListView.separated(
+                              scrollDirection: Axis.horizontal,
+                              separatorBuilder: (context, index) => const SizedBox(width: 8,),
+                              itemCount: kerjas[indexFirst].bentuk?.length ?? 0,
+                              itemBuilder: (context, indexSecond) {
+                                final bentuk = kerjas[indexFirst].bentuk?[indexSecond];
+                                return Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(bentuk.kana,
+                                    Text(bentuk?.kana ?? '',
                                       style: const TextStyle(
                                         fontSize: 24,
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
-                                    Text(bentuk.romanji.capitalize(),
+                                    Text(bentuk?.romanji.capitalize() ?? '',
                                       style: const TextStyle(
                                         fontWeight: FontWeight.bold,
                                       ),
                                     ),
+                                    Text(bentuk?.type ?? ''),
                                   ],
-                                ),
-                                const Spacer(),
-                                Text(bentuk.type),
-                              ],
+                                );
+                              },
                             ),
-                            const Divider(height: 8,),
-                          ]
+                          ),
                         ],
                       ),
                     ),

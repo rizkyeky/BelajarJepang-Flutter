@@ -98,20 +98,22 @@ class Quiz2Page extends StatelessWidget {
                       final correct = quizController.checkKatakana(katakana, inputQuiz ?? '');
                       if (correct) {
                         if (correctCount == len-1) {
-                          showDialog(
-                            context: context, 
-                            builder: (context) => AlertDialog(
-                              title: const Text('Kamu telah menyelesaikan quiz!'),
-                              actions: [
-                                TextButton(
-                                  onPressed: () async {
-                                    Routemaster.of(context).popUntil((route) => false);
-                                  },
-                                  child: const Text('Kembali'),
-                                )
-                              ]
-                            )
-                          );
+                          Future.delayed(const Duration(seconds: 1)).whenComplete(() {
+                            showDialog(
+                              context: context, 
+                              builder: (context) => AlertDialog(
+                                title: const Text('Kamu telah menyelesaikan quiz!'),
+                                actions: [
+                                  TextButton(
+                                    onPressed: () async {
+                                      Navigator.popUntil(context, (route) => false);
+                                    },
+                                    child: const Text('Kembali'),
+                                  )
+                                ]
+                              )
+                            );
+                          });
                         } else {
                           setState(() {
                             correctCount++;

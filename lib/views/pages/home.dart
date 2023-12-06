@@ -5,7 +5,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    debugPrint('build home page');
     final controller = PageController();
     return Scaffold(
       appBar: AppBar(
@@ -15,7 +14,11 @@ class HomePage extends StatelessWidget {
             itemBuilder: (context) => [
               PopupMenuItem(
                 child: const Text('Setting'),
-                onTap: () => Routemaster.of(context).push('/setting'),
+                onTap: () {
+                  Navigator.push(context, 
+                    MaterialPageRoute(builder: (context) => const SettingPage())
+                  );
+                }
               )
             ],
             icon: const Icon(Icons.more_vert),
@@ -38,14 +41,22 @@ class HomePage extends StatelessWidget {
                       children: [
                         ElevatedButton(
                           onPressed: () {
-                            Routemaster.of(context).push('/pre_quiz/0');
+                            Navigator.push(context, 
+                              MaterialPageRoute(
+                                builder: (context) => const PreQuizPage(type: QuizType.singleKanji)
+                              )
+                            );
                           },
                           child: const Text('Single Kanji'),
                         ),
                         const SizedBox(height: 16,),
                         ElevatedButton(
                           onPressed: () {
-                            Routemaster.of(context).push('/pre_quiz/9');
+                            Navigator.push(context, 
+                              MaterialPageRoute(
+                                builder: (context) => const PreQuizPage(type: QuizType.katakana)
+                              )
+                            );
                           },
                           child: const Text('Katakana'),
                         ),
@@ -56,56 +67,7 @@ class HomePage extends StatelessWidget {
               );
             }
           ),
-          // Container(
-          //   color: Colors.red,
-          // ),
-          LayoutBuilder(
-            builder: (context, box) {
-              return Padding(
-                padding: const EdgeInsets.all(16),
-                child: Center(
-                  child: SizedBox(
-                    width: box.maxWidth > 400 ? 400 : box.maxWidth,
-                    child: Column(
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        ElevatedButton(
-                          onPressed: () {
-                            // Routemaster.of(context).push('/pre_quiz/0');
-                            Navigator.push(context, 
-                              MaterialPageRoute(builder: (context) => const BookPage())
-                            );
-                          },
-                          child: const Text('Single Kanji'),
-                        ),
-                        const SizedBox(height: 16,),
-                        ElevatedButton(
-                          onPressed: () {
-                            // Routemaster.of(context).push('/pre_quiz/9');
-                            Navigator.push(context, 
-                              MaterialPageRoute(builder: (context) => const KosakataPage())
-                            );
-                          },
-                          child: const Text('Kosakata'),
-                        ),
-                        const SizedBox(height: 16,),
-                        ElevatedButton(
-                          onPressed: () {
-                            // Routemaster.of(context).push('/pre_quiz/9');
-                            Navigator.push(context, 
-                              MaterialPageRoute(builder: (context) => const BookKerjaPage())
-                            );
-                          },
-                          child: const Text('Kata Kerja'),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-              );
-            }
-          ),
+          const BookPage()
         ],
       ),
       bottomNavigationBar: StatefulValueBuilder<int>(
@@ -125,12 +87,8 @@ class HomePage extends StatelessWidget {
             items: const [
               BottomNavigationBarItem(
                 icon:  Icon(Icons.home),
-                label: 'Home'
+                label: 'Quiz'
               ),
-              // BottomNavigationBarItem(
-              //   icon: Icon(Icons.search),
-              //   label: 'Search'
-              // ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.menu_book),
                 label: 'Book'

@@ -9,8 +9,8 @@ class BookController {
     return list.where((element) => element.contoh != null).toList();
   }
 
-  Future<Map> loadKosakata() async {
-    final rawJson = await rootBundle.loadString('assets/data/kosakata.json');
+  Future<Map> loadBuku() async {
+    final rawJson = await rootBundle.loadString('assets/data/buku.json');
     final json = jsonDecode(rawJson) as Map;
     final result = {};
     for (final keys in json.keys) {

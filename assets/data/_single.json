@@ -3,7 +3,7 @@
         {
             "id": 0,
             "kana": "一",
-            "arti": "Satu",
+            "arti": "Satu/1",
             "romanji": "Ichi",
             "contoh": [
                 {
@@ -37,7 +37,7 @@
         {
             "id": 1,
             "kana": "二",
-            "arti": "Dua",
+            "arti": "Dua/2",
             "romanji": "Ni",
             "contoh": [
                 {
@@ -55,7 +55,7 @@
         {
             "id": 2,
             "kana": "三",
-            "arti": "Tiga",
+            "arti": "Tiga/3",
             "romanji": "San",
             "contoh": [
                 {
@@ -68,43 +68,43 @@
         {
             "id": 3,
             "kana": "四",
-            "arti": "Empat",
+            "arti": "Empat/4",
             "romanji": "Shi/Yon"
         },
         {
             "id": 4,
             "kana": "五",
-            "arti": "Lima",
+            "arti": "Lima/5",
             "romanji": "Go"
         },
         {
             "id": 5,
             "kana": "六",
-            "arti": "Enam",
+            "arti": "Enam/6",
             "romanji": "Roku"
         },
         {
             "id": 6,
             "kana": "七",
-            "arti": "Tujuh",
+            "arti": "Tujuh/7",
             "romanji": "Shichi/Nana"
         },
         {
             "id": 7,
             "kana": "八",
-            "arti": "Delapan",
+            "arti": "Delapan/8",
             "romanji": "Hachi"
         },
         {
             "id": 8,
             "kana": "九",
-            "arti": "Sembilan",
+            "arti": "Sembilan/9",
             "romanji": "Kyuu/Ku"
         },
         {
             "id": 9,
             "kana": "十",
-            "arti": "Sepuluh",
+            "arti": "Sepuluh/10",
             "romanji": "Juu/Ji"
         },
         {
@@ -1365,6 +1365,12 @@
             "romanji": "Kairu"
         },
         {
+            "kana": "買",
+            "id": 14,
+            "arti": "beli",
+            "romanji": "Kairu"
+        },
+        {
             "kana": "図",
             "id": 14,
             "arti": "gambar/peta/grafik/map",
@@ -1521,7 +1527,7 @@
         {
             "kana": "思",
             "romanji": "shi/omou",
-            "arti": "/pikir/berpikir/merasa"
+            "arti": "pikir/berpikir/merasa"
         },
         {
             "kana": "正",

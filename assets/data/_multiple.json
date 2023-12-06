@@ -206,19 +206,9 @@
             "romanji": "Raigetsu"
         },
         {
-            "arti": "Lima tahun yang lalu",
-            "kana": "五年前",
-            "romanji": "Gonen Mae"
-        },
-        {
             "arti": "Tahun depan",
             "kana": "来年",
             "romanji": "Rainen"
-        },
-        {
-            "arti": "Agustus",
-            "kana": "八月",
-            "romanji": "Hachigatsu"
         },
         {
             "arti": "Kulkas",
@@ -529,6 +519,357 @@
             "arti": "Film/Movie",
             "kana": "映画",
             "romanji": "Eiga"
+        },
+        {
+            "kana": "飛行機",
+            "arti": "Pesawat terbang",
+            "romanji": "Hikouki"
+        },
+        {
+            "kana": "救急車",
+            "arti": "Ambulan",
+            "romanji": "Kyuukyuusha"
+        },
+        {
+            "kana": "自転車",
+            "arti": "Sepeda",
+            "romanji": "Jitensha"
+        },
+        {
+            "arti": "Setiap Hari",
+            "kana": "毎日",
+            "romanji": "Mainichi"
+        },
+        {
+            "arti": "Setiap Minggu",
+            "kana": "毎週",
+            "romanji": "Maishū"
+        },
+        {
+            "arti": "Setiap Bulan",
+            "kana": "毎月",
+            "romanji": "Maigetsu"
+        },
+        {
+            "arti": "Setiap Tahun",
+            "kana": "毎年",
+            "romanji": "Maitoshi"
+        },
+        {
+            "arti": "Minggu Ini",
+            "kana": "今週",
+            "romanji": "Konshū"
+        },
+        {
+            "arti": "Bulan Ini",
+            "kana": "今月",
+            "romanji": "Kongetsu"
+        },
+        {
+            "arti": "Tahun Ini",
+            "kana": "今年",
+            "romanji": "Kotoshi"
+        },
+        {
+            "arti": "Malam Ini",
+            "kana": "今晩",
+            "romanji": "Konban"
+        },
+        {
+            "kana": "弁護士",
+            "arti": "Pengacara",
+            "romanji": "Bengoshi"
+        },
+        {
+            "kana": "歌手",
+            "arti": "Penyanyi",
+            "romanji": "Kashu"
+        },
+        {
+            "kana": "農夫",
+            "arti": "Petani",
+            "romanji": "Noufu"
+        },
+        {
+            "kana": "漁師",
+            "arti": "Nelayan",
+            "romanji": "Ryoushi"
+        },
+        {
+            "kana": "銀行員",
+            "arti": "Pegawai Bank",
+            "romanji": "Ginkouin"
+        },
+        {
+            "kana": "助手",
+            "arti": "Asisten",
+            "romanji": "Joshu"
+        },
+        {
+            "kana": "店員",
+            "arti": "Pegawai Toko",
+            "romanji": "Tennyin"
+        },
+        {
+            "kana": "可愛い",
+            "arti": "Lucu/cantik",
+            "romanji": "kawai"
+        },
+        {
+            "arti": "Manis",
+            "kana": "甘い",
+            "romanji": "Amai"
+        },
+        {
+            "arti": "Pahit",
+            "kana": "苦い",
+            "romanji": "Nigai"
+        },
+        {
+            "arti": "Asam",
+            "kana": "酸っぱい",
+            "romanji": "Suppai"
+        },
+        {
+            "arti": "Menarik",
+            "kana": "面白い",
+            "romanji": "Omoshiroi"
+        },
+        {
+            "arti": "Lucu",
+            "kana": "可愛い",
+            "romanji": "Kawaii"
+        },
+        {
+            "arti": "Mudah",
+            "kana": "優しい",
+            "romanji": "Yasashii"
+        },
+        {
+            "arti": "Sibuk",
+            "kana": "忙しい",
+            "romanji": "Isogashii"
+        },
+        {
+            "arti": "Benci",
+            "kana": "嫌い",
+            "romanji": "Kirai"
+        },
+        {
+            "arti": "Suka",
+            "kana": "好き",
+            "romanji": "Suki"
+        },
+        {
+            "arti": "Ringan",
+            "kana": "軽い",
+            "romanji": "Karui"
+        },
+        {
+            "arti": "Luas",
+            "kana": "広い",
+            "romanji": "Hiroi"
+        },
+        {
+            "arti": "Sempit",
+            "kana": "狭い",
+            "romanji": "Semai"
+        },
+        {
+            "arti": "Panjang",
+            "kana": "長い",
+            "romanji": "Nagai"
+        },
+        {
+            "arti": "Pendek",
+            "kana": "短い",
+            "romanji": "Mijikai"
+        },
+        {
+            "arti": "Jauh",
+            "kana": "遠い",
+            "romanji": "Tōi"
+        },
+        {
+            "arti": "Dekat",
+            "kana": "近い",
+            "romanji": "Chikai"
+        },
+        {
+            "arti": "Sedikit",
+            "kana": "少ない",
+            "romanji": "Sukunai"
+        },
+        {
+            "arti": "Banyak",
+            "kana": "多い",
+            "romanji": "Ōi"
+        },
+        {
+            "arti": "Cepat",
+            "kana": "速い",
+            "romanji": "Hayai"
+        },
+        {
+            "arti": "Lambat",
+            "kana": "遅い",
+            "romanji": "Osoi"
+        },
+        {
+            "arti": "Bekerja",
+            "kana": "働きます",
+            "romanji": "Hatarakimasu"
+        },
+        {
+            "arti": "Masak",
+            "kana": "料理します",
+            "romanji": "Ryōri shimasu"
+        },
+        {
+            "arti": "Membuat",
+            "kana": "作ります",
+            "romanji": "Tsukurimasu"
+        },
+        {
+            "arti": "Menjual",
+            "kana": "売ります",
+            "romanji": "Urimasu"
+        },
+        {
+            "arti": "Membeli",
+            "kana": "買います",
+            "romanji": "Kaimasu"
+        },
+        {
+            "arti": "Bangun",
+            "kana": "起きます",
+            "romanji": "Okimasu"
+        },
+        {
+            "arti": "Tidur",
+            "kana": "寝ます",
+            "romanji": "Nemasu"
+        },
+        {
+            "arti": "Makan",
+            "kana": "食べます",
+            "romanji": "Tabemasu"
+        },
+        {
+            "arti": "Minum",
+            "kana": "飲みます",
+            "romanji": "Nomimasu"
+        },
+        {
+            "arti": "Baseball",
+            "kana": "野球",
+            "romanji": "yakyuu"
+        },
+        {
+            "arti": "Rumah sakit/hospital",
+            "kana": "病院",
+            "romanji": "Byouin"
+        },
+        {
+            "arti": "1 orang/sendiri",
+            "kana": "一人",
+            "romanji": "Hitori"
+        },
+        {
+            "arti": "2 orang/berdua",
+            "kana": "二人",
+            "romanji": "Futari"
+        },
+        {
+            "arti": "3 orang/bertiga",
+            "kana": "三人",
+            "romanji": "San'nin"
+        },
+        {
+            "arti": "4 orang/berempat",
+            "kana": "四人 / 死人",
+            "romanji": "Yonin / Shinin"
+        },
+        {
+            "arti": "5 orang/berlima",
+            "kana": "五人",
+            "romanji": "Gonin"
+        },
+        {
+            "arti": "6 orang/berenam",
+            "kana": "六人",
+            "romanji": "Rokunin"
+        },
+        {
+            "arti": "7 orang/bertujuh",
+            "kana": "七人",
+            "romanji": "Shichinin"
+        },
+        {
+            "arti": "8 orang/berdelapan",
+            "kana": "八人",
+            "romanji": "Hachinin"
+        },
+        {
+            "arti": "9 orang/bersembilan",
+            "kana": "九人",
+            "romanji": "Kyuunin"
+        },
+        {
+            "arti": "10 orang/bersepuluh",
+            "kana": "十人",
+            "romanji": "Juunin"
+        },
+        {
+            "arti": "1 buah",
+            "kana": "一つ",
+            "romanji": "Hitotsu"
+        },
+        {
+            "arti": "2 buah",
+            "kana": "二つ",
+            "romanji": "Futatsu"
+        },
+        {
+            "arti": "3 buah",
+            "kana": "三つ",
+            "romanji": "Mittsu"
+        },
+        {
+            "arti": "4 buah",
+            "kana": "四つ",
+            "romanji": "Yottsu"
+        },
+        {
+            "arti": "5 buah",
+            "kana": "五つ",
+            "romanji": "Itsutsu"
+        },
+        {
+            "arti": "6 buah",
+            "kana": "六つ",
+            "romanji": "Muttsu"
+        },
+        {
+            "arti": "7 buah",
+            "kana": "七つ",
+            "romanji": "Nanatsu"
+        },
+        {
+            "arti": "8 buah",
+            "kana": "八つ",
+            "romanji": "Yattsu"
+        },
+        {
+            "arti": "9 buah",
+            "kana": "九つ",
+            "romanji": "Kokonotsu"
+        },
+        {
+            "arti": "10 buah",
+            "kana": "十",
+            "romanji": "Tō"
         }
+        
     ]
 }

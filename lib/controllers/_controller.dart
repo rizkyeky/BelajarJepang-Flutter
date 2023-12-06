@@ -3,7 +3,7 @@ library _controller;
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:belajar_jepang/utils/_utils.dart';
+// import 'package:belajar_jepang/utils/_utils.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
 part 'quiz.dart';

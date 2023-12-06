@@ -2,11 +2,12 @@
 import 'package:belajar_jepang/controllers/_controller.dart';
 import 'package:belajar_jepang/providers/_provider.dart';
 import 'package:belajar_jepang/services/_services.dart';
-import 'package:belajar_jepang/router.dart';
+import 'package:belajar_jepang/views/_view.dart';
+// import 'package:belajar_jepang/router.dart';
 import 'package:flutter/material.dart';
 // import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
-import 'package:routemaster/routemaster.dart';
+// import 'package:routemaster/routemaster.dart';
 
 Future<void> main() async {
 
@@ -51,7 +52,7 @@ class MainApp extends StatelessWidget {
   
     // print('build main app');
 
-    return MaterialApp.router(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: true,
@@ -61,8 +62,7 @@ class MainApp extends StatelessWidget {
           brightness: brightnessProvider.brightnessForTheme ?? Brightness.light,
         )
       ),
-      routerDelegate: RoutemasterDelegate(routesBuilder: routeMap),
-      routeInformationParser: const RoutemasterParser(),
+      home: const HomePage(),
     );
   }
 }
