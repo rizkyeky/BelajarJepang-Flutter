@@ -53,15 +53,14 @@ class QuizController {
   //   return kanji;
   // }
 
-  Future<List<KanjiModel>> startQuiz1(int total) async {
+  Future<List<KanjiModel>> startQuiz(int total, QuizType type) async {
     
-    final kanji = await loadSingleKanji();
+    final kanji = await (switch (type) {
+      QuizType.singleKanji => loadSingleKanji(),
+      QuizType.multipleKanji => loadMultipleKanji(),
+      _ => Future.value(<KanjiModel>[]),
+    });
 
-    // if (onlyKanji) {
-    //   final temp = kanji.where((element) => isKanji(element.kana)).toList();
-    //   kanji.clear();
-    //   kanji.addAll(temp);
-    // }
     final len = kanji.length > total ? total : kanji.length;
     final seed = DateTime.now().millisecondsSinceEpoch;
     final indexs = List<int>.generate(len, (i) => i)

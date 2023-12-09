@@ -59,22 +59,17 @@ class KanjiModel {
   );
 }
 
-enum QuizType {
-  satuKanji,
-  semuaKanji,
-  kataSifat,
-  kataBenda,
-  kataKerja,
-  kataSayurBuah,
-  kataHewan,
-  kataCuaca,
-  kataPekerjaan,
-}
-
 enum KatakanaType {
   normal,
   add,
   long
+}
+
+enum QuizType {
+  singleKanji,
+  multipleKanji,
+  katakana,
+  hiragana
 }
 
 class ContohKanji {

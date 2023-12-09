@@ -11,8 +11,12 @@ Future<void> buku() async {
   final singleFile = File('assets/data/single.json');
   final rawJson = await singleFile.readAsString();
   final json = jsonDecode(rawJson);
-  final allKanji = json['list'] as List;
-  print(allKanji.length);
+  final singleKanji = json['list'] as List;
+
+  final multiFile = File('assets/data/multiple.json');
+  final rawJson2 = await multiFile.readAsString();
+  final json2 = jsonDecode(rawJson2);
+  final multiKanji = json2['list'] as List;
 
   final kosakataFile = File('assets/data/_buku.json');
   final rawJson1 = await kosakataFile.readAsString();
@@ -24,17 +28,28 @@ Future<void> buku() async {
       final kanjis = values[key] as List;
       final newKanjis = <Map>[];
       for (final kanji in kanjis) {
-        final index = allKanji.indexWhere((element) => element['kana'] == kanji);
+        final index = singleKanji.indexWhere((element) => element['kana'] == kanji);
         if (index != -1) {
-          final singleKanji = allKanji[index];
+          final _singleKanji = singleKanji[index];
           newKanjis.add({
-            'id': singleKanji['id'],
-            'kana': singleKanji['kana'],
-            'arti': singleKanji['arti'],
-            'romanji': singleKanji['romanji'],
+            'id': _singleKanji['id'],
+            'kana': _singleKanji['kana'],
+            'arti': _singleKanji['arti'],
+            'romanji': _singleKanji['romanji'],
           });
         } else {
-          print('Kanji not found: $kanji');
+          final index2 = multiKanji.indexWhere((element) => element['kana'] == kanji);
+          if (index2 != -1) {
+            final _multiKanji = multiKanji[index2];
+            newKanjis.add({
+              'id': _multiKanji['id'],
+              'kana': _multiKanji['kana'],
+              'arti': _multiKanji['arti'],
+              'romanji': _multiKanji['romanji'],
+            });
+          } else {
+            print('Kanji not found: $kanji');
+          } 
         }
       }
       values[key] = newKanjis;

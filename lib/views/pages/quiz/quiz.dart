@@ -3,9 +3,11 @@ part of _view;
 class QuizPage extends StatelessWidget {
   const QuizPage({super.key,
     required this.len,
+    required this.type,
   });
 
   final int len;
+  final QuizType type;
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +20,7 @@ class QuizPage extends StatelessWidget {
         toolbarHeight: 0,
       ),
       body: FutureBuilder<List<KanjiModel>>(
-        future: quizController.startQuiz1(len),
+        future: quizController.startQuiz(len, type) ,
         builder: (context, snapshot) {
           if (snapshot.hasError) {
             return const Center(
@@ -37,14 +39,31 @@ class QuizPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         SizedBox(
-                          width: 300,
-                          child: Text(kanjis[correctCount].kana,
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 240,
-                              fontFamily: quizController.getRandomFontFamily(),
-                              height: 0,
-                            )
+                          width: switch (type) {
+                            QuizType.singleKanji => 300,
+                            _ => null,
+                          },
+                          height: switch (type) {
+                            QuizType.multipleKanji => 300,
+                            _ => null,
+                          },
+                          child: Center(
+                            child: Text(kanjis[correctCount].kana,
+                              textAlign: TextAlign.center,
+                              style: TextStyle(
+                                fontSize: switch (type) {
+                                  QuizType.singleKanji => 240,
+                                  QuizType.multipleKanji => switch(kanjis[correctCount].kana.length) {
+                                    > 3 => 80,
+                                    > 2 => 90,
+                                    _ => 100
+                                  } ,
+                                  _ => 160,
+                                },
+                                fontFamily: quizController.getRandomFontFamily(),
+                                height: 0,
+                              )
+                            ),
                           ),
                         ),
                         StatefulValueBuilder<bool>(
@@ -107,7 +126,7 @@ class QuizPage extends StatelessWidget {
                           child: ElevatedButton(
                             onPressed: () {
                               final artis = kanjis[correctCount].arti.map((e) => e.toLowerCase());
-                              final correct = artis.any((element) => element == inputQuiz);
+                              final correct = artis.any((element) => element == inputQuiz?.toLowerCase());
                               if (correct) {
                                 if (correctCount == kanjis.length-1) {
                                   Future.delayed(const Duration(seconds: 1)).whenComplete(() {

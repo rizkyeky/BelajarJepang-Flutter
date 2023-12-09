@@ -54,6 +54,17 @@ class HomePage extends StatelessWidget {
                           onPressed: () {
                             Navigator.push(context, 
                               MaterialPageRoute(
+                                builder: (context) => const PreQuizPage(type: QuizType.multipleKanji)
+                              )
+                            );
+                          },
+                          child: const Text('Multiple Kanji'),
+                        ),
+                        const SizedBox(height: 16,),
+                        ElevatedButton(
+                          onPressed: () {
+                            Navigator.push(context, 
+                              MaterialPageRoute(
                                 builder: (context) => const PreQuizPage(type: QuizType.katakana)
                               )
                             );

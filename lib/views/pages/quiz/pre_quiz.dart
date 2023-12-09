@@ -1,12 +1,5 @@
 part of _view;
 
-enum QuizType {
-  singleKanji,
-  multipleKanji,
-  katakana,
-  hiragana
-}
-
 class PreQuizPage extends StatelessWidget {
   const PreQuizPage({super.key,
     required this.type
@@ -30,7 +23,11 @@ class PreQuizPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             if (!isKatakanaQuiz) FutureBuilder(
-              future: quizController.loadSingleKanji(),
+              future: switch (type) {
+                QuizType.singleKanji => quizController.loadSingleKanji(),
+                QuizType.multipleKanji => quizController.loadMultipleKanji(),
+                _ => Future.value(<KanjiModel>[]),
+              },
               builder: (context, snapshot) {
                 if (snapshot.connectionState == ConnectionState.done) {
                   final kanjis = snapshot.data ?? [];
@@ -249,14 +246,23 @@ class PreQuizPage extends StatelessWidget {
                         switch (type) {
                           case QuizType.singleKanji:
                           Navigator.push(
+                            context, MaterialPageRoute(
+                              builder: (_) => QuizPage(
+                                len: lenQuiz,
+                                type: type
+                              )
+                            )
+                          );
+                          break;
+                          case QuizType.multipleKanji:
+                            Navigator.push(
                               context, MaterialPageRoute(
                                 builder: (_) => QuizPage(
                                   len: lenQuiz,
+                                  type: type
                                 )
                               )
                             );
-                          break;
-                          case QuizType.multipleKanji:
                           break;
                           case QuizType.katakana:
                             Navigator.push(

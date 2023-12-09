@@ -22,73 +22,69 @@ class KataKerjaPage extends StatelessWidget {
             final kerjas = snapshot.data ?? [];
             if (kerjas.isNotEmpty) {
               return ListView.separated(
-                padding: const EdgeInsets.fromLTRB(16, 0, 16, 64),
+                padding: const EdgeInsets.only(bottom: 64),
                 itemCount: kerjas.length,
-                separatorBuilder: (context, index) => const SizedBox(height: 8,),
+                separatorBuilder: (context, index) => const Divider(height: 8,),
                 itemBuilder: (context, indexFirst) {
-                  return Card(
-                    child: Padding(
-                      padding: const EdgeInsets.all(8),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            crossAxisAlignment: CrossAxisAlignment.center,
-                            children: [
-                              Text(kerjas[indexFirst].kana,
-                                style: const TextStyle(
-                                  fontSize: 24,
-                                  fontWeight: FontWeight.bold,
-                                ),
+                  return Padding(
+                    padding: const EdgeInsets.all(8),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: [
+                            Text(kerjas[indexFirst].kana,
+                              style: const TextStyle(
+                                fontSize: 32,
+                                fontWeight: FontWeight.bold,
                               ),
-                              Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
+                            ),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(kerjas[indexFirst].romanji.join(', '),
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                                Text(kerjas[indexFirst].arti.join(', '),
+                                  textAlign: TextAlign.right,
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                        SizedBox(
+                          height: 80,
+                          child: ListView.separated(
+                            scrollDirection: Axis.horizontal,
+                            separatorBuilder: (context, index) => const VerticalDivider(width: 8,),
+                            itemCount: kerjas[indexFirst].bentuk?.length ?? 0,
+                            itemBuilder: (context, indexSecond) {
+                              final bentuk = kerjas[indexFirst].bentuk?[indexSecond];
+                              return Column(
+                                crossAxisAlignment: CrossAxisAlignment.center,
                                 children: [
-                                  Text(kerjas[indexFirst].romanji.join(', '),
+                                  Text(bentuk?.kana ?? '',
+                                    style: const TextStyle(
+                                      fontSize: 24,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                  Text(bentuk?.romanji.capitalize() ?? '',
                                     style: const TextStyle(
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
-                                  Text(kerjas[indexFirst].arti.join(', '),
-                                    textAlign: TextAlign.right,
-                                  ),
+                                  Text(bentuk?.type ?? ''),
                                 ],
-                              ),
-                              
-                            ],
+                              );
+                            },
                           ),
-                          const SizedBox(height: 16,),
-                          SizedBox(
-                            height: 80,
-                            child: ListView.separated(
-                              scrollDirection: Axis.horizontal,
-                              separatorBuilder: (context, index) => const SizedBox(width: 8,),
-                              itemCount: kerjas[indexFirst].bentuk?.length ?? 0,
-                              itemBuilder: (context, indexSecond) {
-                                final bentuk = kerjas[indexFirst].bentuk?[indexSecond];
-                                return Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(bentuk?.kana ?? '',
-                                      style: const TextStyle(
-                                        fontSize: 24,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(bentuk?.romanji.capitalize() ?? '',
-                                      style: const TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
-                                    Text(bentuk?.type ?? ''),
-                                  ],
-                                );
-                              },
-                            ),
-                          ),
-                        ],
-                      ),
+                        ),
+                      ],
                     ),
                   );
                 }
