@@ -136,8 +136,10 @@ class QuizPage extends StatelessWidget {
                                         title: const Text('Kamu telah menyelesaikan quiz!'),
                                         actions: [
                                           TextButton(
-                                            onPressed: () async {
-                                              Navigator.popUntil(context, (route) => false);
+                                            onPressed: () {
+                                              Navigator.pop(context);
+                                              Navigator.pop(context);
+                                              Navigator.pop(context);
                                             },
                                             child: const Text('Kembali'),
                                           )
