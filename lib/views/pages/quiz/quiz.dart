@@ -129,15 +129,15 @@ class QuizPage extends StatelessWidget {
                               final correct = artis.any((element) => element == inputQuiz?.toLowerCase());
                               if (correct) {
                                 if (correctCount == kanjis.length-1) {
-                                  Future.delayed(const Duration(seconds: 1)).whenComplete(() {
+                                  Navigator.pop(context);
+                                  Future.delayed(const Duration(milliseconds: 400)).whenComplete(() {
                                     showDialog(
                                       context: context, 
                                       builder: (context) => AlertDialog(
                                         title: const Text('Kamu telah menyelesaikan quiz!'),
                                         actions: [
                                           TextButton(
-                                            onPressed: () {
-                                              Navigator.pop(context);
+                                            onPressed: () {                                              
                                               Navigator.pop(context);
                                               Navigator.pop(context);
                                             },

@@ -98,7 +98,8 @@ class Quiz2Page extends StatelessWidget {
                       final correct = quizController.checkKatakana(katakana, inputQuiz ?? '');
                       if (correct) {
                         if (correctCount == len-1) {
-                          Future.delayed(const Duration(seconds: 1)).whenComplete(() {
+                          Navigator.pop(context);
+                          Future.delayed(const Duration(milliseconds: 400)).whenComplete(() {
                             showDialog(
                               context: context, 
                               builder: (context) => AlertDialog(
@@ -106,7 +107,6 @@ class Quiz2Page extends StatelessWidget {
                                 actions: [
                                   TextButton(
                                     onPressed: () {
-                                      Navigator.pop(context);
                                       Navigator.pop(context);
                                       Navigator.pop(context);
                                     },

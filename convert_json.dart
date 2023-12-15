@@ -3,7 +3,7 @@ import 'dart:io';
 
 Future<void> main() async {
   // singleKanji();
-  // multipleKanji();
+  multipleKanji();
   buku();
 }
 

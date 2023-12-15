@@ -112,12 +112,12 @@
         },
         {
             "kana": "午後",
-            "arti": "sore",
+            "arti": "pm",
             "romanji": "gogo"
         },
         {
             "kana": "午前",
-            "arti": "pagi",
+            "arti": "am",
             "romanji": "gozen"
         },
         {
@@ -386,77 +386,27 @@
             "romanji": "Gonen mae"
         },
         {
-            "arti": "6 tahun yang lalu",
-            "kana": "六年前",
-            "romanji": "Rokunen mae"
-        },
-        {
-            "arti": "7 tahun yang lalu",
-            "kana": "七年前",
-            "romanji": "Shichinen mae"
-        },
-        {
-            "arti": "8 tahun yang lalu",
-            "kana": "八年前",
-            "romanji": "Hachinen mae"
-        },
-        {
-            "arti": "9 tahun yang lalu",
-            "kana": "九年前",
-            "romanji": "Kunen mae"
-        },
-        {
-            "arti": "10 tahun yang lalu",
-            "kana": "十年前",
-            "romanji": "Jūnen mae"
-        },
-        {
-            "arti": "1 tahun yang akan datang",
-            "kana": "一年後",
-            "romanji": "Ichinen go"
-        },
-        {
-            "arti": "2 tahun yang akan datang",
-            "kana": "二年後",
-            "romanji": "Ninen go"
-        },
-        {
-            "arti": "3 tahun yang akan datang",
-            "kana": "三年後",
-            "romanji": "Sannen go"
-        },
-        {
-            "arti": "4 tahun yang akan datang",
-            "kana": "四年後",
-            "romanji": "Yonen go"
-        },
-        {
-            "arti": "5 tahun yang akan datang",
-            "kana": "五年後",
-            "romanji": "Gonen go"
-        },
-        {
-            "arti": "6 tahun yang akan datang",
+            "arti": "6 tahun yang akan datang/6 tahun kedepan",
             "kana": "六年後",
             "romanji": "Rokunen go"
         },
         {
-            "arti": "7 tahun yang akan datang",
+            "arti": "7 tahun yang akan datang/7 tahun kedepan",
             "kana": "七年後",
             "romanji": "Shichinen go"
         },
         {
-            "arti": "8 tahun yang akan datang",
+            "arti": "8 tahun yang akan datang/8 tahun kedepan",
             "kana": "八年後",
             "romanji": "Hachinen go"
         },
         {
-            "arti": "9 tahun yang akan datang",
+            "arti": "9 tahun yang akan datang/9 tahun kedepan",
             "kana": "九年後",
             "romanji": "Kunen go"
         },
         {
-            "arti": "10 tahun yang akan datang",
+            "arti": "10 tahun yang akan datang/10 tahun kedepan",
             "kana": "十年後",
             "romanji": "Jūnen go"
         },
@@ -474,36 +424,6 @@
             "arti": "300 tahun yang lalu",
             "kana": "三百年前",
             "romanji": "Sanbyakunen mae"
-        },
-        {
-            "arti": "400 tahun yang lalu",
-            "kana": "四百年前",
-            "romanji": "Yonhyakunen mae"
-        },
-        {
-            "arti": "500 tahun yang lalu",
-            "kana": "五百年前",
-            "romanji": "Gohyakunen mae"
-        },
-        {
-            "arti": "600 tahun yang lalu",
-            "kana": "六百年前",
-            "romanji": "Roppyakunen mae"
-        },
-        {
-            "arti": "700 tahun yang lalu",
-            "kana": "七百年前",
-            "romanji": "Nanahyakunen mae"
-        },
-        {
-            "arti": "800 tahun yang lalu",
-            "kana": "八百年前",
-            "romanji": "Happyakunen mae"
-        },
-        {
-            "arti": "900 tahun yang lalu",
-            "kana": "九百年前",
-            "romanji": "Kyūhyakunen mae"
         },
         {
             "arti": "1000 tahun yang lalu",
@@ -787,7 +707,7 @@
         },
         {
             "arti": "4 orang/berempat",
-            "kana": "四人 / 死人",
+            "kana": "四人",
             "romanji": "Yonin / Shinin"
         },
         {
@@ -869,7 +789,126 @@
             "arti": "10 buah",
             "kana": "十",
             "romanji": "Tō"
+        },
+        {
+            "arti": "pagi ini",
+            "kana": "今朝",
+            "romanji": "Tō"
+        },
+        {
+            "arti": "sebelum tidur",
+            "kana": "寝る前に",
+            "romanji": "nerumaeni"
+        },
+        {
+            "arti": "kamar mandi",
+            "kana": "風呂",
+            "romanji": "furo"
+        },
+        {
+            "arti": "hokaido",
+            "kana": "北海道",
+            "romanji": "hokkaidou"
+        },
+        {
+            "arti": "tokyo",
+            "kana": "東京",
+            "romanji": "toukyou"
+        },
+        {
+            "arti": "kyoto",
+            "kana": "京都",
+            "romanji": "kyouto"
+        },
+        {
+            "arti": "osaka",
+            "kana": "大阪",
+            "romanji": "oosaka"
+        },
+        {
+            "arti": "nagoya",
+            "kana": "名古屋",
+            "romanji": "nagoya"
+        },
+        {
+            "arti": "terkenal",
+            "kana": "有名",
+            "romanji": "yuumei"
+        },
+        {
+            "arti": "lucu",
+            "kana": "可愛い",
+            "romanji": "kawaii"
+        },
+        {
+            "kana": "一日",
+            "arti": "Tanggal 1",
+            "romanji": "Ichinichi"
+        },
+        {
+            "kana": "二日",
+            "arti": "Tanggal 2",
+            "romanji": "Futsuka"
+        },
+        {
+            "kana": "三日",
+            "arti": "Tanggal 3",
+            "romanji": "Mikka"
+        },
+        {
+            "kana": "四日",
+            "arti": "Tanggal 4",
+            "romanji": "Yokka"
+        },
+        {
+            "kana": "五日",
+            "arti": "Tanggal 5",
+            "romanji": "Itsuka"
+        },
+        {
+            "kana": "六日",
+            "arti": "Tanggal 6",
+            "romanji": "Muika"
+        },
+        {
+            "kana": "七日",
+            "arti": "Tanggal 7",
+            "romanji": "Nanoka"
+        },
+        {
+            "kana": "八日",
+            "arti": "Tanggal 8",
+            "romanji": "Youka"
+        },
+        {
+            "kana": "九日",
+            "arti": "Tanggal 9",
+            "romanji": "Kokonoka"
+        },
+        {
+            "kana": "十日",
+            "arti": "Tanggal 10",
+            "romanji": "Touka"
+        },
+        {
+            "kana": "勉強",
+            "arti": "belajar",
+            "romanji": "benkyou"
+        },
+        {
+            "kana": "郵便局",
+            "arti": "kantor pos",
+            "romanji": "yuubinkyoku"
+        },
+        {
+            "kana": "違い",
+            "arti": "bukan/beda",
+            "romanji": "chigai"
+        },
+        {
+            "kana": "外国人",
+            "arti": "orang asing/foreigner",
+            "romanji": "gaikokujin"
         }
-        
     ]
 }
