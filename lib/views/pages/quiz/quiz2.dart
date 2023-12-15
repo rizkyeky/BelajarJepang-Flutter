@@ -98,7 +98,7 @@ class Quiz2Page extends StatelessWidget {
                       final correct = quizController.checkKatakana(katakana, inputQuiz ?? '');
                       if (correct) {
                         if (correctCount == len-1) {
-                          Navigator.pop(context);
+                          FocusManager.instance.primaryFocus?.unfocus();
                           Future.delayed(const Duration(milliseconds: 400)).whenComplete(() {
                             showDialog(
                               context: context, 

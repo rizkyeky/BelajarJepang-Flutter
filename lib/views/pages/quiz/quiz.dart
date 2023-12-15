@@ -129,7 +129,7 @@ class QuizPage extends StatelessWidget {
                               final correct = artis.any((element) => element == inputQuiz?.toLowerCase());
                               if (correct) {
                                 if (correctCount == kanjis.length-1) {
-                                  Navigator.pop(context);
+                                  FocusManager.instance.primaryFocus?.unfocus();
                                   Future.delayed(const Duration(milliseconds: 400)).whenComplete(() {
                                     showDialog(
                                       context: context, 

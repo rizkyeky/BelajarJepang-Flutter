@@ -4,8 +4,8 @@ import 'dart:io';
 Future<void> main() async {
   // singleKanji();
   multipleKanji();
-  buku();
-}
+  // buku();
+} 
 
 Future<void> buku() async {
   final singleFile = File('assets/data/single.json');
